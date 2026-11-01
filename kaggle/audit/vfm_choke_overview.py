@@ -167,6 +167,7 @@ for wid, tw in daily[~daily.group.isin(train_groups)].groupby('well_id'):
 live = pd.DataFrame(rows)
 table = live.pivot_table(index='method', columns='k', values='liquid_ape', aggfunc='median') * 100
 print(f'held-out wells: {live.well.nunique()}; median liquid error, % ({time.time() - t1:.0f} s so far)')
+print(table.round(1).to_string())
 table.round(1)
 
 # %% [markdown]

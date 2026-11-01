@@ -1,0 +1,31 @@
+[{"stream_name":"stderr","time":9.565411134,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.5654756,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.565482778,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.565487435,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.348783469,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.348831936,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.348837858,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.348841857,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.392947873,"data":"vfm-choke at 696c290\n"}
+,{"stream_name":"stdout","time":14.686110022,"data":"rate at p2/p1 = 0.2: 3,369 stb/d; at 0.9: 1,728 stb/d; Gilbert: 2,884 stb/d\n"}
+,{"stream_name":"stdout","time":17.333756285,"data":"day 0: flowing 102/102, oil 686519 stb/d\n"}
+,{"stream_name":"stdout","time":119.786282787,"data":"day 40: flowing 101/102, oil 620475 stb/d\n"}
+,{"stream_name":"stdout","time":222.505287038,"data":"day 80: flowing 101/102, oil 586368 stb/d\n"}
+,{"stream_name":"stdout","time":323.926814791,"data":"102 wells in 16 groups simulated in 309 s; 12,240 well-days, 398 separator tests\n"}
+,{"stream_name":"stdout","time":334.543793506,"data":"held-out wells: 46; median liquid error, % (320 s so far)\n"}
+,{"stream_name":"stdout","time":335.031204957,"data":"reference: physics at k=30: 0.0518 | general model at k = 1, 2, 3 over the reference: [1.107, 1.079, 1.048]\n"}
+,{"stream_name":"stdout","time":335.39157217,"data":"top-1 23%, top-3 62%; leaks \u003e= 2% of flow: top-3 77%; false alarms on no-leak controls 22.5%\n"}
+,{"stream_name":"stdout","time":335.457977045,"data":"notebook finished in 322 s\n"}
+,{"stream_name":"stderr","time":339.183777158,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":339.183816279,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":339.401670446,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":339.401702007,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":340.291340076,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":340.400856845,"data":"[NbConvertApp] Writing 196142 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":343.559854562,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":344.285558853,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":344.285594288,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":344.285845203,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":344.286034735,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":344.286357994,"data":"[NbConvertApp] Writing 353477 bytes to __results__.html\n"}
+]
