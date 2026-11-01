@@ -1,0 +1,36 @@
+[{"stream_name":"stderr","time":10.282674467,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.282741068,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.28274851,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.282752947,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.135831744,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.135870121,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.135876838,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.135880935,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.361041974,"data":"vfm-choke at 696c290\n"}
+,{"stream_name":"stdout","time":15.660810306,"data":"rate at p2/p1 = 0.2: 3,369 stb/d; at 0.9: 1,728 stb/d; Gilbert: 2,884 stb/d\n"}
+,{"stream_name":"stdout","time":18.359152485,"data":"day 0: flowing 102/102, oil 686519 stb/d\n"}
+,{"stream_name":"stdout","time":122.660140479,"data":"day 40: flowing 101/102, oil 620475 stb/d\n"}
+,{"stream_name":"stdout","time":226.258947229,"data":"day 80: flowing 101/102, oil 586368 stb/d\n"}
+,{"stream_name":"stdout","time":326.206322368,"data":"102 wells in 16 groups simulated in 311 s; 12,240 well-days, 398 separator tests\n"}
+,{"stream_name":"stdout","time":336.748734629,"data":"held-out wells: 46; median liquid error, % (321 s so far)\n"}
+,{"stream_name":"stdout","time":336.748778381,"data":"k                 0    1    3\n"}
+,{"stream_name":"stdout","time":336.748784188,"data":"method                       \n"}
+,{"stream_name":"stdout","time":336.748788619,"data":"Gilbert        19.6  7.9  8.1\n"}
+,{"stream_name":"stdout","time":336.74879317,"data":"general model   7.6  6.2  6.1\n"}
+,{"stream_name":"stdout","time":336.748818016,"data":"physics prior   7.0  4.6  5.1\n"}
+,{"stream_name":"stdout","time":337.235444607,"data":"reference: physics at k=30: 0.0518 | general model at k = 1, 2, 3 over the reference: [1.107, 1.079, 1.048]\n"}
+,{"stream_name":"stdout","time":337.611060602,"data":"top-1 23%, top-3 62%; leaks \u003e= 2% of flow: top-3 77%; false alarms on no-leak controls 22.5%\n"}
+,{"stream_name":"stdout","time":337.678274289,"data":"notebook finished in 324 s\n"}
+,{"stream_name":"stderr","time":341.358436971,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":341.358469876,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":341.581637772,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":341.58166665,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":342.517690787,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":342.625943678,"data":"[NbConvertApp] Writing 196394 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":345.71814833,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":346.441060432,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":346.441101036,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":346.44136728,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":346.441489153,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":346.441753965,"data":"[NbConvertApp] Writing 353916 bytes to __results__.html\n"}
+]

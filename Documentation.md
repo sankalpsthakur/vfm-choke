@@ -278,3 +278,8 @@ check. One of the required two, so the publish condition is **not met**; the pro
 - **Nov 1 2026, public release state:** GitHub `sankalpsthakur/vfm-choke` (696c290 pushed; 8e09207 local) and
   `sankalpsthakur/reproducing-vfm-benchmarks` (fa268da). Kaggle: audit public (v2 running at the token lapse);
   overview notebook `vfm-choke-few-shot-flow-metering-for-new-wells` built, not yet run (needs a token refresh).
+- **Nov 2 2026, ~00:25 (Sankalp, Nov 1: "GitHub repo + 1 Kaggle notebook"):** overview notebook
+  `vfm-choke-few-shot-flow-metering-for-new-wells` ran privately twice (v1, v2: 381 s each; clone of the public
+  repo at 696c290). The live 16-group run shows the physics prior + multiplier beating the pooled model on a small
+  fleet (7.0 vs 7.6% at k=0; 4.6 vs 6.2% at k=1), stated in the notebook. v3 = v2 code (checked identical) with
+  that text, pushed public with tags energy, regression, lightgbm, feature-engineering, data-visualization.

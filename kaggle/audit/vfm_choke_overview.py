@@ -6,7 +6,8 @@
 #   starting from design data alone.
 # - **Accuracy on simulated wells.** On 1,219 simulated wells it never saw, the median liquid-rate error is 7.6%
 #   from design data. One to three labels (gamma-meter readings or separator tests) bring it within 1.05-1.11× of a
-#   per-well model fitted on 30 labels.
+#   per-well model fitted on 30 labels. Most of that comes from the physics prior; the learned correction adds
+#   0.3-0.7 points on a large fleet and nothing on a small one (the live run below shows the small case).
 # - **Built on top of it:**
 #   - choke setpoints;
 #   - a multi-well optimiser;
@@ -171,9 +172,20 @@ print(table.round(1).to_string())
 table.round(1)
 
 # %% [markdown]
+# **Result of the live run (46 held-out wells, 8 training groups).** The general model meters the unseen wells at
+# about 7.6% from design data and 6% after one to three labels, against Gilbert's 20% and 8%. But at this scale the
+# physics prior with one fitted multiplier does better still (7.0%, then 4.6-5.1%): with only about fifty training
+# wells the pooled correction has nothing to add, and its noise costs a point. The correction earns its place only
+# with a large fleet behind it, which is the full-scale result below. Even there its gain at k = 0 is not
+# statistically significant.
+
+# %% [markdown]
 # ## 3. The full-scale result (from the committed runs)
 # The same evaluation on the full SimField population, M3 v3, scores 1,219 held-out wells in 5 group folds; the
 # bracketed ranges are bootstrap 95% intervals. The reference is the better per-well model fitted on 30 labels.
+# On this fleet the general model beats the physics prior at every k: 7.64% vs 8.33% at k = 0, 5.73% vs 5.98% at
+# k = 1, 5.43% vs 5.76% at k = 3, 4.67% vs 5.18% at k = 30. The pooled black box without physics (20% at k = 0) and
+# per-well models with few labels (19%) are far behind.
 
 # %%
 m3 = pd.read_csv(RUNS / 'vfm-choke-m3-fewshot-v3' / 'm3_summary.csv')
