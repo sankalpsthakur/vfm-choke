@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If this work helps yours, please cite it as below."
+title: "vfm-choke: a general few-shot virtual flow meter for wellhead chokes, with choke control and oil-slick source attribution"
+type: software
+authors:
+  - family-names: Thakur
+    given-names: Sankalp
+repository-code: "https://github.com/sankalpsthakur/vfm-choke"
+date-released: 2026-11-01
+license: Apache-2.0
+keywords:
+  - virtual flow metering
+  - wellhead choke
+  - few-shot calibration
+  - multiphase flow meter
+  - production optimisation
+  - leak source attribution

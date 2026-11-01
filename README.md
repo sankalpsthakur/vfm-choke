@@ -4,8 +4,32 @@ A general virtual flow meter (VFM) for wellhead chokes that works on a new well 
 with 1-3 labels; choke setpoints and a multi-well optimiser on top of it; and a ranked answer to "which source fed
 this oil slick". Numpy-only inference for edge devices.
 
-Private research project. Results, with every number traced to a Kaggle kernel version, are in REPORT.md; the bar
-for each benchmark was written in BENCHMARKS.md before the run.
+Research project by Sankalp Thakur, released Nov 1 2026. Results are in [REPORT.md](REPORT.md), and every number
+there is traced to a Kaggle kernel version whose outputs are under `reports/runs/`. The bar for each benchmark was
+written in [BENCHMARKS.md](BENCHMARKS.md) before the run.
+
+## Results in brief
+- **New wells from design data.** Tested on 1,219 simulated wells the model never saw:
+
+  | Labels on the new well | Median liquid-rate error |
+  |---|---|
+  | None (design data only) | 7.6% |
+  | 1-3 labels | within 1.05-1.11× of a per-well model fitted on 30 labels |
+
+  The simulator shares the model's physics family, which flatters it.
+- **Public benchmarks.**
+  - **Volve (real field):** 12.1% MAPE against the published 18%, under a protocol reconstructed from the paper's
+    abstract. The margin over our own replicate of the published method is not significant.
+  - **Dabiri et al. 2024 and D'Souza et al. 2024:** their published numbers could not be reproduced. See the audit
+    below.
+- **Edge.** The edge package meets every criterion: 233 KB, p99 4.1 ms per well on one CPU core.
+- **Control and slick attribution.** Both miss their pre-set targets. REPORT.md lists the fixes.
+- **The bar.** The pre-registered "excels on two benchmarks" bar was **not** met. The work is public anyway, so
+  others can check it and build on it.
+
+The reproducibility audit of the two benchmarks is a separate repository,
+[reproducing-vfm-benchmarks](https://github.com/sankalpsthakur/reproducing-vfm-benchmarks), with a
+[Kaggle notebook](https://www.kaggle.com/code/sankalpsthakur/reproducing-two-virtual-flow-metering-benchmarks).
 
 ## How it works
 1. **Physics prior from design data.** A mechanistic two-phase choke model (critical and subcritical flow) at the
@@ -35,14 +59,33 @@ for each benchmark was written in BENCHMARKS.md before the run.
 - Project docs: Prompt, Plans, Architecture, Implement, Documentation; RESEARCH.md (literature), BENCHMARKS.md.
 
 ## Running
-Nothing runs on the laptop. Build a notebook and push it as a private Kaggle CPU kernel:
+Every result here came from a Kaggle CPU kernel. To re-run one:
+1. Set `OWNER` in `kaggle/build.py` and `kaggle/push.py` to your Kaggle username.
+2. Build the notebook and push it as a private kernel. `push.py` waits for the run and saves its outputs.
 
 ```bash
 python3 kaggle/build.py m1_tests.py vfm-choke-m1-physics-tests "VFM Choke M1 Physics Tests" --tests
 python3 kaggle/push.py vfm-choke-m1-physics-tests
 ```
 
-## Data and licences
-Public data and simulation only: Equinor Volve (Equinor Open Data Licence), Dabiri et al. 2024 supplementary data
-(CC BY 4.0), D'Souza et al. simulator (CC0). AI assistance (Claude) was used to write code and documents; every result
-comes from code in this repository run on Kaggle.
+## Licence and credit
+- **Code:** [Apache License 2.0](LICENSE): the Python package, the tests, the Kaggle builders and the entry scripts.
+  Apache 2.0 requires keeping the copyright and [NOTICE](NOTICE) attribution in copies and derived works.
+- **Everything else:** [CC BY 4.0](LICENSE-CC-BY-4.0): documents, figures, reports and run outputs. You may reuse
+  them if you credit the source.
+- **Please credit this work** if it helps yours, whether you are an author, a researcher or a practitioner. Cite
+  it as in [CITATION.cff](CITATION.cff) (GitHub's "Cite this repository" button), or as:
+
+  > Thakur, S. (2026). *vfm-choke: a general few-shot virtual flow meter for wellhead chokes, with choke control and
+  > oil-slick source attribution.* https://github.com/sankalpsthakur/vfm-choke
+
+## Data
+Public data and simulation only. The third-party data keep their own licences:
+- Equinor Volve: Equinor Open Data Licence, attribution required;
+- Dabiri et al. 2024 supplementary data: CC BY 4.0;
+- D'Souza et al. simulator, DataverseNO copy: CC0.
+
+Files from the unlicensed GitHub copy of that simulator are not included; the kernels download them at run time.
+
+AI assistance (Claude) was used to write the code and documents. Every result comes from code in this repository run
+on Kaggle.

@@ -260,3 +260,14 @@ check. One of the required two, so the publish condition is **not met**; the pro
 - **Nov 1 2026, ~17:00 UTC (Sankalp):** "audit only is fine, go ahead". Audit v1 (private, 8,614 s) completed with
   every section; v2 changes only markdown (code cells checked identical to v1) and is pushed public with tags energy,
   regression, lightgbm, data-cleaning, data-visualization via `kaggle/publish.py`.
+- **Nov 1 2026, ~18:40 UTC (Sankalp):** "all work public but ask authors and researchers to credit. choose relevant
+  license" and "sure contact authors". Scope answer: "GitHub repo + 1 Kaggle notebook". The 16 private run kernels
+  stay private.
+  - **Licences:** Apache-2.0 for code (Kaggle's default for notebooks; its NOTICE file carries the attribution); CC
+    BY 4.0 for documents, figures, reports and run outputs. CITATION.cff and README sections ask users to credit
+    the work. The audit repository gets the same set.
+  - **Scrubbed before going public, across the two unpublished commits** (filter-branch; old hashes 24e21b5 and
+    37cc639, new 57e9134 and 7c6accb):
+    - the GitHub-copy `.m` files, and both b3-probe logs, which print those files (unlicensed repository);
+    - the client-related constraint line in Prompt.md.
+  - **Author contact:** emails are drafted for Sankalp to approve before anything is sent.

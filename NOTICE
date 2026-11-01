@@ -1,0 +1,17 @@
+vfm-choke
+Copyright 2026 Sankalp Thakur
+
+This product includes software developed by Sankalp Thakur
+(https://github.com/sankalpsthakur/vfm-choke).
+
+If this code, its results or its documents help your work, please credit
+"Sankalp Thakur, vfm-choke (2026), https://github.com/sankalpsthakur/vfm-choke"
+and cite it as in CITATION.cff.
+
+Code: Apache License 2.0 (LICENSE). Documents, figures, reports and run outputs:
+CC BY 4.0 (LICENSE-CC-BY-4.0).
+
+Third-party data keep their own licences:
+- Equinor Volve production data (Equinor Open Data Licence)
+- Dabiri et al. 2024 supplementary data (CC BY 4.0)
+- D'Souza et al. 2024 simulator, DataverseNO copy (CC0)
