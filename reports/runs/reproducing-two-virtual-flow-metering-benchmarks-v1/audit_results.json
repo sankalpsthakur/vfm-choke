@@ -1,0 +1,790 @@
+{
+ "dabiri_table3_max_abs_diff": 0.0,
+ "dabiri_correlations": {
+  "Gilbert": {
+   "AAPRE paper": 22.36,
+   "AAPRE ours": 22.3608,
+   "RMSE paper": 2418.76,
+   "RMSE ours": 2418.7594,
+   "R2 paper": 0.8118,
+   "R2 ours, 1-SSE/SST": 0.695,
+   "R2 ours, corr^2": 0.8118,
+   "APRE paper": 9.84,
+   "APRE ours, (meas-pred)/meas": 9.8359
+  },
+  "Ros": {
+   "AAPRE paper": 21.32,
+   "AAPRE ours": 21.3196,
+   "RMSE paper": 2221.49,
+   "RMSE ours": 2221.5092,
+   "R2 paper": 0.7461,
+   "R2 ours, 1-SSE/SST": 0.7427,
+   "R2 ours, corr^2": 0.7461,
+   "APRE paper": -8.58,
+   "APRE ours, (meas-pred)/meas": -8.5843
+  },
+  "Baxendell": {
+   "AAPRE paper": 20.36,
+   "AAPRE ours": 20.3625,
+   "RMSE paper": 1915.18,
+   "RMSE ours": 1915.2135,
+   "R2 paper": 0.8124,
+   "R2 ours, 1-SSE/SST": 0.8087,
+   "R2 ours, corr^2": 0.8124,
+   "APRE paper": -10.37,
+   "APRE ours, (meas-pred)/meas": -10.3717
+  },
+  "Achong": {
+   "AAPRE paper": 21.05,
+   "AAPRE ours": 21.0492,
+   "RMSE paper": 1641.73,
+   "RMSE ours": 1641.7288,
+   "R2 paper": 0.8804,
+   "R2 ours, 1-SSE/SST": 0.8595,
+   "R2 ours, corr^2": 0.884,
+   "APRE paper": -14.12,
+   "APRE ours, (meas-pred)/meas": -14.1153
+  },
+  "Pilehvari": {
+   "AAPRE paper": 51.82,
+   "AAPRE ours": 122.0924,
+   "RMSE paper": 5107.94,
+   "RMSE ours": 11175.1485,
+   "R2 paper": 0.423,
+   "R2 ours, 1-SSE/SST": -5.5116,
+   "R2 ours, corr^2": 0.4336,
+   "APRE paper": -43.76,
+   "APRE ours, (meas-pred)/meas": -121.6057
+  }
+ },
+ "dabiri_duplicates": {
+  "rows": 565,
+  "distinct_records": 485,
+  "rows_in_duplicate_groups": 124,
+  "duplicate_groups": 44,
+  "largest_group": 10,
+  "input_triples_with_more_than_one_rate": 6,
+  "test_rows_with_an_exact_copy_in_training_pct_20_random_splits": {
+   "mean": 19.690265486725664,
+   "ci_lo": 17.9082107855225,
+   "ci_hi": 21.47232018792883,
+   "min": 9.734513274336283,
+   "max": 25.663716814159294
+  }
+ },
+ "dabiri_table6": {
+  "Adaboost-SVR": {
+   "Training set | AAPRE %": 5.3,
+   "Training set | APRE %": -1.76,
+   "Training set | RMSE": 661.56,
+   "Training set | SD": 0.09,
+   "Training set | R 2": 0.9772,
+   "Test set | AAPRE %": 4.57,
+   "Test set | APRE %": -0.47,
+   "Test set | RMSE": 564.86,
+   "Test set | SD": 0.1,
+   "Test set | R 2": 0.9827,
+   "Total | AAPRE %": 5.15,
+   "Total | APRE %": -1.5,
+   "Total | RMSE": 643.38,
+   "Total | SD": 0.086,
+   "Total | R 2": 0.9784
+  },
+  "MARS": {
+   "Training set | AAPRE %": 6.58,
+   "Training set | APRE %": -1.19,
+   "Training set | RMSE": 469.19,
+   "Training set | SD": 0.149,
+   "Training set | R 2": 0.9889,
+   "Test set | AAPRE %": 12.14,
+   "Test set | APRE %": -4.27,
+   "Test set | RMSE": 921.01,
+   "Test set | SD": 0.31,
+   "Test set | R 2": 0.9465,
+   "Total | AAPRE %": 7.69,
+   "Total | APRE %": -1.81,
+   "Total | RMSE": 588.02,
+   "Total | SD": 0.19,
+   "Total | R 2": 0.9819
+  },
+  "MLP-LM": {
+   "Training set | AAPRE %": 8.7,
+   "Training set | APRE %": -2.66,
+   "Training set | RMSE": 682.99,
+   "Training set | SD": 0.31,
+   "Training set | R 2": 0.9757,
+   "Test set | AAPRE %": 9.19,
+   "Test set | APRE %": -2.08,
+   "Test set | RMSE": 913.49,
+   "Test set | SD": 0.14,
+   "Test set | R 2": 0.9571,
+   "Total | AAPRE %": 8.9,
+   "Total | APRE %": -2.3,
+   "Total | RMSE": 726.34,
+   "Total | SD": 0.29,
+   "Total | R 2": 0.9726
+  },
+  "MLP-BR": {
+   "Training set | AAPRE %": 9.24,
+   "Training set | APRE %": -2.42,
+   "Training set | RMSE": 747.87,
+   "Training set | SD": 0.31,
+   "Training set | R 2": 0.9707,
+   "Test set | AAPRE %": 7.92,
+   "Test set | APRE %": -0.88,
+   "Test set | RMSE": 710.84,
+   "Test set | SD": 0.13,
+   "Test set | R 2": 0.9744,
+   "Total | AAPRE %": 8.74,
+   "Total | APRE %": -1.99,
+   "Total | RMSE": 733.78,
+   "Total | SD": 0.28,
+   "Total | R 2": 0.9719
+  },
+  "MLP-SCG": {
+   "Training set | AAPRE %": 11.51,
+   "Training set | APRE %": -2.04,
+   "Training set | RMSE": 917.04,
+   "Training set | SD": 0.3,
+   "Training set | R 2": 0.9525,
+   "Test set | AAPRE %": 10.9,
+   "Test set | APRE %": -3.13,
+   "Test set | RMSE": 976.23,
+   "Test set | SD": 0.19,
+   "Test set | R 2": 0.9477,
+   "Total | AAPRE %": 11.44,
+   "Total | APRE %": -1.97,
+   "Total | RMSE": 958.04,
+   "Total | SD": 0.28,
+   "Total | R 2": 0.9522
+  },
+  "RBF": {
+   "Training set | AAPRE %": 8.11,
+   "Training set | APRE %": -1.84,
+   "Training set | RMSE": 672.42,
+   "Training set | SD": 0.22,
+   "Training set | R 2": 0.9761,
+   "Test set | AAPRE %": 8.45,
+   "Test set | APRE %": 1.76,
+   "Test set | RMSE": 959.29,
+   "Test set | SD": 0.14,
+   "Test set | R 2": 0.9559,
+   "Total | AAPRE %": 8.18,
+   "Total | APRE %": -1.12,
+   "Total | RMSE": 738.76,
+   "Total | SD": 0.2,
+   "Total | R 2": 0.9716
+  }
+ },
+ "dabiri_random_split": [
+  {
+   "method": "LightGBM",
+   "test AAPRE, mean": 12.2326,
+   "95% CI": "[10.84, 13.63]",
+   "best split": 7.9239,
+   "worst split": 18.3002,
+   "train AAPRE, mean": 3.6855,
+   "test RMSE, mean": 1110.2446,
+   "test R2, mean": 0.9358,
+   "test corr^2, mean": 0.938
+  },
+  {
+   "method": "SVR, tuned by inner CV",
+   "test AAPRE, mean": 13.5358,
+   "95% CI": "[11.96, 15.11]",
+   "best split": 9.3348,
+   "worst split": 20.0692,
+   "train AAPRE, mean": 9.5646,
+   "test RMSE, mean": 1206.2384,
+   "test R2, mean": 0.9238,
+   "test corr^2, mean": 0.9252
+  },
+  {
+   "method": "1-nearest neighbour (memory)",
+   "test AAPRE, mean": 13.6856,
+   "95% CI": "[11.70, 15.67]",
+   "best split": 9.4539,
+   "worst split": 28.1329,
+   "train AAPRE, mean": 0.0906,
+   "test RMSE, mean": 1454.1375,
+   "test R2, mean": 0.8881,
+   "test corr^2, mean": 0.894
+  },
+  {
+   "method": "Random forest",
+   "test AAPRE, mean": 14.2017,
+   "95% CI": "[12.24, 16.16]",
+   "best split": 9.652,
+   "worst split": 21.7576,
+   "train AAPRE, mean": 4.4977,
+   "test RMSE, mean": 1312.1144,
+   "test R2, mean": 0.9095,
+   "test corr^2, mean": 0.9133
+  },
+  {
+   "method": "Power law refit (Gilbert form)",
+   "test AAPRE, mean": 18.7251,
+   "95% CI": "[17.54, 19.91]",
+   "best split": 14.6613,
+   "worst split": 23.8517,
+   "train AAPRE, mean": 17.392,
+   "test RMSE, mean": 1613.0031,
+   "test R2, mean": 0.8636,
+   "test corr^2, mean": 0.8677
+  },
+  {
+   "method": "Adaboost-SVR (Table S3), X minmax, y log",
+   "test AAPRE, mean": 20.3003,
+   "95% CI": "[18.28, 22.32]",
+   "best split": 14.7275,
+   "worst split": 29.6178,
+   "train AAPRE, mean": 17.4657,
+   "test RMSE, mean": 1990.5187,
+   "test R2, mean": 0.793,
+   "test corr^2, mean": 0.8071
+  },
+  {
+   "method": "Adaboost-SVR (Table S3), X minmax, y log+standard",
+   "test AAPRE, mean": 20.3879,
+   "95% CI": "[18.28, 22.50]",
+   "best split": 13.8416,
+   "worst split": 30.5759,
+   "train AAPRE, mean": 17.5542,
+   "test RMSE, mean": 2089.6601,
+   "test R2, mean": 0.773,
+   "test corr^2, mean": 0.7906
+  },
+  {
+   "method": "Adaboost-SVR (Table S3), X standard, y log+standard",
+   "test AAPRE, mean": 20.5527,
+   "95% CI": "[17.83, 23.27]",
+   "best split": 13.4783,
+   "worst split": 32.6089,
+   "train AAPRE, mean": 16.3011,
+   "test RMSE, mean": 1784.0115,
+   "test R2, mean": 0.8327,
+   "test corr^2, mean": 0.8467
+  },
+  {
+   "method": "Adaboost-SVR (Table S3), X standard, y log",
+   "test AAPRE, mean": 20.6762,
+   "95% CI": "[17.92, 23.43]",
+   "best split": 14.8299,
+   "worst split": 35.2539,
+   "train AAPRE, mean": 16.4202,
+   "test RMSE, mean": 1836.6769,
+   "test R2, mean": 0.8206,
+   "test corr^2, mean": 0.84
+  },
+  {
+   "method": "Adaboost-SVR, tuned by inner CV",
+   "test AAPRE, mean": 23.6422,
+   "95% CI": "[18.94, 28.35]",
+   "best split": 9.971,
+   "worst split": 45.2302,
+   "train AAPRE, mean": 2.7991,
+   "test RMSE, mean": 6164.1338,
+   "test R2, mean": -4.7913,
+   "test corr^2, mean": 0.6471
+  },
+  {
+   "method": "Adaboost-SVR (Table S3), X standard, y standard",
+   "test AAPRE, mean": 30.7385,
+   "95% CI": "[24.60, 36.87]",
+   "best split": 16.4404,
+   "worst split": 56.2436,
+   "train AAPRE, mean": 23.0811,
+   "test RMSE, mean": 1762.0519,
+   "test R2, mean": 0.8385,
+   "test corr^2, mean": 0.8439
+  },
+  {
+   "method": "Adaboost-SVR (Table S3), X minmax, y standard",
+   "test AAPRE, mean": 32.8619,
+   "95% CI": "[27.64, 38.08]",
+   "best split": 19.5515,
+   "worst split": 61.8285,
+   "train AAPRE, mean": 27.2069,
+   "test RMSE, mean": 2051.9118,
+   "test R2, mean": 0.7813,
+   "test corr^2, mean": 0.7967
+  },
+  {
+   "method": "Adaboost-SVR (Table S3), X minmax, y minmax",
+   "test AAPRE, mean": 40.0789,
+   "95% CI": "[32.88, 47.27]",
+   "best split": 25.3277,
+   "worst split": 81.1248,
+   "train AAPRE, mean": 33.7361,
+   "test RMSE, mean": 2024.9651,
+   "test R2, mean": 0.786,
+   "test corr^2, mean": 0.7964
+  },
+  {
+   "method": "Adaboost-SVR (Table S3), X standard, y minmax",
+   "test AAPRE, mean": 40.5552,
+   "95% CI": "[32.93, 48.18]",
+   "best split": 20.8329,
+   "worst split": 74.691,
+   "train AAPRE, mean": 32.08,
+   "test RMSE, mean": 1883.2335,
+   "test R2, mean": 0.8148,
+   "test corr^2, mean": 0.8251
+  },
+  {
+   "method": "Adaboost-SVR (Table S3), X standard, y none",
+   "test AAPRE, mean": 107.7194,
+   "95% CI": "[93.56, 121.88]",
+   "best split": 62.1057,
+   "worst split": 160.9251,
+   "train AAPRE, mean": 103.2458,
+   "test RMSE, mean": 4407.9242,
+   "test R2, mean": -0.0018,
+   "test corr^2, mean": 0.4124
+  },
+  {
+   "method": "Adaboost-SVR (Table S3), X minmax, y none",
+   "test AAPRE, mean": 107.7664,
+   "95% CI": "[93.59, 121.94]",
+   "best split": 62.1152,
+   "worst split": 160.8401,
+   "train AAPRE, mean": 103.287,
+   "test RMSE, mean": 4408.2545,
+   "test R2, mean": -0.0019,
+   "test corr^2, mean": 0.4322
+  }
+ ],
+ "dabiri_lightgbm_200_splits": {
+  "mean": 11.878825880949798,
+  "min": 7.0890293940678335,
+  "p5": 8.952571664043331,
+  "max": 18.99626760950283
+ },
+ "dabiri_group_split": [
+  {
+   "method": "LightGBM",
+   "test AAPRE, mean": 13.921,
+   "95% CI": "[12.19, 15.66]",
+   "best split": 8.2387,
+   "worst split": 21.9146,
+   "train AAPRE, mean": 3.6387,
+   "test RMSE, mean": 1174.1902,
+   "test R2, mean": 0.9293,
+   "test corr^2, mean": 0.9315
+  },
+  {
+   "method": "1-nearest neighbour (memory)",
+   "test AAPRE, mean": 15.2086,
+   "95% CI": "[13.52, 16.89]",
+   "best split": 9.8713,
+   "worst split": 20.4694,
+   "train AAPRE, mean": 0.0907,
+   "test RMSE, mean": 1289.8725,
+   "test R2, mean": 0.9153,
+   "test corr^2, mean": 0.917
+  },
+  {
+   "method": "Random forest",
+   "test AAPRE, mean": 15.4956,
+   "95% CI": "[13.53, 17.46]",
+   "best split": 9.1621,
+   "worst split": 23.283,
+   "train AAPRE, mean": 4.4159,
+   "test RMSE, mean": 1317.0361,
+   "test R2, mean": 0.912,
+   "test corr^2, mean": 0.9163
+  },
+  {
+   "method": "Power law refit (Gilbert form)",
+   "test AAPRE, mean": 18.627,
+   "95% CI": "[17.37, 19.88]",
+   "best split": 14.8543,
+   "worst split": 23.2203,
+   "train AAPRE, mean": 17.4408,
+   "test RMSE, mean": 1592.5207,
+   "test R2, mean": 0.8692,
+   "test corr^2, mean": 0.8742
+  },
+  {
+   "method": "Adaboost-SVR (Table S3), X minmax, y log",
+   "test AAPRE, mean": 21.0841,
+   "95% CI": "[19.43, 22.74]",
+   "best split": 15.1808,
+   "worst split": 27.4656,
+   "train AAPRE, mean": 17.1288,
+   "test RMSE, mean": 2016.2205,
+   "test R2, mean": 0.7935,
+   "test corr^2, mean": 0.8128
+  },
+  {
+   "method": "Adaboost-SVR, tuned by inner CV",
+   "test AAPRE, mean": 29.0866,
+   "95% CI": "[20.82, 37.35]",
+   "best split": 11.2895,
+   "worst split": 73.21,
+   "train AAPRE, mean": 2.5037,
+   "test RMSE, mean": 7688.8171,
+   "test R2, mean": -10.972,
+   "test corr^2, mean": 0.6636
+  }
+ ],
+ "dabiri_table8": {
+  "pairs": 28,
+  "identical": 8,
+  "equal_to_another_measured_value": 4,
+  "aapre_over_table8_pct": 11.325858225151917
+ },
+ "dabiri_settings": {
+  "Table S3: RBF row equals the Adaboost-SVR row": true,
+  "Table S3: MLP-LM row equals the MLP-BR row": true,
+  "scikit-learn MLPRegressor(solver='scg')": "rejected (InvalidParameterError)"
+ },
+ "dsouza_released_files": {
+  "github": [
+   "ML_dev_part1.ipynb",
+   "ML_dev_part2.ipynb",
+   "Readme.md",
+   "Simulator/calculate_output.m",
+   "Simulator/make_w_gc.m",
+   "Simulator/oil_field_model.m",
+   "Simulator/openloop_simulation.m",
+   "Simulator/test",
+   "Simulator/update_states.m"
+  ],
+  "dataverse": {
+   "00_ReadMe.txt": 268804,
+   "calculate_output.m": 268790,
+   "make_w_gc.m": 268786,
+   "ML_dev_part1.ipynb": 268799,
+   "ML_dev_part2.ipynb": 268798,
+   "oil_field_model.m": 268788,
+   "openloop_simulation.m": 268789,
+   "Readme.md": 268805,
+   "update_states.m": 268787
+  }
+ },
+ "dsouza_notebooks": {
+  "ML_dev_part1.ipynb": {
+   "reads": [
+    "Well1_average_data.csv"
+   ],
+   "rows in the CSV (saved .info() output)": "5762",
+   "scaling": [
+    "X = std.fit_transform(X)"
+   ],
+   "splits": [
+    "X_main, X_test, y_main, y_test = train_test_split(X, y, train_size=4033, shuffle=False)",
+    "X_train, X_val, y_train, y_val = train_test_split(X_main, y_main, train_size=2304, shuffle=False)"
+   ],
+   "MLP": [
+    "hidden_layer_sizes=(2),"
+   ],
+   "computes MAPE anywhere": false
+  },
+  "ML_dev_part2.ipynb": {
+   "reads": [
+    "Well1_average_data.csv"
+   ],
+   "rows in the CSV (saved .info() output)": "5762",
+   "scaling": [
+    "X = std.fit_transform(X)"
+   ],
+   "splits": [
+    "X_main, X_test, y_main, y_test = train_test_split(X, y, train_size=4033, shuffle=False)",
+    "X_train, X_val, y_train, y_val = train_test_split(X_main, y_main, train_size=2304, shuffle=False)"
+   ],
+   "MLP": [],
+   "computes MAPE anywhere": false
+  }
+ },
+ "dsouza_github_script": {
+  "calculate_output declares outputs": 17,
+  "openloop_simulation requests outputs": 20,
+  "requested but not declared": [
+   "rho_l",
+   "V_G",
+   "rho_m"
+  ],
+  "csv writing lines commented out": true,
+  "csv header written by the script": "'Time [hrs]', 'W_ga [kg/s]', 'P_wf [bar]', 'P_wh [bar]','W_op [kg/s], W_wp [kg/s], W_gp [kg/s]'"
+ },
+ "dsouza_rows": {
+  "GitHub copy, well 1": 5761,
+  "DataverseNO copy, well 1": 5761,
+  "DataverseNO copy, well 2": 5761
+ },
+ "dsouza_window_levels": [
+  {
+   "series": "GitHub copy, well 1",
+   "quantity": "w_lp",
+   "step 1 (20-30 h)": 92.4658,
+   "step 2 (52-62 h)": 76.2637,
+   "test window (85-95 h)": 92.4658,
+   "test window vs step 1, %": 0.0
+  },
+  {
+   "series": "GitHub copy, well 1",
+   "quantity": "w_op",
+   "step 1 (20-30 h)": 70.4501,
+   "step 2 (52-62 h)": 58.1057,
+   "test window (85-95 h)": 70.4501,
+   "test window vs step 1, %": 0.0
+  },
+  {
+   "series": "GitHub copy, well 1",
+   "quantity": "w_wp",
+   "step 1 (20-30 h)": 22.0157,
+   "step 2 (52-62 h)": 18.158,
+   "test window (85-95 h)": 22.0157,
+   "test window vs step 1, %": 0.0
+  },
+  {
+   "series": "GitHub copy, well 1",
+   "quantity": "w_gp",
+   "step 1 (20-30 h)": 12.7447,
+   "step 2 (52-62 h)": 7.5164,
+   "test window (85-95 h)": 12.7447,
+   "test window vs step 1, %": 0.0
+  },
+  {
+   "series": "GitHub copy, well 1",
+   "quantity": "w_ga",
+   "step 1 (20-30 h)": 9.2222,
+   "step 2 (52-62 h)": 4.6111,
+   "test window (85-95 h)": 9.2222,
+   "test window vs step 1, %": 0.0
+  },
+  {
+   "series": "GitHub copy, well 1",
+   "quantity": "P_wf",
+   "step 1 (20-30 h)": 113.161,
+   "step 2 (52-62 h)": 119.616,
+   "test window (85-95 h)": 113.161,
+   "test window vs step 1, %": -0.0
+  },
+  {
+   "series": "GitHub copy, well 1",
+   "quantity": "P_wh",
+   "step 1 (20-30 h)": 41.4121,
+   "step 2 (52-62 h)": 34.8613,
+   "test window (85-95 h)": 41.4121,
+   "test window vs step 1, %": 0.0
+  },
+  {
+   "series": "DataverseNO copy, well 1",
+   "quantity": "w_lp",
+   "step 1 (20-30 h)": 78.5797,
+   "step 2 (52-62 h)": 66.2102,
+   "test window (85-95 h)": 78.5797,
+   "test window vs step 1, %": -0.0
+  },
+  {
+   "series": "DataverseNO copy, well 1",
+   "quantity": "w_op",
+   "step 1 (20-30 h)": 64.3785,
+   "step 2 (52-62 h)": 54.2445,
+   "test window (85-95 h)": 64.3785,
+   "test window vs step 1, %": -0.0
+  },
+  {
+   "series": "DataverseNO copy, well 1",
+   "quantity": "w_wp",
+   "step 1 (20-30 h)": 14.2011,
+   "step 2 (52-62 h)": 11.9657,
+   "test window (85-95 h)": 14.2011,
+   "test window vs step 1, %": -0.0
+  },
+  {
+   "series": "DataverseNO copy, well 1",
+   "quantity": "w_gp",
+   "step 1 (20-30 h)": 7.917,
+   "step 2 (52-62 h)": 5.7229,
+   "test window (85-95 h)": 7.9169,
+   "test window vs step 1, %": -0.0
+  },
+  {
+   "series": "DataverseNO copy, well 1",
+   "quantity": "w_ga",
+   "step 1 (20-30 h)": 2.7667,
+   "step 2 (52-62 h)": 1.3833,
+   "test window (85-95 h)": 2.7667,
+   "test window vs step 1, %": 0.0
+  },
+  {
+   "series": "DataverseNO copy, well 1",
+   "quantity": "P_wf",
+   "step 1 (20-30 h)": 118.6934,
+   "step 2 (52-62 h)": 123.6214,
+   "test window (85-95 h)": 118.6934,
+   "test window vs step 1, %": 0.0
+  },
+  {
+   "series": "DataverseNO copy, well 1",
+   "quantity": "P_wh",
+   "step 1 (20-30 h)": 35.3703,
+   "step 2 (52-62 h)": 33.1162,
+   "test window (85-95 h)": 35.3703,
+   "test window vs step 1, %": -0.0
+  },
+  {
+   "series": "DataverseNO copy, well 2",
+   "quantity": "w_lp",
+   "step 1 (20-30 h)": 60.9613,
+   "step 2 (52-62 h)": 47.8312,
+   "test window (85-95 h)": 60.9613,
+   "test window vs step 1, %": -0.0
+  },
+  {
+   "series": "DataverseNO copy, well 2",
+   "quantity": "w_op",
+   "step 1 (20-30 h)": 49.9442,
+   "step 2 (52-62 h)": 39.187,
+   "test window (85-95 h)": 49.9442,
+   "test window vs step 1, %": -0.0
+  },
+  {
+   "series": "DataverseNO copy, well 2",
+   "quantity": "w_wp",
+   "step 1 (20-30 h)": 11.0171,
+   "step 2 (52-62 h)": 8.6442,
+   "test window (85-95 h)": 11.0171,
+   "test window vs step 1, %": -0.0
+  },
+  {
+   "series": "DataverseNO copy, well 2",
+   "quantity": "w_gp",
+   "step 1 (20-30 h)": 6.2628,
+   "step 2 (52-62 h)": 4.1264,
+   "test window (85-95 h)": 6.2628,
+   "test window vs step 1, %": -0.0
+  },
+  {
+   "series": "DataverseNO copy, well 2",
+   "quantity": "w_ga",
+   "step 1 (20-30 h)": 2.7667,
+   "step 2 (52-62 h)": 1.3833,
+   "test window (85-95 h)": 2.7667,
+   "test window vs step 1, %": 0.0
+  },
+  {
+   "series": "DataverseNO copy, well 2",
+   "quantity": "P_wf",
+   "step 1 (20-30 h)": 112.6004,
+   "step 2 (52-62 h)": 120.6557,
+   "test window (85-95 h)": 112.6004,
+   "test window vs step 1, %": 0.0
+  },
+  {
+   "series": "DataverseNO copy, well 2",
+   "quantity": "P_wh",
+   "step 1 (20-30 h)": 33.0756,
+   "step 2 (52-62 h)": 31.5293,
+   "test window (85-95 h)": 33.0756,
+   "test window vs step 1, %": -0.0
+  }
+ ],
+ "dsouza_oil_to_liquid_step1": {
+  "GitHub copy, well 1": 0.7619047619047666,
+  "DataverseNO copy, well 1": 0.8192771084337446,
+  "DataverseNO copy, well 2": 0.8192771084337457
+ },
+ "dsouza_model_mape": {
+  "paper, well 1": {
+   "LSTM": 1.96,
+   "MLP NN": 2.43,
+   "MV linear regression": 2.14,
+   "SVR": 5.04,
+   "KNN": 8.05,
+   "Decision tree": 9.26,
+   "Gradient boosting": 4.95,
+   "XGBoost": 4.23,
+   "PLS": 9.54,
+   "PCR": 9.52
+  },
+  "GitHub copy, well 1 (oil, gas, liquid)": {
+   "LSTM": 0.5149,
+   "MLP NN": 0.0221,
+   "MV linear regression": 0.0221,
+   "SVR": 0.3188,
+   "KNN": 0.0005,
+   "Decision tree": 0.7376,
+   "Gradient boosting": 0.0039,
+   "XGBoost": 0.1987,
+   "PLS": 0.1328,
+   "PCR": 0.1351
+  },
+  "GitHub copy, well 1 (oil, water, gas)": {
+   "LSTM": 0.4597,
+   "MLP NN": 0.0212,
+   "MV linear regression": 0.0221,
+   "SVR": 0.429,
+   "KNN": 0.0005,
+   "Decision tree": 0.7168,
+   "Gradient boosting": 0.0039,
+   "XGBoost": 0.1987,
+   "PLS": 0.1328,
+   "PCR": 0.1351
+  },
+  "DataverseNO copy, well 1 (oil, gas, liquid)": {
+   "LSTM": 0.2437,
+   "MLP NN": 0.027,
+   "MV linear regression": 0.0014,
+   "SVR": 0.3803,
+   "KNN": 0.0677,
+   "Decision tree": 0.384,
+   "Gradient boosting": 0.034,
+   "XGBoost": 0.1164,
+   "PLS": 0.237,
+   "PCR": 0.2461
+  },
+  "DataverseNO copy, well 1 (oil, water, gas)": {
+   "LSTM": 0.2203,
+   "MLP NN": 0.058,
+   "MV linear regression": 0.0014,
+   "SVR": 0.6047,
+   "KNN": 0.0677,
+   "Decision tree": 0.384,
+   "Gradient boosting": 0.0268,
+   "XGBoost": 0.1165,
+   "PLS": 0.237,
+   "PCR": 0.2461
+  },
+  "DataverseNO copy, well 2 (oil, gas, liquid)": {
+   "LSTM": 0.2845,
+   "MLP NN": 0.6467,
+   "MV linear regression": 0.0021,
+   "SVR": 0.6197,
+   "KNN": 0.0735,
+   "Decision tree": 0.0736,
+   "Gradient boosting": 0.0447,
+   "XGBoost": 0.0274,
+   "PLS": 0.28,
+   "PCR": 0.2907
+  },
+  "DataverseNO copy, well 2 (oil, water, gas)": {
+   "LSTM": 0.2367,
+   "MLP NN": 0.063,
+   "MV linear regression": 0.0021,
+   "SVR": 0.8329,
+   "KNN": 0.0735,
+   "Decision tree": 0.0736,
+   "Gradient boosting": 0.0472,
+   "XGBoost": 0.0274,
+   "PLS": 0.28,
+   "PCR": 0.2907
+  },
+  "paper, well 2": {
+   "LSTM": 1.53,
+   "MLP NN": 5.49,
+   "MV linear regression": 7.57,
+   "SVR": 4.31,
+   "KNN": 5.41,
+   "Decision tree": 5.43,
+   "Gradient boosting": 5.55,
+   "XGBoost": 5.56,
+   "PLS": 7.57,
+   "PCR": 16.69
+  }
+ },
+ "seconds": 8560
+}

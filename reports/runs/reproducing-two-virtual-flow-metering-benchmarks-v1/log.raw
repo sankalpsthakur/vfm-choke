@@ -1,0 +1,133 @@
+[{"stream_name":"stderr","time":9.970928315,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.970983868,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.970990763,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.970993642,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.789144709,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.789183123,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.789198957,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.789203106,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":16.322300183,"data":"supplementary file: https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-024-54010-2/MediaObjects/41598_2024_54010_MOESM1_ESM.docx (89,589 bytes)\n"}
+,{"stream_name":"stdout","time":16.322336311,"data":"4 tables; table S1 header: ['No.', 'P(psi)', 'GLR(SCF/D)', 'D (1/64) in', 'Qliq,exp(STB/D)']\n"}
+,{"stream_name":"stdout","time":19.679338916,"data":"tables found: ['Tab1', 'Tab2', 'Tab3', 'Tab4', 'Tab5', 'Tab6', 'Tab7', 'Tab8']\n"}
+,{"stream_name":"stdout","time":19.762732683,"data":"largest |this notebook - paper| over all 40 entries (paper prints 3 decimals): 0.0\n"}
+,{"stream_name":"stdout","time":20.29371279,"data":"{\n"}
+,{"stream_name":"stdout","time":20.293749583,"data":" \"rows\": 565,\n"}
+,{"stream_name":"stdout","time":20.293755356,"data":" \"distinct_records\": 485,\n"}
+,{"stream_name":"stdout","time":20.29375922,"data":" \"rows_in_duplicate_groups\": 124,\n"}
+,{"stream_name":"stdout","time":20.293762727,"data":" \"duplicate_groups\": 44,\n"}
+,{"stream_name":"stdout","time":20.293766755,"data":" \"largest_group\": 10,\n"}
+,{"stream_name":"stdout","time":20.29377053,"data":" \"input_triples_with_more_than_one_rate\": 6,\n"}
+,{"stream_name":"stdout","time":20.29377449,"data":" \"test_rows_with_an_exact_copy_in_training_pct_20_random_splits\": {\n"}
+,{"stream_name":"stdout","time":20.293778379,"data":"  \"mean\": 19.690265486725664,\n"}
+,{"stream_name":"stdout","time":20.293782385,"data":"  \"ci_lo\": 17.9082107855225,\n"}
+,{"stream_name":"stdout","time":20.293786541,"data":"  \"ci_hi\": 21.47232018792883,\n"}
+,{"stream_name":"stdout","time":20.293790722,"data":"  \"min\": 9.734513274336283,\n"}
+,{"stream_name":"stdout","time":20.29379473,"data":"  \"max\": 25.663716814159294\n"}
+,{"stream_name":"stdout","time":20.29379867,"data":" }\n"}
+,{"stream_name":"stdout","time":20.293802546,"data":"}\n"}
+,{"stream_name":"stdout","time":20.293806391,"data":"most repeated record (P, GLR, D, Q): (2400.0, 1040.0, 47.0, 9280.0) x 10\n"}
+,{"stream_name":"stdout","time":20.293810348,"data":"rows whose inputs (P, GLR, D) appear with different rates:\n"}
+,{"stream_name":"stdout","time":4225.227450974,"data":"320 model fits in 4201 s\n"}
+,{"stream_name":"stdout","time":4264.441300512,"data":"LightGBM, 200 random 80/20 splits (38 s): {'mean': 11.878825880949798, 'min': 7.0890293940678335, 'p5': 8.952571664043331, 'max': 18.99626760950283}\n"}
+,{"stream_name":"stdout","time":8227.697047011,"data":"Table 8 parsed from the paper XML matches the copy above: True\n"}
+,{"stream_name":"stdout","time":8227.697117553,"data":"{\n"}
+,{"stream_name":"stdout","time":8227.697164851,"data":" \"pairs\": 28,\n"}
+,{"stream_name":"stdout","time":8227.697170856,"data":" \"identical\": 8,\n"}
+,{"stream_name":"stdout","time":8227.697175238,"data":" \"equal_to_another_measured_value\": 4,\n"}
+,{"stream_name":"stdout","time":8227.697179344,"data":" \"aapre_over_table8_pct\": 11.325858225151917\n"}
+,{"stream_name":"stdout","time":8227.697184014,"data":"}\n"}
+,{"stream_name":"stdout","time":8227.76599248,"data":"Table S3 (supplementary):\n"}
+,{"stream_name":"stdout","time":8227.766025926,"data":"    Technique | Hyperparameters (Default Values)\n"}
+,{"stream_name":"stdout","time":8227.766031365,"data":"    Adaboost_SVR | SVR (C=1.0, epsilon=0.1, kernel='rbf', gamma='scale')\n"}
+,{"stream_name":"stdout","time":8227.766036196,"data":"    MARS | Default parameters depend on the implementation\n"}
+,{"stream_name":"stdout","time":8227.766039973,"data":"    MLP-lM | MLP Regressor (hidden_layer_sizes= (100,), solver='lbfgs')\n"}
+,{"stream_name":"stdout","time":8227.766043595,"data":"    MLP-BR | MLP Regressor (hidden_layer_sizes= (100,), solver='lbfgs')\n"}
+,{"stream_name":"stdout","time":8227.766047228,"data":"    MLP-SCG | MLP Regressor (hidden_layer_sizes= (100,), solver='scg')\n"}
+,{"stream_name":"stdout","time":8227.766050889,"data":"    RBF | SVR (C=1.0, epsilon=0.1, kernel='rbf', gamma='scale')\n"}
+,{"stream_name":"stdout","time":8227.766054447,"data":"\n"}
+,{"stream_name":"stdout","time":8227.766057992,"data":"Table 4 (paper):\n"}
+,{"stream_name":"stdout","time":8227.76606139,"data":"    MLP | Number of hidden layers | 2\n"}
+,{"stream_name":"stdout","time":8227.766064962,"data":"    The objective function uses training | MSE\n"}
+,{"stream_name":"stdout","time":8227.766068805,"data":"    Optimization algorithm | LM-BR-SCG\n"}
+,{"stream_name":"stdout","time":8227.766072461,"data":"    RBF | Number of neurons in the hidden layer | 250\n"}
+,{"stream_name":"stdout","time":8227.766076599,"data":"    Spread | 0.1\n"}
+,{"stream_name":"stdout","time":8227.766080339,"data":"    The objective function uses training | MSE\n"}
+,{"stream_name":"stdout","time":8227.766084101,"data":"\n"}
+,{"stream_name":"stdout","time":8227.766087729,"data":"{\n"}
+,{"stream_name":"stdout","time":8227.766091358,"data":" \"Table S3: RBF row equals the Adaboost-SVR row\": true,\n"}
+,{"stream_name":"stdout","time":8227.766095587,"data":" \"Table S3: MLP-LM row equals the MLP-BR row\": true,\n"}
+,{"stream_name":"stdout","time":8227.766099898,"data":" \"scikit-learn MLPRegressor(solver='scg')\": \"rejected (InvalidParameterError)\"\n"}
+,{"stream_name":"stdout","time":8227.766104442,"data":"}\n"}
+,{"stream_name":"stdout","time":8228.69756184,"data":"GitHub: ['ML_dev_part1.ipynb', 'ML_dev_part2.ipynb', 'Readme.md', 'Simulator/calculate_output.m', 'Simulator/make_w_gc.m', 'Simulator/oil_field_model.m', 'Simulator/openloop_simulation.m', 'Simulator/test', 'Simulator/update_states.m']\n"}
+,{"stream_name":"stdout","time":8228.697618065,"data":"DataverseNO: {'00_ReadMe.txt': 268804, 'calculate_output.m': 268790, 'make_w_gc.m': 268786, 'ML_dev_part1.ipynb': 268799, 'ML_dev_part2.ipynb': 268798, 'oil_field_model.m': 268788, 'openloop_simulation.m': 268789, 'Readme.md': 268805, 'update_states.m': 268787}\n"}
+,{"stream_name":"stdout","time":8229.190277393,"data":"{\n"}
+,{"stream_name":"stdout","time":8229.190314872,"data":" \"ML_dev_part1.ipynb\": {\n"}
+,{"stream_name":"stdout","time":8229.19031984,"data":"  \"reads\": [\n"}
+,{"stream_name":"stdout","time":8229.190323779,"data":"   \"Well1_average_data.csv\"\n"}
+,{"stream_name":"stdout","time":8229.190327412,"data":"  ],\n"}
+,{"stream_name":"stdout","time":8229.190331034,"data":"  \"rows in the CSV (saved .info() output)\": \"5762\",\n"}
+,{"stream_name":"stdout","time":8229.190354688,"data":"  \"scaling\": [\n"}
+,{"stream_name":"stdout","time":8229.190359145,"data":"   \"X = std.fit_transform(X)\"\n"}
+,{"stream_name":"stdout","time":8229.190362791,"data":"  ],\n"}
+,{"stream_name":"stdout","time":8229.190430232,"data":"  \"splits\": [\n"}
+,{"stream_name":"stdout","time":8229.190442884,"data":"   \"X_main, X_test, y_main, y_test = train_test_split(X, y, train_size=4033, shuffle=False)\",\n"}
+,{"stream_name":"stdout","time":8229.190447303,"data":"   \"X_train, X_val, y_train, y_val = train_test_split(X_main, y_main, train_size=2304, shuffle=False)\"\n"}
+,{"stream_name":"stdout","time":8229.190451332,"data":"  ],\n"}
+,{"stream_name":"stdout","time":8229.190454759,"data":"  \"MLP\": [\n"}
+,{"stream_name":"stdout","time":8229.190458023,"data":"   \"hidden_layer_sizes=(2),\"\n"}
+,{"stream_name":"stdout","time":8229.190461405,"data":"  ],\n"}
+,{"stream_name":"stdout","time":8229.190465079,"data":"  \"computes MAPE anywhere\": false\n"}
+,{"stream_name":"stdout","time":8229.190468592,"data":" },\n"}
+,{"stream_name":"stdout","time":8229.190472107,"data":" \"ML_dev_part2.ipynb\": {\n"}
+,{"stream_name":"stdout","time":8229.190475772,"data":"  \"reads\": [\n"}
+,{"stream_name":"stdout","time":8229.190479893,"data":"   \"Well1_average_data.csv\"\n"}
+,{"stream_name":"stdout","time":8229.190483624,"data":"  ],\n"}
+,{"stream_name":"stdout","time":8229.190487052,"data":"  \"rows in the CSV (saved .info() output)\": \"5762\",\n"}
+,{"stream_name":"stdout","time":8229.190491231,"data":"  \"scaling\": [\n"}
+,{"stream_name":"stdout","time":8229.190495045,"data":"   \"X = std.fit_transform(X)\"\n"}
+,{"stream_name":"stdout","time":8229.190498637,"data":"  ],\n"}
+,{"stream_name":"stdout","time":8229.19050216,"data":"  \"splits\": [\n"}
+,{"stream_name":"stdout","time":8229.190505976,"data":"   \"X_main, X_test, y_main, y_test = train_test_split(X, y, train_size=4033, shuffle=False)\",\n"}
+,{"stream_name":"stdout","time":8229.190510312,"data":"   \"X_train, X_val, y_train, y_val = train_test_split(X_main, y_main, train_size=2304, shuffle=False)\"\n"}
+,{"stream_name":"stdout","time":8229.190514489,"data":"  ],\n"}
+,{"stream_name":"stdout","time":8229.190517766,"data":"  \"MLP\": [],\n"}
+,{"stream_name":"stdout","time":8229.190521748,"data":"  \"computes MAPE anywhere\": false\n"}
+,{"stream_name":"stdout","time":8229.190525613,"data":" }\n"}
+,{"stream_name":"stdout","time":8229.190529347,"data":"}\n"}
+,{"stream_name":"stderr","time":8234.021914531,"data":"W: Skipping acquire of configured file 'main/source/Sources' as repository 'https://r2u.stat.illinois.edu/ubuntu noble InRelease' does not seem to provide it (sources.list entry misspelt?)\n"}
+,{"stream_name":"stderr","time":8234.225691637,"data":"W: Skipping acquire of configured file 'main/source/Sources' as repository 'https://r2u.stat.illinois.edu/ubuntu noble InRelease' does not seem to provide it (sources.list entry misspelt?)\n"}
+,{"stream_name":"stderr","time":8234.225733111,"data":"\n"}
+,{"stream_name":"stderr","time":8234.225739349,"data":"W: Skipping acquire of configured file 'main/source/Sources' as repository 'https://r2u.stat.illinois.edu/ubuntu noble InRelease' does not seem to provide it (sources.list entry misspelt?)\n"}
+,{"stream_name":"stdout","time":8296.449016469,"data":"GNU Octave, version 8.4.0\n"}
+,{"stream_name":"stdout","time":8302.970164981,"data":"{\n"}
+,{"stream_name":"stdout","time":8302.970217995,"data":" \"calculate_output declares outputs\": 17,\n"}
+,{"stream_name":"stdout","time":8302.970224857,"data":" \"openloop_simulation requests outputs\": 20,\n"}
+,{"stream_name":"stdout","time":8302.970252319,"data":" \"requested but not declared\": [\n"}
+,{"stream_name":"stdout","time":8302.970256887,"data":"  \"rho_l\",\n"}
+,{"stream_name":"stdout","time":8302.970260385,"data":"  \"V_G\",\n"}
+,{"stream_name":"stdout","time":8302.970263971,"data":"  \"rho_m\"\n"}
+,{"stream_name":"stdout","time":8302.970267835,"data":" ],\n"}
+,{"stream_name":"stdout","time":8302.970271188,"data":" \"csv writing lines commented out\": true,\n"}
+,{"stream_name":"stdout","time":8302.970274945,"data":" \"csv header written by the script\": \"'Time [hrs]', 'W_ga [kg/s]', 'P_wf [bar]', 'P_wh [bar]','W_op [kg/s], W_wp [kg/s], W_gp [kg/s]'\"\n"}
+,{"stream_name":"stdout","time":8302.970279079,"data":"}\n"}
+,{"stream_name":"stdout","time":8315.833759271,"data":"github exit 0 in 13 s \n"}
+,{"stream_name":"stdout","time":8332.500420711,"data":"dataverse exit 0 in 17 s \n"}
+,{"stream_name":"stdout","time":8332.500464802,"data":"one-minute rows per series (the notebooks read 5,762): {'GitHub copy, well 1': 5761, 'DataverseNO copy, well 1': 5761, 'DataverseNO copy, well 2': 5761}\n"}
+,{"stream_name":"stdout","time":8332.593963874,"data":"oil / liquid mass ratio in step 1: {'GitHub copy, well 1': 0.762, 'DataverseNO copy, well 1': 0.819, 'DataverseNO copy, well 2': 0.819}\n"}
+,{"stream_name":"stderr","time":8359.166110628,"data":"2026-11-01 17:53:07.857806: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)\n"}
+,{"stream_name":"stderr","time":8359.369123277,"data":"2026-11-01 17:53:07.857806: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)\n"}
+,{"stream_name":"stderr","time":8359.369162337,"data":"\n"}
+,{"stream_name":"stderr","time":8359.369168702,"data":"2026-11-01 17:53:07.857806: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)\n"}
+,{"stream_name":"stdout","time":8575.592818374,"data":"242 s; whole notebook 8560 s\n"}
+,{"stream_name":"stderr","time":8581.206134248,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":8581.206192548,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":8581.429632049,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":8581.429664206,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":8582.357258083,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":8582.490434566,"data":"[NbConvertApp] Writing 347419 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":8585.82011482,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":8586.751735165,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":8586.751764272,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":8586.752089175,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":8586.752289581,"data":"[NbConvertApp] Writing 506633 bytes to __results__.html\n"}
+]

@@ -11,6 +11,7 @@
 | B1 | run, beat outright (protocol reconstructed) | `sankalpsthakur/vfm-choke-b1-volve` v3 (reports/runs/vfm-choke-b1-volve-v3/b1_results.json) |
 | B2 | run, gate not met | `sankalpsthakur/vfm-choke-b2-dabiri` v2 (reports/runs/vfm-choke-b2-dabiri-v2/b2_results.json) |
 | B3 | run, not counted (fidelity check failed) | `sankalpsthakur/vfm-choke-b3-dsouza` v1 (reports/runs/vfm-choke-b3-dsouza-v1/b3_results.json) |
+| Audit | B2/B3 reproducibility audit public on Kaggle + GitHub; B3 explanation corrected | `sankalpsthakur/reproducing-two-virtual-flow-metering-benchmarks` v1 (private) / v2 (public) |
 | M5 | done: both targets missed | `vfm-choke-m5-control` v2 |
 | M6 | done: top-3 77% for leaks ≥ 2% (target 80%), false alarms 22.5% (target 5%) | `vfm-choke-m6a-slick-sim` v1, `vfm-choke-m6b-slick-attr` v1 |
 | M7 | done: all edge criteria met (v5) | `vfm-choke-m7-edge` v5 |
@@ -51,6 +52,55 @@
   processing not in the released code). The fidelity check fails, so **B3 does not count**.
 - For the record, on this regeneration: our physics-feature regression scores 0.011 / 0.017%; the physics prior with
   deliberately wrong design values scores 12.8 / 12.5% zero-shot and 1.14 / 1.42% after 3 labels.
+
+### Correction to B3, and the B2/B3 audit (Nov 1 2026, after the report)
+
+**The B3 explanation above was wrong.** The B3 v1 regeneration used only the DataverseNO two-well copy.
+- **Why the scores were low.** Its test window (rows 4,033 onward) repeats the first supply step's state: well 1's
+  rates at 90 h equal those at 20 h to every printed digit (64.38 / 7.92 / 78.58 kg/s). Every model scored < 1% for
+  that reason, not because the simulator output is trivially clean.
+- **What the paper shows instead.** The paper's Figs. 6-7, and the plots saved in the authors' GitHub notebooks, show
+  the test window settling at a new level: well 1's largest curve is about 78 kg/s in step 1 and about 71 kg/s in the
+  test window. Our own pre-run caveat in BENCHMARKS.md ("the test window is a new steady operating point") said so.
+- **Corrected statement.** We could not regenerate the paper's data from either released copy. B3 stays excluded, and
+  the "excels" verdict is unchanged.
+
+**Audit run.** `sankalpsthakur/reproducing-two-virtual-flow-metering-benchmarks` v1, private, 8,614 s; outputs in
+`reports/runs/reproducing-two-virtual-flow-metering-benchmarks-v1/`. It fetches every source at run time.
+
+**B2 (Dabiri et al.):**
+- **What matches.**
+  - Table 3 matches exactly: all 40 entries, max |diff| 0.
+  - Table 7 matches for Gilbert, Ros, Baxendell and Achong: AAPRE and APRE to the printed precision, RMSE within
+    0.04. The paper's R² is the squared correlation.
+  - Pilehvari stays unresolved: 122% against 51.82%.
+- **Duplicates.** 124 rows sit in 44 groups (largest 10), and 6 input triples carry more than one rate. 19.7% of a
+  random test set has an exact copy in training.
+- **Table S3 replicate, 10 scalings.** The best is min-max inputs with a log target, at 20.30% [18.28, 22.32]; the
+  best single split is 13.48%. The B2 run's 40.08% was the min-max/min-max cell of this grid.
+- **Tuned models.** A tuned single SVR scores 13.54%; tuned Adaboost-SVR scores 23.64% (unstable).
+- **Generic models.** LightGBM 12.23%, random forest 14.20%, 1-NN 13.69%, power law 18.73%.
+- **LightGBM over 200 splits.** Mean 11.88%, best 7.09%, 5th percentile 8.95%.
+- **Grouped splits.** LightGBM 13.92%, 1-NN 15.21%.
+- **Table 8.** 8 of 28 predictions equal the measured value, and 4 equal another measured value; AAPRE 11.33%.
+- **Settings tables.** In Table S3 the RBF row equals the Adaboost-SVR row and the MLP-LM row equals MLP-BR;
+  scikit-learn rejects `solver='scg'`.
+
+**B3 (D'Souza et al.):**
+- **Data not released.** Neither deposit has the CSVs. The notebooks read a 5,762-row well-1 file and never compute
+  MAPE.
+- **GitHub script.** It requests 20 outputs from `calculate_output`, which declares 17 (`rho_l`, `V_G` and `rho_m` are
+  missing). Its CSV writer is commented out.
+- **Both copies (GitHub single-well; DataverseNO two-well).** The test window returns to step 1 (0.0% change), and all
+  ten of the paper's models score below 1% (largest 0.83%).
+- **GitHub copy.** Its oil/liquid ratio is 0.762 (water cut 0.2), which matches the figure's ratio, but its levels
+  don't (liquid 92.5 kg/s).
+
+**Published (Sankalp's go).**
+- **Kaggle:** v2 is public with markdown only (code cells identical to v1, checked against the pulled v1 source), with
+  the tags energy, regression, lightgbm, data cleaning and data visualization.
+- **GitHub:** `sankalpsthakur/reproducing-vfm-benchmarks`, commit 03b5717. It holds the audit only, with v1's
+  results.
 
 ### M7 v2 (Nov 1 2026): edge package, first measurement
 - Met:
@@ -201,3 +251,12 @@ check. One of the required two, so the publish condition is **not met**; the pro
   tests), B3 D'Souza et al. 2024 (two simulated gas-lifted subsea wells). Dropped Akbari et al. 2025 (no public
   data), HVFM (no dataset download; needs OLGA), 3W 2.0 (no comparable published baseline, no leak events). B1 counts
   toward "excels" only if its protocol can be matched from the paper.
+- **Nov 1 2026, after the report (Sankalp):** "commit it and do the reproducibility audit write-up", then "publish on
+  kaggle and github once it's done". Initial commit 24e21b5 (authored by Sankalp, no agent trailer). The audit covers
+  B2 and B3 only and runs as the Kaggle notebook `sankalpsthakur/reproducing-two-virtual-flow-metering-benchmarks`
+  (source `kaggle/audit/reproducing_vfm_benchmarks.py`), private until its numbers are checked. On GitHub it goes to
+  its own repository with the audit only; this project's code stays private, since its publish gate was not met and
+  `reports/runs/*b3-probe*/github_*.m` are copies of an unlicensed repository.
+- **Nov 1 2026, ~17:00 UTC (Sankalp):** "audit only is fine, go ahead". Audit v1 (private, 8,614 s) completed with
+  every section; v2 changes only markdown (code cells checked identical to v1) and is pushed public with tags energy,
+  regression, lightgbm, data-cleaning, data-visualization via `kaggle/publish.py`.

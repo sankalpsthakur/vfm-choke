@@ -14,9 +14,12 @@ Every number below comes from a private Kaggle kernel; the run is named next to 
     significant (CI −7.45 to +0.70), and the replicate has the better RMSE and R².
   - Dabiri et al. 2024 (565 literature choke tests): the bar is not met; the published best number could not be
     reproduced.
-  - D'Souza et al. 2024 (simulated gas-lift wells): excluded, because the published simulator does not reproduce the
-    published data.
-  - So the pre-registered "excels on two benchmarks" condition is **not met**, and nothing is published.
+  - D'Souza et al. 2024 (simulated gas-lift wells): excluded, because neither released copy of the simulator
+    reproduces the published data (explanation corrected Nov 1; see §4).
+  - So the pre-registered "excels on two benchmarks" condition is **not met**, and the model stays private.
+  - On Sankalp's go (Nov 1), a reproducibility audit of B2 and B3 alone is public:
+    - Kaggle: `sankalpsthakur/reproducing-two-virtual-flow-metering-benchmarks`;
+    - GitHub: `sankalpsthakur/reproducing-vfm-benchmarks`.
 - **Edge:** all criteria met on a Kaggle Xeon core in the final run (v5): 233 KB artifact, p99 4.1 ms per well,
   0.6 ms per well in a batched scan, 1.3 ms per 30-well optimizer step.
   - It passed after three logged latency fixes (v2-v5).
@@ -118,12 +121,18 @@ Median per-well MAPE of liquid rate, days 90-179, labels only from days < 90, 95
 - **B2:**
   - Our hybrid is the best model we could reproduce under both the published random split and a duplicate-safe split
     (12.64%).
-  - The paper's Adaboost-SVR re-run with its stated settings scores 40%.
+  - The paper's Adaboost-SVR with its stated settings scores 20.3% at best over ten input/target scalings. The 40% in
+    the B2 run was a single choice: both inputs and target min-max scaled. The audit adds a tuned single SVR at
+    13.5%, and LightGBM, whose best of 200 splits is 7.1%.
   - 22% of rows are exact duplicates; even a pure 1-nearest-neighbour memoriser only reaches 13.7%.
   - Our zero-shot physics (no fitting at all) beats Gilbert, Ros, Baxendell, Achong, Al-Attar and Pilehvari as
     published.
-- **B3:** the published simulator, run in Octave, produces data on which every method scores < 1% (linear regression
-  0.0014%). The paper reports 1.5-16.7%, so its CSVs carry processing that isn't in the release.
+- **B3:** on our regeneration every method scores < 1% (linear regression 0.0014%); the paper reports 1.5-16.7%.
+  - **Corrected Nov 1 by the audit.** The scores are low because the test window repeats the first supply step: the
+    simulator returns to the same state. That holds in both released copies, GitHub and DataverseNO.
+  - The paper's figures show a new level in the test window, so its data came from a configuration that isn't in the
+    release.
+  - The earlier reading here ("its CSVs carry processing that isn't in the release") was wrong. B3 stays excluded.
 
 ## 5. Choke setpoints and multi-well optimisation (M5, `vfm-choke-m5-control` v2)
 - Setup: 8 held-out groups on day 120. The twin is calibrated with k MPFM labels from days < 90 (30+ days stale).
@@ -195,12 +204,15 @@ Median per-well MAPE of liquid rate, days 90-179, labels only from days < 90, 95
 - "Excels" needs two counting benchmarks. Only B1 counts and passes.
 - The edge criteria are met.
 - Per the plan the project stays private: no public notebooks or repository without a new decision from Sankalp.
+- Nov 1: Sankalp approved publishing the B2/B3 reproducibility audit on its own (Kaggle and GitHub). This project's
+  code is not part of it.
 
 ## 9. Next steps
 1. Make the interval calibration standard: it is in `fleet.train(interval_scales=True)`. The empirical-Bayes
    trim-error variance collapses to its floor in 2 of 5 folds; a hierarchical fit across folds would stabilise it.
 2. Real multi-well data with well tests: the method's claim rests on SimField and one small real field.
-3. B2: ask the authors for their split or code; B3: ask for the CSVs.
+3. B2: ask the authors for their split or code; B3: ask for the CSVs. The questions are in the public audit; nobody
+   has been contacted directly.
 4. Replace the frozen-composition edge flowline table with a two-axis table (mass rate × GOR).
 5. Control:
    - run setpoints as a closed loop (move, read the VFM, correct);
