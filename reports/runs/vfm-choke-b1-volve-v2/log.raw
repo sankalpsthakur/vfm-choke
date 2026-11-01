@@ -1,0 +1,103 @@
+[{"stream_name":"stderr","time":11.41689723,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.416960458,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.416967824,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.416972177,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.351074282,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.351109827,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.351116483,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.351120987,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.033158941,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":14.051601373,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":14.070363975,"data":"Writing src/vfmchoke/fewshot.py\n"}
+,{"stream_name":"stdout","time":14.088938153,"data":"Writing src/vfmchoke/fleet.py\n"}
+,{"stream_name":"stdout","time":14.1078161,"data":"Writing src/vfmchoke/hybrid.py\n"}
+,{"stream_name":"stdout","time":14.128164268999999,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":14.148815865,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":14.170231361,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":14.194580042,"data":"Writing src/vfmchoke/simfield.py\n"}
+,{"stream_name":"stdout","time":14.213944046,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":14.236431594,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stdout","time":14.256445831,"data":"Writing benchmarks/__init__.py\n"}
+,{"stream_name":"stdout","time":14.276628352,"data":"Writing benchmarks/dabiri.py\n"}
+,{"stream_name":"stdout","time":14.295240999,"data":"Writing benchmarks/volve.py\n"}
+,{"stream_name":"stdout","time":26.700929686,"data":"                days      start        end\n"}
+,{"stream_name":"stdout","time":26.70111038,"data":"well                                      \n"}
+,{"stream_name":"stdout","time":26.701117415,"data":"NO 15/9-F-1 C    400 2014-04-22 2016-04-06\n"}
+,{"stream_name":"stdout","time":26.701121922,"data":"NO 15/9-F-11 H  1054 2013-07-25 2016-09-16\n"}
+,{"stream_name":"stdout","time":26.701125938,"data":"NO 15/9-F-12 H  2633 2008-02-13 2016-08-12\n"}
+,{"stream_name":"stdout","time":26.701130086,"data":"NO 15/9-F-14 H  2529 2008-07-13 2016-07-12\n"}
+,{"stream_name":"stdout","time":26.701134088,"data":"NO 15/9-F-15 D   716 2014-01-16 2016-07-05\n"}
+,{"stream_name":"stdout","time":26.701137957,"data":"records (5 producers): 7332 | 4-well set: 6932\n"}
+,{"stream_name":"stdout","time":49.437715916,"data":"physics_latent_all_past {\n"}
+,{"stream_name":"stdout","time":49.43775299,"data":" \"mape_pct\": 12.123532059008875,\n"}
+,{"stream_name":"stdout","time":49.437759151,"data":" \"r2\": 0.9438824383144375,\n"}
+,{"stream_name":"stdout","time":49.437764804,"data":" \"rmse_sm3_d\": 330.6877895402713,\n"}
+,{"stream_name":"stdout","time":49.437770411,"data":" \"n\": 6750,\n"}
+,{"stream_name":"stdout","time":49.437775877,"data":" \"per_well_mape_pct\": {\n"}
+,{"stream_name":"stdout","time":49.437781349,"data":"  \"NO 15/9-F-11 H\": 13.723686185627509,\n"}
+,{"stream_name":"stdout","time":49.437798825,"data":"  \"NO 15/9-F-12 H\": 11.084457612549038,\n"}
+,{"stream_name":"stdout","time":49.437804951,"data":"  \"NO 15/9-F-14 H\": 10.984639180851822,\n"}
+,{"stream_name":"stdout","time":49.437808974,"data":"  \"NO 15/9-F-15 D\": 17.9791942560392\n"}
+,{"stream_name":"stdout","time":49.437818843,"data":" }\n"}
+,{"stream_name":"stdout","time":49.437821546,"data":"}\n"}
+,{"stream_name":"stdout","time":61.056310158,"data":"physics_latent_anchor_30d {\n"}
+,{"stream_name":"stdout","time":61.056351996,"data":" \"mape_pct\": 21.61452231620306,\n"}
+,{"stream_name":"stdout","time":61.05635736,"data":" \"r2\": 0.8716289983209067,\n"}
+,{"stream_name":"stdout","time":61.056361599,"data":" \"rmse_sm3_d\": 500.15225109793846,\n"}
+,{"stream_name":"stdout","time":61.05636568,"data":" \"n\": 6750,\n"}
+,{"stream_name":"stdout","time":61.056369585,"data":" \"per_well_mape_pct\": {\n"}
+,{"stream_name":"stdout","time":61.056373586,"data":"  \"NO 15/9-F-11 H\": 34.88876509726032,\n"}
+,{"stream_name":"stdout","time":61.056404619,"data":"  \"NO 15/9-F-12 H\": 19.89531088394777,\n"}
+,{"stream_name":"stdout","time":61.056408821,"data":"  \"NO 15/9-F-14 H\": 18.42577684806664,\n"}
+,{"stream_name":"stdout","time":61.056413565,"data":"  \"NO 15/9-F-15 D\": 19.916401920231618\n"}
+,{"stream_name":"stdout","time":61.056418271,"data":" }\n"}
+,{"stream_name":"stdout","time":61.056422069,"data":"}\n"}
+,{"stream_name":"stdout","time":149.651569148,"data":"{\n"}
+,{"stream_name":"stdout","time":149.651608652,"data":" \"n\": 6750,\n"}
+,{"stream_name":"stdout","time":149.651615551,"data":" \"ours_mape_pct\": 12.123532059008875,\n"}
+,{"stream_name":"stdout","time":149.651620968,"data":" \"ours_ci95\": [\n"}
+,{"stream_name":"stdout","time":149.65162606,"data":"  10.564922208680754,\n"}
+,{"stream_name":"stdout","time":149.651639472,"data":"  13.710494721031052\n"}
+,{"stream_name":"stdout","time":149.651644456,"data":" ],\n"}
+,{"stream_name":"stdout","time":149.651665846,"data":" \"gbm_replicate_mape_pct\": 14.623428567710341,\n"}
+,{"stream_name":"stdout","time":149.651669568,"data":" \"gbm_ci95\": [\n"}
+,{"stream_name":"stdout","time":149.651672983,"data":"  11.688174518725484,\n"}
+,{"stream_name":"stdout","time":149.651676245,"data":"  19.25234635835693\n"}
+,{"stream_name":"stdout","time":149.651679587,"data":" ],\n"}
+,{"stream_name":"stdout","time":149.651682812,"data":" \"diff_ci95\": [\n"}
+,{"stream_name":"stdout","time":149.651686188,"data":"  -7.446199462811751,\n"}
+,{"stream_name":"stdout","time":149.651689461,"data":"  0.6995678421181861\n"}
+,{"stream_name":"stdout","time":149.651692778,"data":" ]\n"}
+,{"stream_name":"stdout","time":149.651696021,"data":"}\n"}
+,{"stream_name":"stderr","time":152.82083866,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":152.822413024,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":152.822484132,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)\n"}
+,{"stream_name":"stderr","time":152.822493293,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":152.822498434,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":152.822529353,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":152.822532914,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":152.822535974,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":152.822539054,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":152.822542603,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":152.822641096,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":152.822646807,"data":"Exception encountered at \"In [16]\":\n"}
+,{"stream_name":"stderr","time":152.822649731,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":152.822652759,"data":"KeyError                                  Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":152.822655599,"data":"/tmp/ipykernel_16/9758899.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":152.82265865,"data":"    158 m = HistGradientBoostingRegressor(max_iter=300, learning_rate=0.05, random_state=0).fit(trn[feat], np.log(trn.q_o))\n"}
+,{"stream_name":"stderr","time":152.822661783,"data":"    159 results['gbm_frozen_replicate'] = {'four_wells': metrics(tst.assign(pred_q_o=np.exp(m.predict(tst[feat]))))}\n"}
+,{"stream_name":"stderr","time":152.822664839,"data":"--\u003e 160 print(json.dumps({k: v['four_wells'] for k, v in results.items()}, indent=1))\n"}
+,{"stream_name":"stderr","time":152.82266788,"data":"    161 \n"}
+,{"stream_name":"stderr","time":152.822670608,"data":"    162 published = {'walk_forward_mape_pct': 18.0, 'walk_forward_r2': 0.93, 'walk_forward_rmse': 333.0,\n"}
+,{"stream_name":"stderr","time":152.822673507,"data":"\n"}
+,{"stream_name":"stderr","time":152.822676209,"data":"KeyError: 'four_wells'\n"}
+,{"stream_name":"stderr","time":152.822679093,"data":"\n"}
+,{"stream_name":"stderr","time":156.055865408,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":156.055916985,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":156.399208925,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":156.399255558,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":157.467103394,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":157.57627182,"data":"[NbConvertApp] Writing 113225 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":160.999504275,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":162.098842617,"data":"[NbConvertApp] Writing 754408 bytes to __results__.html\n"}
+]

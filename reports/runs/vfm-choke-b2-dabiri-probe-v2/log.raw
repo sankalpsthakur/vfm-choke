@@ -1,0 +1,47 @@
+[{"stream_name":"stderr","time":12.487145855,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.487240807,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.487248766,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.487253264,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":13.495627695,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":13.49566728,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":13.495673196,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":13.495677411,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.156341771,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":15.175036944,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":15.193552654,"data":"Writing src/vfmchoke/fewshot.py\n"}
+,{"stream_name":"stdout","time":15.211217952,"data":"Writing src/vfmchoke/hybrid.py\n"}
+,{"stream_name":"stdout","time":15.231895491,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":15.253614474,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":15.278337436,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":15.304546681,"data":"Writing src/vfmchoke/simfield.py\n"}
+,{"stream_name":"stdout","time":15.323254105,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":15.345740094,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stdout","time":15.368986272,"data":"Writing benchmarks/__init__.py\n"}
+,{"stream_name":"stdout","time":15.395043763,"data":"Writing benchmarks/dabiri.py\n"}
+,{"stream_name":"stdout","time":18.320363663,"data":"downloaded 89589 bytes from https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-024-54010-2/MediaObjects/41598_2024_54010_MOESM1_ESM.docx\n"}
+,{"stream_name":"stdout","time":18.320450018,"data":"--- table 0: 566 rows; widths [5]\n"}
+,{"stream_name":"stdout","time":18.320469735,"data":"    ['No.', 'P(psi)', 'GLR(SCF/D)', 'D (1/64) in', 'Qliq,exp(STB/D)']\n"}
+,{"stream_name":"stdout","time":18.320496255,"data":"    ['1', '784', '69', '58.88', '25878']\n"}
+,{"stream_name":"stdout","time":18.320501158,"data":"    ['2', '1521', '715', '72', '22150']\n"}
+,{"stream_name":"stdout","time":18.320505429,"data":"    ['3', '490', '63', '64', '21500']\n"}
+,{"stream_name":"stdout","time":18.320509334,"data":"--- table 1: 6 rows; widths [4]\n"}
+,{"stream_name":"stdout","time":18.32051339,"data":"    ['Parameters', 'Pwh (psi)', 'GLR (STB/D)', 'D (1/64) in.']\n"}
+,{"stream_name":"stdout","time":18.320518743,"data":"    ['Min', '50', '36', '16']\n"}
+,{"stream_name":"stdout","time":18.320523148,"data":"    ['Q1', '593', '364', '44']\n"}
+,{"stream_name":"stdout","time":18.3205275,"data":"    ['Median', '1500', '915', '54']\n"}
+,{"stream_name":"stdout","time":18.320531548,"data":"--- table 2: 1 rows; widths [3]\n"}
+,{"stream_name":"stdout","time":18.320535508,"data":"    ['', '', '']\n"}
+,{"stream_name":"stdout","time":18.320539421,"data":"--- table 3: 7 rows; widths [2]\n"}
+,{"stream_name":"stdout","time":18.320545121,"data":"    ['Technique', 'Hyperparameters (Default Values)']\n"}
+,{"stream_name":"stdout","time":18.320569029,"data":"    ['Adaboost_SVR', \"SVR (C=1.0, epsilon=0.1, kernel='rbf', gamma='scale')\"]\n"}
+,{"stream_name":"stdout","time":18.320572208,"data":"    ['MARS', 'Default parameters depend on the implementation']\n"}
+,{"stream_name":"stdout","time":18.320575013,"data":"    ['MLP-lM', \"MLP Regressor (hidden_layer_sizes= (100,), solver='lbfgs')\"]\n"}
+,{"stream_name":"stderr","time":22.13675747,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":22.13680545,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":22.414114081,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":22.414179076,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":23.432398518,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":23.549181335,"data":"[NbConvertApp] Writing 87928 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":27.0036767,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":27.970681295,"data":"[NbConvertApp] Writing 637467 bytes to __results__.html\n"}
+]

@@ -1,0 +1,85 @@
+[{"stream_name":"stderr","time":8.585980046,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.586077522,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.586088091,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.586092666999999,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.345737085,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.345778385,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.345784385,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.345788776,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.691961857999999,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":10.711807039,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":10.736636915,"data":"Writing src/vfmchoke/control.py\n"}
+,{"stream_name":"stdout","time":10.761525055,"data":"Writing src/vfmchoke/edge.py\n"}
+,{"stream_name":"stdout","time":10.783288967,"data":"Writing src/vfmchoke/fewshot.py\n"}
+,{"stream_name":"stdout","time":10.802798869,"data":"Writing src/vfmchoke/fleet.py\n"}
+,{"stream_name":"stdout","time":10.823410042,"data":"Writing src/vfmchoke/hybrid.py\n"}
+,{"stream_name":"stdout","time":10.850053757,"data":"Writing src/vfmchoke/leak.py\n"}
+,{"stream_name":"stdout","time":10.881895063,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":10.910803994,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":10.939526642,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":10.967124366,"data":"Writing src/vfmchoke/simfield.py\n"}
+,{"stream_name":"stdout","time":10.984576342,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":11.006627454,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stdout","time":11.023771057,"data":"Writing benchmarks/__init__.py\n"}
+,{"stream_name":"stdout","time":11.042870681,"data":"Writing benchmarks/dabiri.py\n"}
+,{"stream_name":"stdout","time":11.062103216,"data":"Writing benchmarks/volve.py\n"}
+,{"stream_name":"stderr","time":13.795414563,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":13.796226415,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":13.796255118,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)\n"}
+,{"stream_name":"stderr","time":13.796261265,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":13.796264929,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":13.796268116,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":13.796271249,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":13.796274169,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":13.796288352,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":13.796291215,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":13.796293962,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":13.796296719,"data":"Exception encountered at \"In [19]\":\n"}
+,{"stream_name":"stderr","time":13.796299517,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":13.796302247,"data":"FileNotFoundError                         Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":13.796305024,"data":"/tmp/ipykernel_16/976474844.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":13.796307927,"data":"     17 T0 = time.time()\n"}
+,{"stream_name":"stderr","time":13.796313767000001,"data":"     18 IN = '/kaggle/input/vfm-choke-m2-simfield'\n"}
+,{"stream_name":"stderr","time":13.796316553,"data":"---\u003e 19 daily, tests, wells = fleet.prepare(pd.read_parquet(f'{IN}/simfield_daily.parquet'),\n"}
+,{"stream_name":"stderr","time":13.796319372,"data":"     20                                     pd.read_parquet(f'{IN}/simfield_tests.parquet'),\n"}
+,{"stream_name":"stderr","time":13.796322115,"data":"     21                                     pd.read_parquet(f'{IN}/simfield_wells.parquet'))\n"}
+,{"stream_name":"stderr","time":13.796324861,"data":"\n"}
+,{"stream_name":"stderr","time":13.796327501,"data":"/usr/local/lib/python3.13/dist-packages/pandas/io/parquet.py in read_parquet(path, engine, columns, storage_options, use_nullable_dtypes, dtype_backend, filesystem, filters, **kwargs)\n"}
+,{"stream_name":"stderr","time":13.796330566,"data":"    667     check_dtype_backend(dtype_backend)\n"}
+,{"stream_name":"stderr","time":13.796333336,"data":"    668 \n"}
+,{"stream_name":"stderr","time":13.796336081,"data":"--\u003e 669     return impl.read(\n"}
+,{"stream_name":"stderr","time":13.796338768,"data":"    670         path,\n"}
+,{"stream_name":"stderr","time":13.796341486,"data":"    671         columns=columns,\n"}
+,{"stream_name":"stderr","time":13.796344165,"data":"\n"}
+,{"stream_name":"stderr","time":13.796346732,"data":"/usr/local/lib/python3.13/dist-packages/pandas/io/parquet.py in read(self, path, columns, filters, use_nullable_dtypes, dtype_backend, storage_options, filesystem, **kwargs)\n"}
+,{"stream_name":"stderr","time":13.796350592,"data":"    256         if manager == \"array\":\n"}
+,{"stream_name":"stderr","time":13.796353436,"data":"    257             to_pandas_kwargs[\"split_blocks\"] = True\n"}
+,{"stream_name":"stderr","time":13.796356349,"data":"--\u003e 258         path_or_handle, handles, filesystem = _get_path_or_handle(\n"}
+,{"stream_name":"stderr","time":13.796359241,"data":"    259             path,\n"}
+,{"stream_name":"stderr","time":13.796361886,"data":"    260             filesystem,\n"}
+,{"stream_name":"stderr","time":13.796364544,"data":"\n"}
+,{"stream_name":"stderr","time":13.796367098,"data":"/usr/local/lib/python3.13/dist-packages/pandas/io/parquet.py in _get_path_or_handle(path, fs, storage_options, mode, is_dir)\n"}
+,{"stream_name":"stderr","time":13.796369995,"data":"    139         # fsspec resources can also point to directories\n"}
+,{"stream_name":"stderr","time":13.796372687,"data":"    140         # this branch is used for example when reading from non-fsspec URLs\n"}
+,{"stream_name":"stderr","time":13.796375427,"data":"--\u003e 141         handles = get_handle(\n"}
+,{"stream_name":"stderr","time":13.796381378,"data":"    142             path_or_handle, mode, is_text=False, storage_options=storage_options\n"}
+,{"stream_name":"stderr","time":13.796384252,"data":"    143         )\n"}
+,{"stream_name":"stderr","time":13.796386898,"data":"\n"}
+,{"stream_name":"stderr","time":13.796389463,"data":"/usr/local/lib/python3.13/dist-packages/pandas/io/common.py in get_handle(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)\n"}
+,{"stream_name":"stderr","time":13.796392361,"data":"    880         else:\n"}
+,{"stream_name":"stderr","time":13.79639499,"data":"    881             # Binary mode\n"}
+,{"stream_name":"stderr","time":13.796397656,"data":"--\u003e 882             handle = open(handle, ioargs.mode)\n"}
+,{"stream_name":"stderr","time":13.796400393,"data":"    883         handles.append(handle)\n"}
+,{"stream_name":"stderr","time":13.796403055,"data":"    884 \n"}
+,{"stream_name":"stderr","time":13.796405641,"data":"\n"}
+,{"stream_name":"stderr","time":13.796408174,"data":"FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/input/vfm-choke-m2-simfield/simfield_daily.parquet'\n"}
+,{"stream_name":"stderr","time":13.79641116,"data":"\n"}
+,{"stream_name":"stderr","time":16.558012087,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":16.558069278,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":16.761175536,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":16.761214336,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":17.677084984,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":17.785303255,"data":"[NbConvertApp] Writing 137207 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":21.055785891,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":22.098972147,"data":"[NbConvertApp] Writing 855908 bytes to __results__.html\n"}
+]

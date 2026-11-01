@@ -1,0 +1,96 @@
+[{"stream_name":"stderr","time":8.967427864,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.96747665,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.967482732,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.967487166,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.759973989,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.760009376,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.760014962,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.76002008,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.108344933,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":11.127203155,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":11.147174542,"data":"Writing src/vfmchoke/control.py\n"}
+,{"stream_name":"stdout","time":11.168618427,"data":"Writing src/vfmchoke/edge.py\n"}
+,{"stream_name":"stdout","time":11.1897879,"data":"Writing src/vfmchoke/fewshot.py\n"}
+,{"stream_name":"stdout","time":11.210928311,"data":"Writing src/vfmchoke/fleet.py\n"}
+,{"stream_name":"stdout","time":11.230757395,"data":"Writing src/vfmchoke/hybrid.py\n"}
+,{"stream_name":"stdout","time":11.251010201,"data":"Writing src/vfmchoke/leak.py\n"}
+,{"stream_name":"stdout","time":11.270426605,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":11.291674985,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":11.313828777,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":11.339253198,"data":"Writing src/vfmchoke/simfield.py\n"}
+,{"stream_name":"stdout","time":11.359325301,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":11.382199579,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stdout","time":11.400903754,"data":"Writing benchmarks/__init__.py\n"}
+,{"stream_name":"stdout","time":11.420812468,"data":"Writing benchmarks/dabiri.py\n"}
+,{"stream_name":"stdout","time":11.440033198,"data":"Writing benchmarks/volve.py\n"}
+,{"stream_name":"stdout","time":18.420314325,"data":"simulation input: /kaggle/input/notebooks/sankalpsthakur/vfm-choke-m2-simfield\n"}
+,{"stream_name":"stdout","time":45.515545508,"data":"[     27s] fold 0: trained on 1023 wells; prior {'tau0': 0.07125870848325817, 'tau1': 0.06614378370279315, 'q0': 4.47329244754882e-06, 'sig_mpfm': 0.022081417815678062, 'sig_test': 0.015069624038330318, 'sig_model': 0.015069624038330318}\n"}
+,{"stream_name":"stderr","time":63.068042944,"data":"/usr/local/lib/python3.13/dist-packages/numpy/_core/fromnumeric.py:3904: RuntimeWarning: Mean of empty slice.\n"}
+,{"stream_name":"stderr","time":63.068085549,"data":"  return _methods._mean(a, axis=axis, dtype=dtype,\n"}
+,{"stream_name":"stderr","time":63.06809364,"data":"/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide\n"}
+,{"stream_name":"stderr","time":63.068100159,"data":"  ret = ret.dtype.type(ret / rcount)\n"}
+,{"stream_name":"stderr","time":63.068105917,"data":"\n"}
+,{"stream_name":"stderr","time":63.068111687,"data":"/usr/local/lib/python3.13/dist-packages/numpy/_core/fromnumeric.py:3904: RuntimeWarning: Mean of empty slice.\n"}
+,{"stream_name":"stderr","time":63.068138465,"data":"  return _methods._mean(a, axis=axis, dtype=dtype,\n"}
+,{"stream_name":"stderr","time":63.068143975,"data":"/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide\n"}
+,{"stream_name":"stderr","time":63.068149439,"data":"  ret = ret.dtype.type(ret / rcount)\n"}
+,{"stream_name":"stderr","time":63.908945485,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":63.909727433,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":63.909753985,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)\n"}
+,{"stream_name":"stderr","time":63.909762908,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":63.90976863,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":63.909773695,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":63.90977817,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":63.90978119,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":63.909784361,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":63.90978724,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":63.909790401,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":63.909793438,"data":"Exception encountered at \"In [19]\":\n"}
+,{"stream_name":"stderr","time":63.909796526,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":63.909799577,"data":"ValueError                                Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":63.909802757,"data":"/tmp/ipykernel_16/2104087460.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":63.909805988,"data":"     91                     m_phys = m_phys * mult(hybrid.prior(c, flc)[0])\n"}
+,{"stream_name":"stderr","time":63.909808955,"data":"     92                     m_gil = m_gil * mult(gilbert_mass(c, flc))\n"}
+,{"stream_name":"stderr","time":63.909812035,"data":"---\u003e 93                     m_bb = m_bb * mult(np.exp(bb.predict(raw_feats(c, flc)[RAW])))\n"}
+,{"stream_name":"stderr","time":63.90981528,"data":"     94                     if regime == 'mpfm':\n"}
+,{"stream_name":"stderr","time":63.909818267,"data":"     95                         if k \u003e= 5:\n"}
+,{"stream_name":"stderr","time":63.909821304,"data":"\n"}
+,{"stream_name":"stderr","time":63.909824237,"data":"/usr/local/lib/python3.13/dist-packages/lightgbm/sklearn.py in predict(self, X, raw_score, start_iteration, num_iteration, pred_leaf, pred_contrib, validate_features, **kwargs)\n"}
+,{"stream_name":"stderr","time":63.909827731,"data":"   1142         predict_params[\"num_threads\"] = self._process_n_jobs(predict_params[\"num_threads\"])\n"}
+,{"stream_name":"stderr","time":63.909831256,"data":"   1143 \n"}
+,{"stream_name":"stderr","time":63.909834225,"data":"-\u003e 1144         return self._Booster.predict(  # type: ignore[union-attr]\n"}
+,{"stream_name":"stderr","time":63.90985027,"data":"   1145             X,\n"}
+,{"stream_name":"stderr","time":63.90985365,"data":"   1146             raw_score=raw_score,\n"}
+,{"stream_name":"stderr","time":63.909856743,"data":"\n"}
+,{"stream_name":"stderr","time":63.909860741,"data":"/usr/local/lib/python3.13/dist-packages/lightgbm/basic.py in predict(self, data, start_iteration, num_iteration, raw_score, pred_leaf, pred_contrib, data_has_header, validate_features, **kwargs)\n"}
+,{"stream_name":"stderr","time":63.90986423,"data":"   4765             else:\n"}
+,{"stream_name":"stderr","time":63.909867287,"data":"   4766                 num_iteration = -1\n"}
+,{"stream_name":"stderr","time":63.909870291,"data":"-\u003e 4767         return predictor.predict(\n"}
+,{"stream_name":"stderr","time":63.90988207,"data":"   4768             data=data,\n"}
+,{"stream_name":"stderr","time":63.909885279,"data":"   4769             start_iteration=start_iteration,\n"}
+,{"stream_name":"stderr","time":63.909888308,"data":"\n"}
+,{"stream_name":"stderr","time":63.909891206,"data":"/usr/local/lib/python3.13/dist-packages/lightgbm/basic.py in predict(self, data, start_iteration, num_iteration, raw_score, pred_leaf, pred_contrib, data_has_header, validate_features)\n"}
+,{"stream_name":"stderr","time":63.909894601,"data":"   1156 \n"}
+,{"stream_name":"stderr","time":63.909897438,"data":"   1157         if isinstance(data, pd_DataFrame):\n"}
+,{"stream_name":"stderr","time":63.909900391,"data":"-\u003e 1158             data = _data_from_pandas(\n"}
+,{"stream_name":"stderr","time":63.909903356,"data":"   1159                 data=data,\n"}
+,{"stream_name":"stderr","time":63.90990628,"data":"   1160                 feature_name=\"auto\",\n"}
+,{"stream_name":"stderr","time":63.909909371,"data":"\n"}
+,{"stream_name":"stderr","time":63.909912357,"data":"/usr/local/lib/python3.13/dist-packages/lightgbm/basic.py in _data_from_pandas(data, feature_name, categorical_feature, pandas_categorical)\n"}
+,{"stream_name":"stderr","time":63.909915634,"data":"    832 ) -\u003e Tuple[np.ndarray, List[str], Union[List[str], List[int]], List[List]]:\n"}
+,{"stream_name":"stderr","time":63.909918835,"data":"    833     if len(data.shape) != 2 or data.shape[0] \u003c 1:\n"}
+,{"stream_name":"stderr","time":63.909921916,"data":"--\u003e 834         raise ValueError(\"Input data must be 2 dimensional and non empty.\")\n"}
+,{"stream_name":"stderr","time":63.909925208,"data":"    835 \n"}
+,{"stream_name":"stderr","time":63.909928088,"data":"    836     # take shallow copy in case we modify categorical columns\n"}
+,{"stream_name":"stderr","time":63.909931117,"data":"\n"}
+,{"stream_name":"stderr","time":63.909933988,"data":"ValueError: Input data must be 2 dimensional and non empty.\n"}
+,{"stream_name":"stderr","time":63.909937028,"data":"\n"}
+,{"stream_name":"stderr","time":66.792910088,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":66.792944208,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":67.009169857,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":67.009198797,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":67.902895039,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":68.020857431,"data":"[NbConvertApp] Writing 140459 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":71.322915611,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":72.455710576,"data":"[NbConvertApp] Writing 862392 bytes to __results__.html\n"}
+]

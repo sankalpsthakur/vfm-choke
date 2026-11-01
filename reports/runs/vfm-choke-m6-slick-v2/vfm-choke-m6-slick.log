@@ -1,0 +1,81 @@
+[{"stream_name":"stderr","time":9.248839012,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.248911061,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.248916782,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.248920161,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.059308097,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.059344889,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.059351017,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.059355314,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.49202035,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":11.511758927,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":11.53108496,"data":"Writing src/vfmchoke/control.py\n"}
+,{"stream_name":"stdout","time":11.551492308,"data":"Writing src/vfmchoke/edge.py\n"}
+,{"stream_name":"stdout","time":11.573156413,"data":"Writing src/vfmchoke/fewshot.py\n"}
+,{"stream_name":"stdout","time":11.594678026,"data":"Writing src/vfmchoke/fleet.py\n"}
+,{"stream_name":"stdout","time":11.614837794,"data":"Writing src/vfmchoke/hybrid.py\n"}
+,{"stream_name":"stdout","time":11.636462846,"data":"Writing src/vfmchoke/leak.py\n"}
+,{"stream_name":"stdout","time":11.657221362,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":11.67948009,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":11.701638028,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":11.727481452,"data":"Writing src/vfmchoke/simfield.py\n"}
+,{"stream_name":"stdout","time":11.745940619,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":11.769105924,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stdout","time":11.787650883,"data":"Writing benchmarks/__init__.py\n"}
+,{"stream_name":"stdout","time":11.808043402,"data":"Writing benchmarks/dabiri.py\n"}
+,{"stream_name":"stdout","time":11.826696878,"data":"Writing benchmarks/volve.py\n"}
+,{"stream_name":"stdout","time":13.363808423,"data":"simulation input: /kaggle/input/notebooks/sankalpsthakur/vfm-choke-m2-simfield\n"}
+,{"stream_name":"stdout","time":13.572548212,"data":"[      1s] simulating 400 scenarios x 60 days\n"}
+,{"stream_name":"stdout","time":89.550629368,"data":"day 0: flowing 2373/2815, oil 13142788 stb/d\n"}
+,{"stream_name":"stdout","time":854.452590554,"data":"day 10: flowing 2359/2815, oil 12786477 stb/d\n"}
+,{"stream_name":"stdout","time":1629.943264102,"data":"day 20: flowing 2345/2815, oil 12432865 stb/d\n"}
+,{"stream_name":"stdout","time":2526.748551956,"data":"day 30: flowing 2358/2815, oil 12267633 stb/d\n"}
+,{"stream_name":"stdout","time":3498.558462848,"data":"day 40: flowing 2371/2815, oil 12049549 stb/d\n"}
+,{"stream_name":"stdout","time":4482.854267769,"data":"day 50: flowing 2366/2815, oil 11793986 stb/d\n"}
+,{"stream_name":"stdout","time":5374.038693184,"data":"[   5361s] simulated\n"}
+,{"stream_name":"stdout","time":7171.030793406,"data":"[   7158s] sensitivities done\n"}
+,{"stream_name":"stderr","time":7171.725894896,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":7171.727356216,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":7171.727384026,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)\n"}
+,{"stream_name":"stderr","time":7171.727393564,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":7171.72739992,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":7171.727416106,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":7171.727420857,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":7171.72742531,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":7171.727430234,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":7171.727492457,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":7171.727529618,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":7171.727535889,"data":"Exception encountered at \"In [19]\":\n"}
+,{"stream_name":"stderr","time":7171.727540168,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":7171.72754429,"data":"ZeroDivisionError                         Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":7171.727562535,"data":"/tmp/ipykernel_16/1453603783.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":7171.727567023,"data":"    159     released_true = float(gi[gi.day.between(onset[i], t_d)].leak_q_o.sum()) * u.DAY * 0.7\n"}
+,{"stream_name":"stderr","time":7171.727571636,"data":"    160     slick_vol = max(released_true, 0.05) * float(np.exp(rng.normal(0, 0.5)))\n"}
+,{"stream_name":"stderr","time":7171.727575794,"data":"--\u003e 161     post = leak.posterior(hs, r_mean, r_cov, comps, dp_obs, dp_cov, dp_sens, slick_xy, loc_sd, drift_est,\n"}
+,{"stream_name":"stderr","time":7171.727580507,"data":"    162                           lambda j, lam: lam * n_win * u.DAY * 0.7, slick_vol)\n"}
+,{"stream_name":"stderr","time":7171.727584656,"data":"    163     # which hypothesis is \"the truth\"\n"}
+,{"stream_name":"stderr","time":7171.727588727,"data":"\n"}
+,{"stream_name":"stderr","time":7171.727601305,"data":"/kaggle/working/src/vfmchoke/leak.py in posterior(hs, r_mean, r_cov, compositions, dp_obs, dp_cov, dp_sens, slick_xy, loc_sd, drift_xy, released_vol, slick_vol, vol_sd_log, prior_none)\n"}
+,{"stream_name":"stderr","time":7171.727606585,"data":"     83             ll_vol, lam = 0.0, 0.0\n"}
+,{"stream_name":"stderr","time":7171.727610747,"data":"     84         else:\n"}
+,{"stream_name":"stderr","time":7171.72761497,"data":"---\u003e 85             ll_phase, lam = phase_loglik(r_mean, r_cov, compositions[i])\n"}
+,{"stream_name":"stderr","time":7171.727618673,"data":"     86             e = dp_obs - lam * np.asarray(dp_sens[i])\n"}
+,{"stream_name":"stderr","time":7171.727622835,"data":"     87             ll_dp = -0.5 * float(e @ inv_dp @ e)\n"}
+,{"stream_name":"stderr","time":7171.727635812,"data":"\n"}
+,{"stream_name":"stderr","time":7171.727640389,"data":"/kaggle/working/src/vfmchoke/leak.py in phase_loglik(r_mean, r_cov, direction)\n"}
+,{"stream_name":"stderr","time":7171.727681728,"data":"     63     inv = np.linalg.inv(r_cov)\n"}
+,{"stream_name":"stderr","time":7171.727686645,"data":"     64     c = np.asarray(direction, dtype=float)\n"}
+,{"stream_name":"stderr","time":7171.727690638,"data":"---\u003e 65     lam = max(float(c @ inv @ r_mean) / float(c @ inv @ c), 0.0)\n"}
+,{"stream_name":"stderr","time":7171.727694695,"data":"     66     e = r_mean - lam * c\n"}
+,{"stream_name":"stderr","time":7171.727698858,"data":"     67     return -0.5 * float(e @ inv @ e), lam\n"}
+,{"stream_name":"stderr","time":7171.727711927,"data":"\n"}
+,{"stream_name":"stderr","time":7171.727716083,"data":"ZeroDivisionError: float division by zero\n"}
+,{"stream_name":"stderr","time":7171.727720319,"data":"\n"}
+,{"stream_name":"stderr","time":7174.767936022,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":7174.767975406,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":7174.997575358,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":7174.997607311,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":7175.992169213,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":7176.107155379,"data":"[NbConvertApp] Writing 143338 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":7179.325238496,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":7180.469023155,"data":"[NbConvertApp] Writing 887467 bytes to __results__.html\n"}
+]

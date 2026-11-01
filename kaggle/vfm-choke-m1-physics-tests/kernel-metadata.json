@@ -1,0 +1,16 @@
+{
+ "id": "sankalpsthakur/vfm-choke-m1-physics-tests",
+ "title": "VFM Choke M1 Physics Tests",
+ "code_file": "vfm-choke-m1-physics-tests.ipynb",
+ "language": "python",
+ "kernel_type": "notebook",
+ "is_private": true,
+ "enable_gpu": false,
+ "enable_tpu": false,
+ "enable_internet": false,
+ "dataset_sources": [],
+ "competition_sources": [],
+ "kernel_sources": [],
+ "model_sources": [],
+ "keywords": []
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+kaggle/.probe/
+reports/runs/**/src/
+reports/runs/**/tests/
+reports/runs/**/benchmarks/
+reports/runs/**/*.parquet
+reports/runs/**/*.pkl
+reports/runs/**/*.docx
+reports/runs/**/*.npz
+reports/*.log

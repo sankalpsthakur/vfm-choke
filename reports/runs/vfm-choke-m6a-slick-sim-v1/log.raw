@@ -1,0 +1,44 @@
+[{"stream_name":"stderr","time":11.640802536,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.640862738,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.640869823,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.640874297,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.591096143,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.59113558,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.591147024,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.591150724,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.203008542,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":14.223019297,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":14.243692271,"data":"Writing src/vfmchoke/control.py\n"}
+,{"stream_name":"stdout","time":14.26543171,"data":"Writing src/vfmchoke/edge.py\n"}
+,{"stream_name":"stdout","time":14.287289217,"data":"Writing src/vfmchoke/fewshot.py\n"}
+,{"stream_name":"stdout","time":14.312076,"data":"Writing src/vfmchoke/fleet.py\n"}
+,{"stream_name":"stdout","time":14.333897258,"data":"Writing src/vfmchoke/hybrid.py\n"}
+,{"stream_name":"stdout","time":14.356610998,"data":"Writing src/vfmchoke/leak.py\n"}
+,{"stream_name":"stdout","time":14.377267894,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":14.40028739,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":14.424205729,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":14.45069417,"data":"Writing src/vfmchoke/simfield.py\n"}
+,{"stream_name":"stdout","time":14.47120357,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":14.494813779,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stdout","time":14.514754499,"data":"Writing benchmarks/__init__.py\n"}
+,{"stream_name":"stdout","time":14.537463688999999,"data":"Writing benchmarks/dabiri.py\n"}
+,{"stream_name":"stdout","time":14.55810487,"data":"Writing benchmarks/volve.py\n"}
+,{"stream_name":"stdout","time":16.657927565,"data":"simulation input: /kaggle/input/notebooks/sankalpsthakur/vfm-choke-m2-simfield\n"}
+,{"stream_name":"stdout","time":16.847537561,"data":"[      1s] simulating 320 scenarios x 46 days\n"}
+,{"stream_name":"stdout","time":48.327140924,"data":"day 0: flowing 1895/2254, oil 10506351 stb/d\n"}
+,{"stream_name":"stdout","time":363.529732186,"data":"day 10: flowing 1895/2254, oil 10268745 stb/d\n"}
+,{"stream_name":"stdout","time":726.447226217,"data":"day 20: flowing 1892/2254, oil 10018420 stb/d\n"}
+,{"stream_name":"stdout","time":1152.374050861,"data":"day 30: flowing 1894/2254, oil 9769241 stb/d\n"}
+,{"stream_name":"stdout","time":1637.994964147,"data":"day 40: flowing 1891/2254, oil 9535359 stb/d\n"}
+,{"stream_name":"stdout","time":1877.334249387,"data":"[   1861s] simulated\n"}
+,{"stream_name":"stdout","time":2826.977424859,"data":"[   2811s] sensitivities done\n"}
+,{"stream_name":"stdout","time":2827.581852151,"data":"[   2811s] saved scenario data\n"}
+,{"stream_name":"stderr","time":2831.778834023,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2831.778889432,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2832.103658288,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2832.103701075,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2833.307004006,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":2833.428538226,"data":"[NbConvertApp] Writing 134953 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":2837.081958623,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2838.384772435,"data":"[NbConvertApp] Writing 862504 bytes to __results__.html\n"}
+]

@@ -1,0 +1,16 @@
+{
+ "id": "sankalpsthakur/vfm-choke-b2-dabiri",
+ "title": "VFM Choke B2 Dabiri",
+ "code_file": "vfm-choke-b2-dabiri.ipynb",
+ "language": "python",
+ "kernel_type": "notebook",
+ "is_private": true,
+ "enable_gpu": false,
+ "enable_tpu": false,
+ "enable_internet": true,
+ "dataset_sources": [],
+ "competition_sources": [],
+ "kernel_sources": [],
+ "model_sources": [],
+ "keywords": []
+}

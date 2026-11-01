@@ -1,0 +1,45 @@
+{
+ "0": {
+  "single_within_5pct": 0.16,
+  "single_median_abs_err": 0.133680742334071,
+  "single_trials": 75,
+  "multi_oil_gain_mean": 0.3318364002096612,
+  "multi_oil_gain_ci95": [
+   0.22955812162136113,
+   0.434008370381634
+  ],
+  "violations_gas_opt": 0.0,
+  "violations_water_opt": 0.375,
+  "violations_gas_heur": 0.0,
+  "violations_water_heur": 0.0
+ },
+ "3": {
+  "single_within_5pct": 0.35294117647058826,
+  "single_median_abs_err": 0.07698297956540423,
+  "single_trials": 85,
+  "multi_oil_gain_mean": 0.3691227490321791,
+  "multi_oil_gain_ci95": [
+   0.240739729047266,
+   0.5143282352241234
+  ],
+  "violations_gas_opt": 0.0,
+  "violations_water_opt": 0.375,
+  "violations_gas_heur": 0.0,
+  "violations_water_heur": 0.0
+ },
+ "30": {
+  "single_within_5pct": 0.36470588235294116,
+  "single_median_abs_err": 0.07492920552003146,
+  "single_trials": 85,
+  "multi_oil_gain_mean": 0.34173102989599713,
+  "multi_oil_gain_ci95": [
+   0.22845587263923414,
+   0.4703357464394231
+  ],
+  "violations_gas_opt": 0.0,
+  "violations_water_opt": 0.5,
+  "violations_gas_heur": 0.0,
+  "violations_water_heur": 0.0
+ },
+ "seconds": 7771.5
+}

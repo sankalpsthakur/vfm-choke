@@ -1,0 +1,18 @@
+{
+ "id": "sankalpsthakur/vfm-choke-b1-volve",
+ "title": "VFM Choke B1 Volve",
+ "code_file": "vfm-choke-b1-volve.ipynb",
+ "language": "python",
+ "kernel_type": "notebook",
+ "is_private": true,
+ "enable_gpu": false,
+ "enable_tpu": false,
+ "enable_internet": false,
+ "dataset_sources": [
+  "lamyalbert/volve-production-data"
+ ],
+ "competition_sources": [],
+ "kernel_sources": [],
+ "model_sources": [],
+ "keywords": []
+}

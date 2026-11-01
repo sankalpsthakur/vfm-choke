@@ -1,0 +1,135 @@
+{
+ "leaks": 240,
+ "controls": 80,
+ "top1": 0.23333333333333334,
+ "top3": 0.6166666666666667,
+ "kind_correct": 0.4625,
+ "by_kind": {
+  "1": {
+   "top1": 0.228,
+   "top3": 0.515,
+   "kind_correct": 0.653
+  },
+  "2": {
+   "top1": 0.192,
+   "top3": 0.423,
+   "kind_correct": 0.192
+  },
+  "3": {
+   "top1": 0.291,
+   "top3": 0.684,
+   "kind_correct": 0.354
+  },
+  "4": {
+   "top1": 0.147,
+   "top3": 0.912,
+   "kind_correct": 0.353
+  }
+ },
+ "by_size": {
+  "(0.0, 0.01]": {
+   "top1": 0.15,
+   "top3": 0.599
+  },
+  "(0.01, 0.02]": {
+   "top1": 0.371,
+   "top3": 0.6
+  },
+  "(0.02, 0.05]": {
+   "top1": 0.444,
+   "top3": 0.741
+  },
+  "(0.05, 1.0]": {
+   "top1": 0.75,
+   "top3": 0.833
+  }
+ },
+ "alarm_rate_leaks": 0.3958333333333333,
+ "alarm_delay_median_days": 3.0,
+ "false_alarm_rate_controls": 0.225,
+ "controls_none_top1": 1.0,
+ "target_top3_ge_2pct": 0.7692307692307693,
+ "demo": {
+  "scenario": 13,
+  "truth": "jumper of well slot 3",
+  "leak_frac": 0.019550669539824893,
+  "onset_true": 30,
+  "onset_cusum": 31,
+  "detect": 34,
+  "table": [
+   {
+    "hypothesis": "jumper slot 2",
+    "posterior": 0.5322,
+    "leak_oil_stb_d": 1057.2,
+    "ll_phase": -0.01,
+    "ll_pressure": -0.71,
+    "ll_location": -0.89,
+    "ll_volume": -0.34
+   },
+   {
+    "hypothesis": "jumper slot 1",
+    "posterior": 0.2337,
+    "leak_oil_stb_d": 866.6,
+    "ll_phase": -0.51,
+    "ll_pressure": -0.41,
+    "ll_location": -1.7,
+    "ll_volume": -0.15
+   },
+   {
+    "hypothesis": "manifold",
+    "posterior": 0.1197,
+    "leak_oil_stb_d": 1210.0,
+    "ll_phase": -0.54,
+    "ll_pressure": -0.95,
+    "ll_location": -1.43,
+    "ll_volume": -0.52
+   },
+   {
+    "hypothesis": "jumper slot 3",
+    "posterior": 0.0831,
+    "leak_oil_stb_d": 407.0,
+    "ll_phase": -2.24,
+    "ll_pressure": -0.44,
+    "ll_location": -0.98,
+    "ll_volume": -0.15
+   },
+   {
+    "hypothesis": "jumper slot 0",
+    "posterior": 0.0156,
+    "leak_oil_stb_d": 575.7,
+    "ll_phase": -3.42,
+    "ll_pressure": -0.63,
+    "ll_location": -1.43,
+    "ll_volume": -0.0
+   },
+   {
+    "hypothesis": "jumper slot 4",
+    "posterior": 0.0106,
+    "leak_oil_stb_d": 783.9,
+    "ll_phase": -4.35,
+    "ll_pressure": -0.35,
+    "ll_location": -1.09,
+    "ll_volume": -0.08
+   },
+   {
+    "hypothesis": "jumper slot 5",
+    "posterior": 0.0051,
+    "leak_oil_stb_d": 183.2,
+    "ll_phase": -2.86,
+    "ll_pressure": -0.43,
+    "ll_location": -1.89,
+    "ll_volume": -1.41
+   },
+   {
+    "hypothesis": "none",
+    "posterior": 0.0,
+    "leak_oil_stb_d": 0.0,
+    "ll_phase": -6.6,
+    "ll_pressure": -0.95,
+    "ll_location": -6.91,
+    "ll_volume": 0.0
+   }
+  ]
+ },
+ "seconds": 4.6
+}

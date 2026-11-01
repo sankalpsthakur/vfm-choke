@@ -1,0 +1,112 @@
+[{"stream_name":"stderr","time":9.124197239,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.12425708,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.124264717,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.124269013,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.861420384,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.861455795,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.861459757,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.861462559,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.218225696,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":11.235196023,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":11.253066627,"data":"Writing src/vfmchoke/control.py\n"}
+,{"stream_name":"stdout","time":11.270534019,"data":"Writing src/vfmchoke/edge.py\n"}
+,{"stream_name":"stdout","time":11.287782377,"data":"Writing src/vfmchoke/fewshot.py\n"}
+,{"stream_name":"stdout","time":11.305852319,"data":"Writing src/vfmchoke/fleet.py\n"}
+,{"stream_name":"stdout","time":11.322672563,"data":"Writing src/vfmchoke/hybrid.py\n"}
+,{"stream_name":"stdout","time":11.340285717,"data":"Writing src/vfmchoke/leak.py\n"}
+,{"stream_name":"stdout","time":11.358366192,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":11.377462555,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":11.3970768,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":11.418852581,"data":"Writing src/vfmchoke/simfield.py\n"}
+,{"stream_name":"stdout","time":11.435080573,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":11.457062937,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stdout","time":11.472044904,"data":"Writing benchmarks/__init__.py\n"}
+,{"stream_name":"stdout","time":11.489522987,"data":"Writing benchmarks/dabiri.py\n"}
+,{"stream_name":"stdout","time":11.505659989,"data":"Writing benchmarks/volve.py\n"}
+,{"stream_name":"stdout","time":13.220283823,"data":"population: 843 wells in 120 groups\n"}
+,{"stream_name":"stdout","time":32.352158613,"data":"day 0: flowing 839/843, oil 5182036 stb/d\n"}
+,{"stream_name":"stdout","time":222.000312516,"data":"day 10: flowing 837/843, oil 5019769 stb/d\n"}
+,{"stream_name":"stdout","time":413.984415526,"data":"day 20: flowing 825/843, oil 4788227 stb/d\n"}
+,{"stream_name":"stdout","time":604.484355289,"data":"day 30: flowing 838/843, oil 4799577 stb/d\n"}
+,{"stream_name":"stdout","time":795.079292808,"data":"day 40: flowing 830/843, oil 4673018 stb/d\n"}
+,{"stream_name":"stdout","time":985.116342378,"data":"day 50: flowing 838/843, oil 4660236 stb/d\n"}
+,{"stream_name":"stdout","time":1175.334131534,"data":"day 60: flowing 827/843, oil 4547060 stb/d\n"}
+,{"stream_name":"stdout","time":1364.549668819,"data":"day 70: flowing 828/843, oil 4375359 stb/d\n"}
+,{"stream_name":"stdout","time":1554.549927818,"data":"day 80: flowing 833/843, oil 4364468 stb/d\n"}
+,{"stream_name":"stdout","time":1743.769749156,"data":"day 90: flowing 834/843, oil 4318655 stb/d\n"}
+,{"stream_name":"stdout","time":1932.335543348,"data":"day 100: flowing 831/843, oil 4248121 stb/d\n"}
+,{"stream_name":"stdout","time":2121.95204186,"data":"day 110: flowing 825/843, oil 4133895 stb/d\n"}
+,{"stream_name":"stdout","time":2311.636056347,"data":"day 120: flowing 827/843, oil 4086232 stb/d\n"}
+,{"stream_name":"stdout","time":2501.954187081,"data":"day 130: flowing 830/843, oil 4034016 stb/d\n"}
+,{"stream_name":"stdout","time":2692.67466332,"data":"day 140: flowing 834/843, oil 3981153 stb/d\n"}
+,{"stream_name":"stdout","time":2883.539554297,"data":"day 150: flowing 828/843, oil 3870113 stb/d\n"}
+,{"stream_name":"stdout","time":3074.824144131,"data":"day 160: flowing 831/843, oil 3816748 stb/d\n"}
+,{"stream_name":"stdout","time":3266.325246141,"data":"day 170: flowing 834/843, oil 3793597 stb/d\n"}
+,{"stream_name":"stdout","time":3440.042879581,"data":"{\n"}
+,{"stream_name":"stdout","time":3440.042921691,"data":" \"well_days\": 151740,\n"}
+,{"stream_name":"stdout","time":3440.042928263,"data":" \"flowing_fraction\": 0.9848556741795176,\n"}
+,{"stream_name":"stdout","time":3440.042933781,"data":" \"wells\": 843,\n"}
+,{"stream_name":"stdout","time":3440.042938441,"data":" \"groups\": 120,\n"}
+,{"stream_name":"stdout","time":3440.042943322,"data":" \"days\": 180,\n"}
+,{"stream_name":"stdout","time":3440.042947917,"data":" \"liquid_stb_d\": {\n"}
+,{"stream_name":"stdout","time":3440.04295266,"data":"  \"1\": 398.92112103664283,\n"}
+,{"stream_name":"stdout","time":3440.042957565,"data":"  \"10\": 1432.0112852845948,\n"}
+,{"stream_name":"stdout","time":3440.042962254,"data":"  \"50\": 5352.7383523698645,\n"}
+,{"stream_name":"stdout","time":3440.042967012,"data":"  \"90\": 14170.762262589338,\n"}
+,{"stream_name":"stdout","time":3440.042971651,"data":"  \"99\": 25993.474002072657\n"}
+,{"stream_name":"stdout","time":3440.042976252,"data":" },\n"}
+,{"stream_name":"stdout","time":3440.042980663,"data":" \"p_wh_bar\": {\n"}
+,{"stream_name":"stdout","time":3440.04298558,"data":"  \"1\": 23.283510189003962,\n"}
+,{"stream_name":"stdout","time":3440.042990643,"data":"  \"10\": 32.94426013122599,\n"}
+,{"stream_name":"stdout","time":3440.042995409,"data":"  \"50\": 55.112376749374256,\n"}
+,{"stream_name":"stdout","time":3440.043000102,"data":"  \"90\": 97.63366544786292,\n"}
+,{"stream_name":"stdout","time":3440.043003143,"data":"  \"99\": 159.07334391235062\n"}
+,{"stream_name":"stdout","time":3440.043027077,"data":" },\n"}
+,{"stream_name":"stdout","time":3440.043033011,"data":" \"p_man_bar\": {\n"}
+,{"stream_name":"stdout","time":3440.043037824,"data":"  \"1\": 11.515294385189042,\n"}
+,{"stream_name":"stdout","time":3440.043042667,"data":"  \"10\": 17.04155404077014,\n"}
+,{"stream_name":"stdout","time":3440.043047534,"data":"  \"50\": 27.734523640994635,\n"}
+,{"stream_name":"stdout","time":3440.043052286,"data":"  \"90\": 47.65378191121133,\n"}
+,{"stream_name":"stdout","time":3440.043056906,"data":"  \"99\": 65.29666415672249\n"}
+,{"stream_name":"stdout","time":3440.043061534,"data":" },\n"}
+,{"stream_name":"stdout","time":3440.043065877,"data":" \"pressure_ratio_y\": {\n"}
+,{"stream_name":"stdout","time":3440.043070455,"data":"  \"1\": 0.12743041030691526,\n"}
+,{"stream_name":"stdout","time":3440.043075003,"data":"  \"10\": 0.2462745415301313,\n"}
+,{"stream_name":"stdout","time":3440.043079594,"data":"  \"50\": 0.5566900352186068,\n"}
+,{"stream_name":"stdout","time":3440.043084417,"data":"  \"90\": 0.9042643163566524,\n"}
+,{"stream_name":"stdout","time":3440.043089099,"data":"  \"99\": 0.9872914330574364\n"}
+,{"stream_name":"stdout","time":3440.04309361,"data":" },\n"}
+,{"stream_name":"stdout","time":3440.043107213,"data":" \"critical_fraction\": 0.36801568501492216,\n"}
+,{"stream_name":"stdout","time":3440.043111292,"data":" \"water_cut\": {\n"}
+,{"stream_name":"stdout","time":3440.043114923,"data":"  \"1\": 0.0014959646145119498,\n"}
+,{"stream_name":"stdout","time":3440.043118675,"data":"  \"10\": 0.025633659051713546,\n"}
+,{"stream_name":"stdout","time":3440.043122382,"data":"  \"50\": 0.2186592748830563,\n"}
+,{"stream_name":"stdout","time":3440.04312655,"data":"  \"90\": 0.4977956684419149,\n"}
+,{"stream_name":"stdout","time":3440.043130452,"data":"  \"99\": 0.6278308846784254\n"}
+,{"stream_name":"stdout","time":3440.0431342,"data":" },\n"}
+,{"stream_name":"stdout","time":3440.043137595,"data":" \"gor_scf_stb\": {\n"}
+,{"stream_name":"stdout","time":3440.043141299,"data":"  \"1\": 282.18596226806727,\n"}
+,{"stream_name":"stdout","time":3440.043145078,"data":"  \"10\": 345.8077044475091,\n"}
+,{"stream_name":"stdout","time":3440.043148828,"data":"  \"50\": 720.8475832710164,\n"}
+,{"stream_name":"stdout","time":3440.043152555,"data":"  \"90\": 1567.9168552682554,\n"}
+,{"stream_name":"stdout","time":3440.04315657,"data":"  \"99\": 1957.2946977446795\n"}
+,{"stream_name":"stdout","time":3440.043160358,"data":" },\n"}
+,{"stream_name":"stdout","time":3440.043163929,"data":" \"mpfm_liquid_rel_error\": {\n"}
+,{"stream_name":"stdout","time":3440.043167793,"data":"  \"1\": -0.05598552307315344,\n"}
+,{"stream_name":"stdout","time":3440.043171698,"data":"  \"10\": -0.03024206272602341,\n"}
+,{"stream_name":"stdout","time":3440.043175473,"data":"  \"50\": 0.0015347478348810561,\n"}
+,{"stream_name":"stdout","time":3440.043179141,"data":"  \"90\": 0.03448179865403128,\n"}
+,{"stream_name":"stdout","time":3440.043182847,"data":"  \"99\": 0.06196654771916672\n"}
+,{"stream_name":"stdout","time":3440.043186935,"data":" },\n"}
+,{"stream_name":"stdout","time":3440.043190225,"data":" \"tests\": 4994,\n"}
+,{"stream_name":"stdout","time":3440.043194048,"data":" \"seconds\": 3427.2\n"}
+,{"stream_name":"stdout","time":3440.043196599,"data":"}\n"}
+,{"stream_name":"stderr","time":3443.551604873,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3443.551640403,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3443.777531489,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3443.777561339,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3444.730126657,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":3444.837641196,"data":"[NbConvertApp] Writing 127718 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":3447.89008108,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3448.891357153,"data":"[NbConvertApp] Writing 812674 bytes to __results__.html\n"}
+]

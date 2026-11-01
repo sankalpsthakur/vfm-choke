@@ -1,0 +1,53 @@
+[{"stream_name":"stderr","time":9.693795629,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.693849434,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.693856473,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.693860402,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.497896851,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.497956356,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.497962402,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.497966649,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.866216625,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":11.880442483,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":11.895781080999999,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":11.911541298,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":11.92805351,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":11.941510126,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":11.958395927,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stdout","time":11.971542135,"data":"Writing tests/conftest.py\n"}
+,{"stream_name":"stdout","time":11.988995193000001,"data":"Writing tests/test_physics.py\n"}
+,{"stream_name":"stdout","time":68.739404768,"data":"...................                                                      [100%]\n"}
+,{"stream_name":"stdout","time":68.73943904,"data":"==================================== PASSES ====================================\n"}
+,{"stream_name":"stdout","time":68.739445285,"data":"------------- generated xml file: /kaggle/working/test_report.xml --------------\n"}
+,{"stream_name":"stdout","time":68.739449818,"data":"=========================== short test summary info ============================\n"}
+,{"stream_name":"stdout","time":68.739454869,"data":"PASSED tests/test_physics.py::test_pvt_bounds\n"}
+,{"stream_name":"stdout","time":68.739459929,"data":"PASSED tests/test_physics.py::test_mass_bookkeeping_exact\n"}
+,{"stream_name":"stdout","time":68.739464479,"data":"PASSED tests/test_physics.py::test_gas_ideal_limit\n"}
+,{"stream_name":"stdout","time":68.739469181,"data":"PASSED tests/test_physics.py::test_mix_is_mass_exact\n"}
+,{"stream_name":"stdout","time":68.73947412,"data":"PASSED tests/test_physics.py::test_liquid_only_is_bernoulli\n"}
+,{"stream_name":"stdout","time":68.739479233,"data":"PASSED tests/test_physics.py::test_gas_only_critical_ratio\n"}
+,{"stream_name":"stdout","time":68.73948403200001,"data":"PASSED tests/test_physics.py::test_continuity_at_critical\n"}
+,{"stream_name":"stdout","time":68.739488626,"data":"PASSED tests/test_physics.py::test_choke_monotone\n"}
+,{"stream_name":"stdout","time":68.739493259,"data":"PASSED tests/test_physics.py::test_gilbert_unit_conversion\n"}
+,{"stream_name":"stdout","time":68.739497689,"data":"PASSED tests/test_physics.py::test_ipr_inverse\n"}
+,{"stream_name":"stdout","time":68.739502297,"data":"PASSED tests/test_physics.py::test_operating_point_consistent\n"}
+,{"stream_name":"stdout","time":68.739507007,"data":"PASSED tests/test_physics.py::test_rate_rises_with_opening\n"}
+,{"stream_name":"stdout","time":68.739523805,"data":"PASSED tests/test_physics.py::test_network_no_leak\n"}
+,{"stream_name":"stdout","time":68.739527975,"data":"PASSED tests/test_physics.py::test_jumper_leak_signature\n"}
+,{"stream_name":"stdout","time":68.739531628,"data":"PASSED tests/test_physics.py::test_flowline_leak_signature\n"}
+,{"stream_name":"stdout","time":68.739535312,"data":"PASSED tests/test_physics.py::test_riser_leak_conserves\n"}
+,{"stream_name":"stdout","time":68.739539212,"data":"PASSED tests/test_physics.py::test_mpfm_exact_inversion\n"}
+,{"stream_name":"stdout","time":68.739542974,"data":"PASSED tests/test_physics.py::test_mpfm_read_noise_free_is_exact\n"}
+,{"stream_name":"stdout","time":68.739546783,"data":"PASSED tests/test_physics.py::test_mpfm_stale_salinity_overreads_water\n"}
+,{"stream_name":"stdout","time":68.739550869,"data":"19 passed in 54.18s\n"}
+,{"stream_name":"stdout","time":68.739554261,"data":"\n"}
+,{"stream_name":"stdout","time":68.739557606,"data":"\n"}
+,{"stream_name":"stdout","time":68.739561151,"data":"{'returncode': 0, 'seconds': 56.7, 'summary': '19 passed in 54.18s'}\n"}
+,{"stream_name":"stderr","time":72.058244445,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":72.058282041,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":72.304605305,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":72.304636906,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":73.204366688,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":73.299858926,"data":"[NbConvertApp] Writing 68682 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":76.368785748,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":77.19208102,"data":"[NbConvertApp] Writing 564991 bytes to __results__.html\n"}
+]

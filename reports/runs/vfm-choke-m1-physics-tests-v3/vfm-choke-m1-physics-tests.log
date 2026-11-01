@@ -1,0 +1,102 @@
+[{"stream_name":"stderr","time":12.368585522,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.368640229,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.368645413,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.368648443,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":13.317202722,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":13.317241814,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":13.317247085,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":13.317251472,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.370393631,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":15.396917024,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":15.419968025,"data":"Writing src/vfmchoke/control.py\n"}
+,{"stream_name":"stdout","time":15.443950297,"data":"Writing src/vfmchoke/edge.py\n"}
+,{"stream_name":"stdout","time":15.468042168,"data":"Writing src/vfmchoke/fewshot.py\n"}
+,{"stream_name":"stdout","time":15.4945411,"data":"Writing src/vfmchoke/fleet.py\n"}
+,{"stream_name":"stdout","time":15.523495592,"data":"Writing src/vfmchoke/hybrid.py\n"}
+,{"stream_name":"stdout","time":15.548964243,"data":"Writing src/vfmchoke/leak.py\n"}
+,{"stream_name":"stdout","time":15.587926221,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":15.617601091000001,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":15.648553096,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":15.683842021,"data":"Writing src/vfmchoke/simfield.py\n"}
+,{"stream_name":"stdout","time":15.710299785,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":15.736877728,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stdout","time":15.758760868,"data":"Writing tests/conftest.py\n"}
+,{"stream_name":"stdout","time":15.78911733,"data":"Writing tests/test_models.py\n"}
+,{"stream_name":"stdout","time":15.830967701,"data":"Writing tests/test_physics.py\n"}
+,{"stream_name":"stdout","time":15.863533434,"data":"Writing benchmarks/__init__.py\n"}
+,{"stream_name":"stdout","time":15.895050496,"data":"Writing benchmarks/dabiri.py\n"}
+,{"stream_name":"stdout","time":15.930419276,"data":"Writing benchmarks/volve.py\n"}
+,{"stream_name":"stdout","time":100.815079929,"data":".............................                                            [100%]\n"}
+,{"stream_name":"stdout","time":100.815131012,"data":"=============================== warnings summary ===============================\n"}
+,{"stream_name":"stdout","time":100.815137294,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":100.815141283,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+,{"stream_name":"stdout","time":100.815145104,"data":"    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+,{"stream_name":"stdout","time":100.815148858,"data":"\n"}
+,{"stream_name":"stdout","time":100.815152149,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":100.815236209,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":100.815240733,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":100.81524357,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":100.815246236,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":100.815248893,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":100.81525167,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+,{"stream_name":"stdout","time":100.815254706,"data":"    parse = parser.parseString(pattern)\n"}
+,{"stream_name":"stdout","time":100.815257441,"data":"\n"}
+,{"stream_name":"stdout","time":100.815259981,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":100.815262644,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":100.81526541,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":100.815268061,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":100.815270716,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":100.815273352,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":100.815276187,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+,{"stream_name":"stdout","time":100.815279137,"data":"    parser.resetCache()\n"}
+,{"stream_name":"stdout","time":100.815281849,"data":"\n"}
+,{"stream_name":"stdout","time":100.815284377,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":100.815287195,"data":"  /usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names\n"}
+,{"stream_name":"stdout","time":100.815290179,"data":"    warnings.warn(\n"}
+,{"stream_name":"stdout","time":100.815292847,"data":"\n"}
+,{"stream_name":"stdout","time":100.815295444,"data":"-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+,{"stream_name":"stdout","time":100.815298275,"data":"==================================== PASSES ====================================\n"}
+,{"stream_name":"stdout","time":100.815301047,"data":"------------- generated xml file: /kaggle/working/test_report.xml --------------\n"}
+,{"stream_name":"stdout","time":100.815303787,"data":"=========================== short test summary info ============================\n"}
+,{"stream_name":"stdout","time":100.815306507,"data":"PASSED tests/test_models.py::test_latent_prior_only_without_labels\n"}
+,{"stream_name":"stdout","time":100.815310811,"data":"PASSED tests/test_models.py::test_latent_recovers_truth_with_many_labels\n"}
+,{"stream_name":"stdout","time":100.815313711,"data":"PASSED tests/test_models.py::test_track_moves_toward_observations\n"}
+,{"stream_name":"stdout","time":100.815316456,"data":"PASSED tests/test_models.py::test_prior_arrays_match_prior\n"}
+,{"stream_name":"stdout","time":100.81531921,"data":"PASSED tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":100.815321938,"data":"PASSED tests/test_models.py::test_vfm_multiplier_scales_rate\n"}
+,{"stream_name":"stdout","time":100.815324781,"data":"PASSED tests/test_models.py::test_setpoint_hits_target_on_its_own_model\n"}
+,{"stream_name":"stdout","time":100.815331325,"data":"PASSED tests/test_models.py::test_simfield_small_run_conserves\n"}
+,{"stream_name":"stdout","time":100.815334196,"data":"PASSED tests/test_models.py::test_edge_step_matches_full_solve\n"}
+,{"stream_name":"stdout","time":100.815336861,"data":"PASSED tests/test_physics.py::test_pvt_bounds\n"}
+,{"stream_name":"stdout","time":100.815339527,"data":"PASSED tests/test_physics.py::test_mass_bookkeeping_exact\n"}
+,{"stream_name":"stdout","time":100.815342212,"data":"PASSED tests/test_physics.py::test_gas_ideal_limit\n"}
+,{"stream_name":"stdout","time":100.815344867,"data":"PASSED tests/test_physics.py::test_mix_is_mass_exact\n"}
+,{"stream_name":"stdout","time":100.815347562,"data":"PASSED tests/test_physics.py::test_liquid_only_is_bernoulli\n"}
+,{"stream_name":"stdout","time":100.815350238,"data":"PASSED tests/test_physics.py::test_gas_only_critical_ratio\n"}
+,{"stream_name":"stdout","time":100.815353082,"data":"PASSED tests/test_physics.py::test_critical_ratio_matches_flux_maximiser\n"}
+,{"stream_name":"stdout","time":100.815355924,"data":"PASSED tests/test_physics.py::test_continuity_at_critical\n"}
+,{"stream_name":"stdout","time":100.815358687,"data":"PASSED tests/test_physics.py::test_choke_monotone\n"}
+,{"stream_name":"stdout","time":100.815361341,"data":"PASSED tests/test_physics.py::test_gilbert_unit_conversion\n"}
+,{"stream_name":"stdout","time":100.815364077,"data":"PASSED tests/test_physics.py::test_ipr_inverse\n"}
+,{"stream_name":"stdout","time":100.815402963,"data":"PASSED tests/test_physics.py::test_operating_point_consistent\n"}
+,{"stream_name":"stdout","time":100.815415228,"data":"PASSED tests/test_physics.py::test_rate_rises_with_opening\n"}
+,{"stream_name":"stdout","time":100.815418081,"data":"PASSED tests/test_physics.py::test_network_no_leak\n"}
+,{"stream_name":"stdout","time":100.815420786,"data":"PASSED tests/test_physics.py::test_jumper_leak_signature\n"}
+,{"stream_name":"stdout","time":100.815423462,"data":"PASSED tests/test_physics.py::test_flowline_leak_signature\n"}
+,{"stream_name":"stdout","time":100.81542623,"data":"PASSED tests/test_physics.py::test_riser_leak_conserves\n"}
+,{"stream_name":"stdout","time":100.815428987,"data":"PASSED tests/test_physics.py::test_mpfm_exact_inversion\n"}
+,{"stream_name":"stdout","time":100.815431796,"data":"PASSED tests/test_physics.py::test_mpfm_read_noise_free_is_exact\n"}
+,{"stream_name":"stdout","time":100.815434556,"data":"PASSED tests/test_physics.py::test_mpfm_stale_salinity_overreads_water\n"}
+,{"stream_name":"stdout","time":100.815437381,"data":"29 passed, 14 warnings in 80.64s (0:01:20)\n"}
+,{"stream_name":"stdout","time":100.815440425,"data":"\n"}
+,{"stream_name":"stdout","time":100.815442989,"data":"\n"}
+,{"stream_name":"stdout","time":100.815445594,"data":"{'returncode': 0, 'seconds': 84.8, 'summary': '29 passed, 14 warnings in 80.64s (0:01:20)'}\n"}
+,{"stream_name":"stderr","time":104.176564532,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":104.176616477,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":104.435238467,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":104.435328686,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":105.441008311,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":105.552399018,"data":"[NbConvertApp] Writing 151442 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":108.865120489,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":110.024380835,"data":"[NbConvertApp] Writing 935687 bytes to __results__.html\n"}
+]

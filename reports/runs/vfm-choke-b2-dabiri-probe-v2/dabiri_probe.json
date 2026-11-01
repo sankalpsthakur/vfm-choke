@@ -1,0 +1,103 @@
+{
+ "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-024-54010-2/MediaObjects/41598_2024_54010_MOESM1_ESM.docx",
+ "bytes": 89589,
+ "tables": [
+  {
+   "table": 0,
+   "rows": 566,
+   "head": [
+    [
+     "No.",
+     "P(psi)",
+     "GLR(SCF/D)",
+     "D (1/64) in",
+     "Qliq,exp(STB/D)"
+    ],
+    [
+     "1",
+     "784",
+     "69",
+     "58.88",
+     "25878"
+    ],
+    [
+     "2",
+     "1521",
+     "715",
+     "72",
+     "22150"
+    ],
+    [
+     "3",
+     "490",
+     "63",
+     "64",
+     "21500"
+    ]
+   ]
+  },
+  {
+   "table": 1,
+   "rows": 6,
+   "head": [
+    [
+     "Parameters",
+     "Pwh (psi)",
+     "GLR (STB/D)",
+     "D (1/64) in."
+    ],
+    [
+     "Min",
+     "50",
+     "36",
+     "16"
+    ],
+    [
+     "Q1",
+     "593",
+     "364",
+     "44"
+    ],
+    [
+     "Median",
+     "1500",
+     "915",
+     "54"
+    ]
+   ]
+  },
+  {
+   "table": 2,
+   "rows": 1,
+   "head": [
+    [
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "table": 3,
+   "rows": 7,
+   "head": [
+    [
+     "Technique",
+     "Hyperparameters (Default Values)"
+    ],
+    [
+     "Adaboost_SVR",
+     "SVR (C=1.0, epsilon=0.1, kernel='rbf', gamma='scale')"
+    ],
+    [
+     "MARS",
+     "Default parameters depend on the implementation"
+    ],
+    [
+     "MLP-lM",
+     "MLP Regressor (hidden_layer_sizes= (100,), solver='lbfgs')"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,166 @@
+[{"stream_name":"stderr","time":12.313396523,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.313498225,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.313505847,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.313510381,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":13.216891263,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":13.216959129,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":13.216963738,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":13.216967021,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.832718121,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":14.854393506,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":14.876959943,"data":"Writing src/vfmchoke/control.py\n"}
+,{"stream_name":"stdout","time":14.90135916,"data":"Writing src/vfmchoke/edge.py\n"}
+,{"stream_name":"stdout","time":14.92547418,"data":"Writing src/vfmchoke/fewshot.py\n"}
+,{"stream_name":"stdout","time":14.947667046,"data":"Writing src/vfmchoke/fleet.py\n"}
+,{"stream_name":"stdout","time":14.969591497,"data":"Writing src/vfmchoke/hybrid.py\n"}
+,{"stream_name":"stdout","time":14.992152518,"data":"Writing src/vfmchoke/leak.py\n"}
+,{"stream_name":"stdout","time":15.016266401,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":15.041883376,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":15.06861357,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":15.096587289,"data":"Writing src/vfmchoke/simfield.py\n"}
+,{"stream_name":"stdout","time":15.119243897,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":15.145246552,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stdout","time":15.16630279,"data":"Writing benchmarks/__init__.py\n"}
+,{"stream_name":"stdout","time":15.190940816,"data":"Writing benchmarks/dabiri.py\n"}
+,{"stream_name":"stdout","time":15.213338235,"data":"Writing benchmarks/volve.py\n"}
+,{"stream_name":"stdout","time":25.131883273,"data":"simulation input: /kaggle/input/notebooks/sankalpsthakur/vfm-choke-m2-simfield\n"}
+,{"stream_name":"stdout","time":57.637255538,"data":"[     33s] fold 0: trained on 1023 wells; prior {'tau0': 0.07125870848325817, 'tau1': 0.06614378370279315, 'q0': 4.47329244754882e-06, 'sig_mpfm': 0.022081417815678062, 'sig_test': 0.015069624038330318, 'sig_model': 0.015069624038330318}\n"}
+,{"stream_name":"stdout","time":184.579229502,"data":"[    160s] fold 0 evaluated\n"}
+,{"stream_name":"stdout","time":212.21663952,"data":"[    187s] fold 1: trained on 1038 wells; prior {'tau0': 0.0647646900122505, 'tau1': 0.001, 'q0': 4.1734813722575265e-06, 'sig_mpfm': 0.022399068469028897, 'sig_test': 0.01572726817097651, 'sig_model': 0.01572726817097651}\n"}
+,{"stream_name":"stdout","time":322.02119193,"data":"[    297s] fold 1 evaluated\n"}
+,{"stream_name":"stdout","time":347.988721796,"data":"[    323s] fold 2: trained on 1001 wells; prior {'tau0': 0.07673360869827674, 'tau1': 0.09074886245322906, 'q0': 4.828366353749307e-06, 'sig_mpfm': 0.022395635126153213, 'sig_test': 0.01663806437282568, 'sig_model': 0.01663806437282568}\n"}
+,{"stream_name":"stdout","time":477.484899255,"data":"[    453s] fold 2 evaluated\n"}
+,{"stream_name":"stdout","time":504.292594063,"data":"[    480s] fold 3: trained on 1013 wells; prior {'tau0': 0.07489977340586372, 'tau1': 0.001, 'q0': 3.9697343228051794e-06, 'sig_mpfm': 0.02215641881090449, 'sig_test': 0.015538548636788203, 'sig_model': 0.015538548636788203}\n"}
+,{"stream_name":"stdout","time":632.810167667,"data":"[    608s] fold 3 evaluated\n"}
+,{"stream_name":"stdout","time":659.504213162,"data":"[    635s] fold 4: trained on 1037 wells; prior {'tau0': 0.0803796387559864, 'tau1': 0.111447144317735, 'q0': 4.729131742606773e-06, 'sig_mpfm': 0.02225039675102909, 'sig_test': 0.01609627975306476, 'sig_model': 0.01609627975306476}\n"}
+,{"stream_name":"stdout","time":767.273877432,"data":"[    742s] fold 4 evaluated\n"}
+,{"stream_name":"stdout","time":779.471640808,"data":"   regime   k           method  wells  liquid_median  liquid_lo  liquid_hi  mass_median   mass_lo   mass_hi  oil_median    oil_lo    oil_hi  gas_median    gas_lo    gas_hi  water_err_median  coverage90_mean\n"}
+,{"stream_name":"stdout","time":779.47170582,"data":"1    mpfm   0           hybrid   1219       0.076352   0.071907   0.081614     0.076839  0.072252  0.081836    0.112114  0.105060  0.117423    0.111904  0.104055  0.117766          0.104526         0.779396\n"}
+,{"stream_name":"stdout","time":779.471713279,"data":"2    mpfm   0          physics   1219       0.083297   0.078319   0.089184     0.085976  0.080985  0.091418    0.090964  0.083520  0.096206    0.088489  0.081844  0.094968          0.107464              NaN\n"}
+,{"stream_name":"stdout","time":779.471718955,"data":"3    mpfm   0  pooled_blackbox   1219       0.203464   0.194663   0.212120     0.201346  0.191131  0.212659    0.241798  0.221954  0.259708    0.238165  0.222804  0.254540          0.111054              NaN\n"}
+,{"stream_name":"stdout","time":779.471725019,"data":"0    mpfm   0          gilbert   1219       0.364856   0.324353   0.416789     0.355367  0.325263  0.412042    0.529609  0.477140  0.614098    0.520928  0.472640  0.629597          0.124056              NaN\n"}
+,{"stream_name":"stdout","time":779.471730392,"data":"5    mpfm   1           hybrid   1219       0.057300   0.053777   0.060780     0.057931  0.054577  0.062006    0.091935  0.085427  0.097280    0.091326  0.085147  0.097449          0.104106         0.603732\n"}
+,{"stream_name":"stdout","time":779.471735972,"data":"7    mpfm   1          physics   1219       0.059826   0.056139   0.063680     0.063510  0.059559  0.066518    0.091237  0.086225  0.097879    0.091074  0.084447  0.098025          0.104452              NaN\n"}
+,{"stream_name":"stdout","time":779.471741447,"data":"8    mpfm   1  pooled_blackbox   1219       0.101836   0.098520   0.106505     0.101700  0.095449  0.106520    0.170912  0.162243  0.185463    0.176850  0.168179  0.190461          0.097343              NaN\n"}
+,{"stream_name":"stdout","time":779.47174687,"data":"6    mpfm   1      perwell_gbm   1211       0.189164   0.171005   0.205626     0.186530  0.168712  0.204473    0.303504  0.286382  0.322696    0.316655  0.296883  0.337369          0.106497              NaN\n"}
+,{"stream_name":"stdout","time":779.471756525,"data":"4    mpfm   1          gilbert   1219       0.235547   0.222623   0.245693     0.235507  0.223977  0.246239    0.270153  0.252621  0.286363    0.279112  0.255706  0.293343          0.118425              NaN\n"}
+,{"stream_name":"stdout","time":779.471763222,"data":"10   mpfm   2           hybrid   1219       0.055878   0.052981   0.058351     0.058367  0.054854  0.061241    0.093726  0.086855  0.099246    0.091857  0.085337  0.096167          0.104300         0.573364\n"}
+,{"stream_name":"stdout","time":779.471769316,"data":"12   mpfm   2          physics   1219       0.058596   0.054753   0.062139     0.061967  0.058001  0.064957    0.094104  0.087234  0.100631    0.091025  0.085069  0.097022          0.104577              NaN\n"}
+,{"stream_name":"stdout","time":779.471794258,"data":"13   mpfm   2  pooled_blackbox   1219       0.100974   0.095410   0.106308     0.100711  0.095502  0.105078    0.170110  0.159879  0.183821    0.178025  0.165342  0.189073          0.096678              NaN\n"}
+,{"stream_name":"stdout","time":779.471809536,"data":"11   mpfm   2      perwell_gbm   1211       0.189343   0.173341   0.208440     0.189600  0.170374  0.207771    0.305136  0.286245  0.326955    0.320453  0.295604  0.342822          0.106408              NaN\n"}
+,{"stream_name":"stdout","time":779.471814203,"data":"9    mpfm   2          gilbert   1219       0.232809   0.219873   0.246176     0.234942  0.221005  0.245631    0.268763  0.253807  0.285921    0.272881  0.254262  0.297555          0.117638              NaN\n"}
+,{"stream_name":"stdout","time":779.471818148,"data":"15   mpfm   3           hybrid   1219       0.054258   0.051349   0.057934     0.057496  0.053873  0.060495    0.092348  0.085285  0.099748    0.088532  0.083257  0.096832          0.103489         0.566363\n"}
+,{"stream_name":"stdout","time":779.471822436,"data":"17   mpfm   3          physics   1219       0.057650   0.054072   0.060942     0.061000  0.057384  0.063920    0.094301  0.086719  0.101159    0.088217  0.082829  0.095788          0.103504              NaN\n"}
+,{"stream_name":"stdout","time":779.471827156,"data":"18   mpfm   3  pooled_blackbox   1219       0.100958   0.095849   0.107256     0.100613  0.094664  0.106969    0.170360  0.159714  0.184347    0.175142  0.163021  0.186583          0.095420              NaN\n"}
+,{"stream_name":"stdout","time":779.471831087,"data":"16   mpfm   3      perwell_gbm   1211       0.189725   0.174929   0.205513     0.189912  0.170789  0.206544    0.304430  0.282521  0.331182    0.320852  0.294708  0.346049          0.105659              NaN\n"}
+,{"stream_name":"stdout","time":779.4718354,"data":"14   mpfm   3          gilbert   1219       0.233663   0.220758   0.245831     0.232255  0.220781  0.245580    0.269147  0.251439  0.285800    0.274080  0.252916  0.295306          0.117899              NaN\n"}
+,{"stream_name":"stdout","time":779.471839517,"data":"20   mpfm   5           hybrid   1219       0.054373   0.051429   0.058294     0.057400  0.054176  0.060135    0.090132  0.083986  0.096166    0.088175  0.083003  0.094298          0.102705         0.552040\n"}
+,{"stream_name":"stdout","time":779.471843679,"data":"22   mpfm   5          physics   1219       0.056626   0.053703   0.060242     0.061025  0.057931  0.063555    0.093923  0.085472  0.100070    0.088963  0.084085  0.096211          0.102699              NaN\n"}
+,{"stream_name":"stdout","time":779.471848039,"data":"23   mpfm   5  pooled_blackbox   1219       0.100512   0.094927   0.106702     0.099275  0.093836  0.104415    0.170620  0.158402  0.180510    0.173101  0.160061  0.181668          0.096464              NaN\n"}
+,{"stream_name":"stdout","time":779.471852694,"data":"21   mpfm   5      perwell_gbm   1211       0.178562   0.166360   0.193028     0.175773  0.164552  0.188280    0.296379  0.279043  0.323779    0.313720  0.290579  0.331093          0.104301              NaN\n"}
+,{"stream_name":"stdout","time":779.471857293,"data":"19   mpfm   5          gilbert   1219       0.231274   0.219184   0.248248     0.233110  0.216785  0.248724    0.266190  0.253753  0.287511    0.273814  0.252580  0.290505          0.115924              NaN\n"}
+,{"stream_name":"stdout","time":779.471861876,"data":"25   mpfm  10           hybrid   1219       0.053434   0.050116   0.056877     0.057057  0.053827  0.060149    0.089859  0.082920  0.096743    0.088479  0.081830  0.092815          0.099971         0.537006\n"}
+,{"stream_name":"stdout","time":779.471867587,"data":"27   mpfm  10          physics   1219       0.055838   0.052440   0.058678     0.059849  0.056974  0.063176    0.091185  0.083691  0.098919    0.088530  0.082442  0.094952          0.100359              NaN\n"}
+,{"stream_name":"stdout","time":779.471878975,"data":"28   mpfm  10  pooled_blackbox   1219       0.100250   0.094924   0.104924     0.098315  0.094787  0.104782    0.165356  0.157780  0.175736    0.169878  0.158243  0.178925          0.095254              NaN\n"}
+,{"stream_name":"stdout","time":779.471883689,"data":"26   mpfm  10      perwell_gbm   1211       0.169942   0.154319   0.183898     0.168665  0.156449  0.180708    0.293530  0.270413  0.311862    0.297315  0.281674  0.316152          0.100007              NaN\n"}
+,{"stream_name":"stdout","time":779.471888603,"data":"24   mpfm  10          gilbert   1219       0.230270   0.214512   0.244309     0.230145  0.217374  0.246724    0.269252  0.251810  0.285977    0.273256  0.248794  0.292233          0.114658              NaN\n"}
+,{"stream_name":"stdout","time":779.471893551,"data":"30   mpfm  30           hybrid   1219       0.046684   0.043859   0.049939     0.051004  0.047398  0.053350    0.085449  0.080213  0.091776    0.083057  0.076974  0.089035          0.092623         0.531386\n"}
+,{"stream_name":"stdout","time":779.471898151,"data":"32   mpfm  30          physics   1219       0.051766   0.048978   0.055115     0.054683  0.051812  0.057942    0.086432  0.080364  0.091699    0.083730  0.078723  0.088492          0.093614              NaN\n"}
+,{"stream_name":"stdout","time":779.471902591,"data":"33   mpfm  30  pooled_blackbox   1219       0.095366   0.089288   0.099872     0.093205  0.088989  0.098663    0.156463  0.148605  0.166414    0.158016  0.149337  0.166559          0.086837              NaN\n"}
+,{"stream_name":"stdout","time":779.471906676,"data":"31   mpfm  30      perwell_gbm   1211       0.130926   0.119273   0.142811     0.128976  0.117007  0.142653    0.251107  0.237857  0.269056    0.262762  0.243621  0.283339          0.089512              NaN\n"}
+,{"stream_name":"stdout","time":779.471910756,"data":"29   mpfm  30          gilbert   1219       0.219392   0.208095   0.233659     0.220350  0.208494  0.233233    0.248069  0.236226  0.264875    0.247080  0.234911  0.264732          0.107163              NaN\n"}
+,{"stream_name":"stdout","time":779.471914722,"data":"35   test   0           hybrid   1219       0.076352   0.071907   0.081844     0.076839  0.072251  0.081808    0.112114  0.105690  0.117852    0.111904  0.104055  0.117901          0.104526         0.779396\n"}
+,{"stream_name":"stdout","time":779.471919019,"data":"36   test   0          physics   1219       0.083297   0.078543   0.090062     0.085976  0.081008  0.091570    0.090964  0.083457  0.096457    0.088489  0.081844  0.093649          0.107464              NaN\n"}
+,{"stream_name":"stdout","time":779.471923459,"data":"37   test   0  pooled_blackbox   1219       0.203464   0.194685   0.211751     0.201346  0.191353  0.212438    0.241798  0.222176  0.259005    0.238165  0.222777  0.256087          0.111054              NaN\n"}
+,{"stream_name":"stdout","time":779.471928033,"data":"34   test   0          gilbert   1219       0.364856   0.324353   0.416753     0.355367  0.324191  0.409416    0.529609  0.477444  0.610532    0.520928  0.472640  0.625630          0.124056              NaN\n"}
+,{"stream_name":"stdout","time":779.471932936,"data":"39   test   1           hybrid   1219       0.050360   0.046863   0.053970     0.052223  0.049558  0.054807    0.082705  0.078020  0.088911    0.080130  0.075463  0.085715          0.092464         0.621793\n"}
+,{"stream_name":"stdout","time":779.47193753,"data":"40   test   1          physics   1219       0.053882   0.050735   0.057247     0.055663  0.053590  0.058679    0.084542  0.079218  0.090466    0.080656  0.076578  0.086113          0.093556              NaN\n"}
+,{"stream_name":"stdout","time":779.471942905,"data":"41   test   1  pooled_blackbox   1219       0.097393   0.093015   0.105528     0.097233  0.093044  0.102630    0.162709  0.153445  0.170399    0.160790  0.152221  0.168611          0.087425              NaN\n"}
+,{"stream_name":"stdout","time":779.471951159,"data":"38   test   1          gilbert   1219       0.225095   0.211734   0.239997     0.226920  0.211641  0.238444    0.259139  0.238389  0.280791    0.262325  0.243034  0.277923          0.104547              NaN\n"}
+,{"stream_name":"stdout","time":779.471956026,"data":"43   test   2           hybrid   1219       0.043078   0.039709   0.045953     0.043722  0.041490  0.047169    0.074907  0.070667  0.078293    0.072951  0.068534  0.076752          0.081089         0.631390\n"}
+,{"stream_name":"stdout","time":779.471960721,"data":"44   test   2          physics   1219       0.046984   0.044512   0.049237     0.048818  0.045750  0.051884    0.075702  0.071209  0.080697    0.072672  0.069041  0.077500          0.080396              NaN\n"}
+,{"stream_name":"stdout","time":779.471965357,"data":"45   test   2  pooled_blackbox   1219       0.089643   0.085423   0.096761     0.088991  0.083920  0.096175    0.145698  0.136110  0.152463    0.142989  0.136317  0.150705          0.077770              NaN\n"}
+,{"stream_name":"stdout","time":779.47196937,"data":"42   test   2          gilbert   1219       0.202167   0.192115   0.215193     0.202984  0.193512  0.216612    0.237036  0.221550  0.251990    0.238525  0.221730  0.251982          0.093448              NaN\n"}
+,{"stream_name":"stdout","time":779.471974947,"data":"47   test   3           hybrid   1219       0.032765   0.030510   0.035636     0.034080  0.031831  0.036196    0.065095  0.060266  0.068926    0.064599  0.060280  0.068702          0.067708         0.669665\n"}
+,{"stream_name":"stdout","time":779.471979816,"data":"48   test   3          physics   1219       0.041927   0.039804   0.043750     0.042823  0.040794  0.045535    0.062272  0.059780  0.067206    0.063975  0.059287  0.068523          0.069099              NaN\n"}
+,{"stream_name":"stdout","time":779.47198468,"data":"49   test   3  pooled_blackbox   1219       0.083815   0.079412   0.087882     0.081984  0.078846  0.086034    0.130119  0.123278  0.134632    0.125885  0.119508  0.133788          0.065493              NaN\n"}
+,{"stream_name":"stdout","time":779.471988936,"data":"46   test   3          gilbert   1219       0.187222   0.174533   0.197457     0.185431  0.174419  0.197479    0.211034  0.197602  0.226368    0.213528  0.202038  0.225785          0.080447              NaN\n"}
+,{"stream_name":"stdout","time":779.471993169,"data":"{\n"}
+,{"stream_name":"stdout","time":779.471997481,"data":" \"k0_beats_gilbert\": true,\n"}
+,{"stream_name":"stdout","time":779.472001542,"data":" \"k0_beats_physics\": false,\n"}
+,{"stream_name":"stdout","time":779.47200529,"data":" \"reference\": \"physics at k=30: 0.0518\",\n"}
+,{"stream_name":"stdout","time":779.472009547,"data":" \"k1_hybrid_over_reference\": 1.106904086208217,\n"}
+,{"stream_name":"stdout","time":779.472013613,"data":" \"k1_within_1.25x\": true,\n"}
+,{"stream_name":"stdout","time":779.472017733,"data":" \"k2_hybrid_over_reference\": 1.0794355161036848,\n"}
+,{"stream_name":"stdout","time":779.472022193,"data":" \"k2_within_1.25x\": true,\n"}
+,{"stream_name":"stdout","time":779.472025944,"data":" \"k3_hybrid_over_reference\": 1.0481395023535,\n"}
+,{"stream_name":"stdout","time":779.472029669,"data":" \"k3_within_1.25x\": true,\n"}
+,{"stream_name":"stdout","time":779.472033093,"data":" \"coverage_by_k\": [\n"}
+,{"stream_name":"stdout","time":779.4720374,"data":"  {\n"}
+,{"stream_name":"stdout","time":779.472041189,"data":"   \"regime\": \"mpfm\",\n"}
+,{"stream_name":"stdout","time":779.472045279,"data":"   \"k\": 0,\n"}
+,{"stream_name":"stdout","time":779.472054009,"data":"   \"coverage90_mean\": 0.7793960014492733\n"}
+,{"stream_name":"stdout","time":779.472058493,"data":"  },\n"}
+,{"stream_name":"stdout","time":779.472062747,"data":"  {\n"}
+,{"stream_name":"stdout","time":779.472066308,"data":"   \"regime\": \"mpfm\",\n"}
+,{"stream_name":"stdout","time":779.472070347,"data":"   \"k\": 1,\n"}
+,{"stream_name":"stdout","time":779.47207411,"data":"   \"coverage90_mean\": 0.6037322707015109\n"}
+,{"stream_name":"stdout","time":779.472078279,"data":"  },\n"}
+,{"stream_name":"stdout","time":779.472081955,"data":"  {\n"}
+,{"stream_name":"stdout","time":779.472085974,"data":"   \"regime\": \"mpfm\",\n"}
+,{"stream_name":"stdout","time":779.472089594,"data":"   \"k\": 2,\n"}
+,{"stream_name":"stdout","time":779.472093332,"data":"   \"coverage90_mean\": 0.573363632826717\n"}
+,{"stream_name":"stdout","time":779.472098023,"data":"  },\n"}
+,{"stream_name":"stdout","time":779.472102147,"data":"  {\n"}
+,{"stream_name":"stdout","time":779.472106055,"data":"   \"regime\": \"mpfm\",\n"}
+,{"stream_name":"stdout","time":779.472111056,"data":"   \"k\": 3,\n"}
+,{"stream_name":"stdout","time":779.47211521,"data":"   \"coverage90_mean\": 0.5663631540398347\n"}
+,{"stream_name":"stdout","time":779.472119467,"data":"  },\n"}
+,{"stream_name":"stdout","time":779.472123584,"data":"  {\n"}
+,{"stream_name":"stdout","time":779.472152647,"data":"   \"regime\": \"mpfm\",\n"}
+,{"stream_name":"stdout","time":779.47215995,"data":"   \"k\": 5,\n"}
+,{"stream_name":"stdout","time":779.472164393,"data":"   \"coverage90_mean\": 0.5520404450812345\n"}
+,{"stream_name":"stdout","time":779.472168573,"data":"  },\n"}
+,{"stream_name":"stdout","time":779.472172502,"data":"  {\n"}
+,{"stream_name":"stdout","time":779.472176146,"data":"   \"regime\": \"mpfm\",\n"}
+,{"stream_name":"stdout","time":779.47218003,"data":"   \"k\": 10,\n"}
+,{"stream_name":"stdout","time":779.472183939,"data":"   \"coverage90_mean\": 0.5370056559546367\n"}
+,{"stream_name":"stdout","time":779.472188156,"data":"  },\n"}
+,{"stream_name":"stdout","time":779.472192068,"data":"  {\n"}
+,{"stream_name":"stdout","time":779.472195859,"data":"   \"regime\": \"mpfm\",\n"}
+,{"stream_name":"stdout","time":779.472199519,"data":"   \"k\": 30,\n"}
+,{"stream_name":"stdout","time":779.472203587,"data":"   \"coverage90_mean\": 0.5313860584336447\n"}
+,{"stream_name":"stdout","time":779.47220781,"data":"  },\n"}
+,{"stream_name":"stdout","time":779.472211729,"data":"  {\n"}
+,{"stream_name":"stdout","time":779.472215096,"data":"   \"regime\": \"test\",\n"}
+,{"stream_name":"stdout","time":779.472219122,"data":"   \"k\": 0,\n"}
+,{"stream_name":"stdout","time":779.472223013,"data":"   \"coverage90_mean\": 0.7793960014492733\n"}
+,{"stream_name":"stdout","time":779.472227253,"data":"  },\n"}
+,{"stream_name":"stdout","time":779.472230665,"data":"  {\n"}
+,{"stream_name":"stdout","time":779.472234507,"data":"   \"regime\": \"test\",\n"}
+,{"stream_name":"stdout","time":779.472238267,"data":"   \"k\": 1,\n"}
+,{"stream_name":"stdout","time":779.472242247,"data":"   \"coverage90_mean\": 0.6217931240636005\n"}
+,{"stream_name":"stdout","time":779.472247044,"data":"  },\n"}
+,{"stream_name":"stdout","time":779.472251014,"data":"  {\n"}
+,{"stream_name":"stdout","time":779.472254574,"data":"   \"regime\": \"test\",\n"}
+,{"stream_name":"stdout","time":779.472258815,"data":"   \"k\": 2,\n"}
+,{"stream_name":"stdout","time":779.472262668,"data":"   \"coverage90_mean\": 0.6313899850937317\n"}
+,{"stream_name":"stdout","time":779.472273453,"data":"  },\n"}
+,{"stream_name":"stdout","time":779.472278416,"data":"  {\n"}
+,{"stream_name":"stdout","time":779.472282013,"data":"   \"regime\": \"test\",\n"}
+,{"stream_name":"stdout","time":779.472285573,"data":"   \"k\": 3,\n"}
+,{"stream_name":"stdout","time":779.472289548,"data":"   \"coverage90_mean\": 0.6696647791951187\n"}
+,{"stream_name":"stdout","time":779.47229327,"data":"  }\n"}
+,{"stream_name":"stdout","time":779.472297343,"data":" ],\n"}
+,{"stream_name":"stdout","time":779.472301047,"data":" \"coverage_85_95_all_k\": false,\n"}
+,{"stream_name":"stdout","time":779.472305279,"data":" \"seconds\": 754.7\n"}
+,{"stream_name":"stdout","time":779.472309262,"data":"}\n"}
+,{"stream_name":"stderr","time":783.835567978,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":783.835641784,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":784.119156081,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":784.119199343,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":785.207185348,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":785.337466541,"data":"[NbConvertApp] Writing 147370 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":789.018047892,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":790.151320599,"data":"[NbConvertApp] Writing 868368 bytes to __results__.html\n"}
+]

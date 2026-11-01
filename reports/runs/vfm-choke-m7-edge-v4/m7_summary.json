@@ -1,0 +1,39 @@
+{
+ "tree_parity_max_abs": 7.771561172376096e-16,
+ "vfm_parity_max_rel": 4.440892098500626e-16,
+ "wells_exported": 29,
+ "artifact_bytes": 232577,
+ "peak_traced_bytes_during_inference": 32258,
+ "well_eval_ms": {
+  "p50": 3.644905500010509,
+  "p99": 5.185427240021454,
+  "max": 6.50775999997677
+ },
+ "scan_all_wells_ms": {
+  "wells": 29,
+  "p50": 18.336580499976662,
+  "p99": 20.16669535000857,
+  "per_well_p99": 0.69540328793133
+ },
+ "optimizer_step_ms_30_wells": {
+  "p50": 1.2101634999908129,
+  "p99": 1.5232331999732194
+ },
+ "edge_tables_build_s": 149.8,
+ "edge_vs_full_manifold_pressure_bar": [
+  75.67262336146086,
+  77.66489654977717
+ ],
+ "edge_vs_full_total_liquid_rel": 0.03301378492623713,
+ "deterministic": true,
+ "numpy_only_inference": true,
+ "gate": {
+  "artifact_le_5MB": true,
+  "ram_le_100MB": true,
+  "well_eval_p99_le_5ms": false,
+  "optimizer_step_p99_le_100ms": true,
+  "deterministic": true,
+  "parity": true
+ },
+ "seconds": 210.2
+}

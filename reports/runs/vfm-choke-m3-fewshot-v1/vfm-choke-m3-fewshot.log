@@ -1,0 +1,57 @@
+[{"stream_name":"stderr","time":9.514206046,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.514335871,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.514343071,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.514346082,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.312075037,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.312109927,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.312115558,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.312119948,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.784866236,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":11.802941463,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":11.820651027,"data":"Writing src/vfmchoke/control.py\n"}
+,{"stream_name":"stdout","time":11.840601362,"data":"Writing src/vfmchoke/edge.py\n"}
+,{"stream_name":"stdout","time":11.858683327,"data":"Writing src/vfmchoke/fewshot.py\n"}
+,{"stream_name":"stdout","time":11.877188385,"data":"Writing src/vfmchoke/fleet.py\n"}
+,{"stream_name":"stdout","time":11.895218457,"data":"Writing src/vfmchoke/hybrid.py\n"}
+,{"stream_name":"stdout","time":11.914893208,"data":"Writing src/vfmchoke/leak.py\n"}
+,{"stream_name":"stdout","time":11.934772892,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":11.954582964,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":11.974500913,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":11.998021083,"data":"Writing src/vfmchoke/simfield.py\n"}
+,{"stream_name":"stdout","time":12.016079246,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":12.03735713,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stdout","time":12.054200047,"data":"Writing benchmarks/__init__.py\n"}
+,{"stream_name":"stdout","time":12.072857149,"data":"Writing benchmarks/dabiri.py\n"}
+,{"stream_name":"stdout","time":12.092166511,"data":"Writing benchmarks/volve.py\n"}
+,{"stream_name":"stderr","time":20.164978717,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":20.165622273,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":20.16564222,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)\n"}
+,{"stream_name":"stderr","time":20.165649587,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":20.165654722,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":20.165659238,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":20.165663319,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":20.165679014,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":20.165699352,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":20.165703705,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":20.165707549,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":20.165711635,"data":"Exception encountered at \"In [19]\":\n"}
+,{"stream_name":"stderr","time":20.165715679,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":20.165719731,"data":"StopIteration                             Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":20.16572735,"data":"/tmp/ipykernel_16/2248428060.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":20.165730174,"data":"     14 T0 = time.time()\n"}
+,{"stream_name":"stderr","time":20.16573285,"data":"     15 import os  # noqa: E402\n"}
+,{"stream_name":"stderr","time":20.165735493,"data":"---\u003e 16 IN = next(p for p in ('/kaggle/input/vfm-choke-m2b-simfield', '/kaggle/input/vfm-choke-m2-simfield')\n"}
+,{"stream_name":"stderr","time":20.165738343,"data":"     17           if os.path.exists(p))\n"}
+,{"stream_name":"stderr","time":20.165740984,"data":"     18 print('simulation input:', IN, flush=True)\n"}
+,{"stream_name":"stderr","time":20.165743749,"data":"\n"}
+,{"stream_name":"stderr","time":20.165746291,"data":"StopIteration: \n"}
+,{"stream_name":"stderr","time":20.165748886,"data":"\n"}
+,{"stream_name":"stderr","time":23.007330541,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":23.007441712,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":23.207125535,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":23.2071713,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":24.097962131,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":24.203287886,"data":"[NbConvertApp] Writing 133709 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":27.361938297000002,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":28.404603251,"data":"[NbConvertApp] Writing 854928 bytes to __results__.html\n"}
+]

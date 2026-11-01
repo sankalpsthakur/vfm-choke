@@ -1,0 +1,44 @@
+[{"stream_name":"stderr","time":9.333815869,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.333875214,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.333880993,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.333884239,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.104393389,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.104437944,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.10444317,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.104446122,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.554898825,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":11.570458022,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":11.586214555,"data":"Writing src/vfmchoke/fewshot.py\n"}
+,{"stream_name":"stdout","time":11.602933605,"data":"Writing src/vfmchoke/hybrid.py\n"}
+,{"stream_name":"stdout","time":11.620986086,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":11.639111775,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":11.657477338,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":11.677696575,"data":"Writing src/vfmchoke/simfield.py\n"}
+,{"stream_name":"stdout","time":11.692583227,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":11.711882143,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stderr","time":11.726552005,"data":"UsageError: %%writefile is a cell magic, but the cell body is empty.\n"}
+,{"stream_name":"stderr","time":11.726581974,"data":"\n"}
+,{"stream_name":"stderr","time":11.726587105,"data":"UsageError: %%writefile is a cell magic, but the cell body is empty.\n"}
+,{"stream_name":"stderr","time":12.15953837,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":12.16024326,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":12.160259014,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)\n"}
+,{"stream_name":"stderr","time":12.160265858,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":12.160270465,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":12.160274969,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":12.160280334,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":12.160285103,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":12.160289458,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":12.160293979,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":12.160311432,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":12.16031568,"data":"Exception encountered at \"In [12]\":\n"}
+,{"stream_name":"stderr","time":12.160319328,"data":"\n"}
+,{"stream_name":"stderr","time":12.160323219,"data":"\n"}
+,{"stream_name":"stderr","time":14.943232113,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":14.943273999,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":15.15354573,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":15.153583368,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":16.083572533,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":16.181636936,"data":"[NbConvertApp] Writing 85952 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":19.259772435,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":20.121534714,"data":"[NbConvertApp] Writing 635679 bytes to __results__.html\n"}
+]

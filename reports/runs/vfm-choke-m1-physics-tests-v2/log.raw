@@ -1,0 +1,125 @@
+[{"stream_name":"stderr","time":9.858605826,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.858672197,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.858679509,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.858684693,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.636275053,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.636311679,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.636318566,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.636323675,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.06105499,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":12.07878421,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":12.097336634,"data":"Writing src/vfmchoke/control.py\n"}
+,{"stream_name":"stdout","time":12.115963756,"data":"Writing src/vfmchoke/edge.py\n"}
+,{"stream_name":"stdout","time":12.133699337,"data":"Writing src/vfmchoke/fewshot.py\n"}
+,{"stream_name":"stdout","time":12.152805761,"data":"Writing src/vfmchoke/fleet.py\n"}
+,{"stream_name":"stdout","time":12.170050248999999,"data":"Writing src/vfmchoke/hybrid.py\n"}
+,{"stream_name":"stdout","time":12.188844901,"data":"Writing src/vfmchoke/leak.py\n"}
+,{"stream_name":"stdout","time":12.206940309,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":12.227460429,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":12.248052629,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":12.270229805,"data":"Writing src/vfmchoke/simfield.py\n"}
+,{"stream_name":"stdout","time":12.287870109,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":12.309290619,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stdout","time":12.326866092,"data":"Writing tests/conftest.py\n"}
+,{"stream_name":"stdout","time":12.346710235,"data":"Writing tests/test_models.py\n"}
+,{"stream_name":"stdout","time":12.367636286,"data":"Writing tests/test_physics.py\n"}
+,{"stream_name":"stdout","time":12.385165218,"data":"Writing benchmarks/__init__.py\n"}
+,{"stream_name":"stdout","time":12.403698349999999,"data":"Writing benchmarks/dabiri.py\n"}
+,{"stream_name":"stdout","time":12.421941323,"data":"Writing benchmarks/volve.py\n"}
+,{"stream_name":"stdout","time":162.02923064,"data":"....F.......................                                             [100%]\n"}
+,{"stream_name":"stdout","time":162.029265487,"data":"=================================== FAILURES ===================================\n"}
+,{"stream_name":"stdout","time":162.029272691,"data":"___________________________ test_tree_export_parity ____________________________\n"}
+,{"stream_name":"stdout","time":162.029279064,"data":"\n"}
+,{"stream_name":"stdout","time":162.029284549,"data":"    def test_tree_export_parity():\n"}
+,{"stream_name":"stdout","time":162.02929022,"data":"        import lightgbm as lgb\n"}
+,{"stream_name":"stdout","time":162.029296394,"data":"        rng = np.random.default_rng(1)\n"}
+,{"stream_name":"stdout","time":162.029302011,"data":"        x = rng.normal(size=(2000, 5))\n"}
+,{"stream_name":"stdout","time":162.029317269,"data":"        y = np.sin(x[:, 0]) + x[:, 1] * x[:, 2] + rng.normal(0, 0.1, 2000)\n"}
+,{"stream_name":"stdout","time":162.029322571,"data":"        m = lgb.LGBMRegressor(n_estimators=80, num_leaves=15, verbose=-1).fit(x, y)\n"}
+,{"stream_name":"stdout","time":162.029327458,"data":"        arr = edge.export_trees(m)\n"}
+,{"stream_name":"stdout","time":162.029332207,"data":"        xt = rng.normal(size=(500, 5))\n"}
+,{"stream_name":"stdout","time":162.029336603,"data":"        xt[::17, 3] = np.nan\n"}
+,{"stream_name":"stdout","time":162.029341203,"data":"\u003e       assert np.max(np.abs(edge.predict_trees(arr, xt) - m.predict(xt))) \u003c 1e-9\n"}
+,{"stream_name":"stdout","time":162.029346944,"data":"E       AssertionError: assert np.float64(0.3099867647554319) \u003c 1e-09\n"}
+,{"stream_name":"stdout","time":162.029352854,"data":"E        +  where np.float64(0.3099867647554319) = \u003cfunction max at 0x7e4f3b9e6c30\u003e(array([3.85178209e-02, 0.00000000e+00, 2.22044605e-16, 5.55111512e-17,\\n       2.77555756e-17, 0.00000000e+00, 1.110223...2.62596182e-01, 1.33226763e-15, 4.44089210e-16,\\n       4.44089210e-16, 6.66133815e-16, 5.55111512e-17, 1.11022302e-16]))\n"}
+,{"stream_name":"stdout","time":162.029363519,"data":"E        +    where \u003cfunction max at 0x7e4f3b9e6c30\u003e = np.max\n"}
+,{"stream_name":"stdout","time":162.029371691,"data":"E        +    and   array([3.85178209e-02, 0.00000000e+00, 2.22044605e-16, 5.55111512e-17,\\n       2.77555756e-17, 0.00000000e+00, 1.110223...2.62596182e-01, 1.33226763e-15, 4.44089210e-16,\\n       4.44089210e-16, 6.66133815e-16, 5.55111512e-17, 1.11022302e-16]) = \u003cufunc 'absolute'\u003e((array([ 1.03132847e+00, -6.48236174e-01, -1.40513219e+00,  4.68723271e-01,\\n        1.25944709e-01,  8.72738485e-01,  3...8831e-01, -2.52314407e+00, -2.61572579e+00,\\n        2.41146962e+00,  1.16645738e+00,  3.75546364e-01, -5.91375386e-01]) - array([ 9.92810652e-01, -6.48236174e-01, -1.40513219e+00,  4.68723271e-01,\\n        1.25944709e-01,  8.72738485e-01,  3...2649e-01, -2.52314407e+00, -2.61572579e+00,\\n        2.41146962e+00,  1.16645738e+00,  3.75546364e-01, -5.91375386e-01])))\n"}
+,{"stream_name":"stdout","time":162.029381241,"data":"E        +      where \u003cufunc 'absolute'\u003e = np.abs\n"}
+,{"stream_name":"stdout","time":162.029388128,"data":"E        +      and   array([ 1.03132847e+00, -6.48236174e-01, -1.40513219e+00,  4.68723271e-01,\\n        1.25944709e-01,  8.72738485e-01,  3...8831e-01, -2.52314407e+00, -2.61572579e+00,\\n        2.41146962e+00,  1.16645738e+00,  3.75546364e-01, -5.91375386e-01]) = \u003cfunction predict_trees at 0x7e4f174ea480\u003e({'default_left': array([ True,  True,  True, ...,  True,  True,  True]), 'feature': array([0, 0, 2, ..., 3, 3, 2], dty...'\u003cU8'), 'leaf': array([-0.14449433, -0.23590701,  0.03108883, ...,  0.00108732,\\n       -0.00349596,  0.01989332]), ...}, array([[ 0.90233738, -0.73950051, -0.48133434,         nan,  0.86795616],\\n       [-0.36325848, -0.53606694,  0.2959240...341, -1.46933085,  0.38050012,  1.01336082],\\n       [-1.32202505, -0.38802744, -1.18905699,  0.39009961, -0.52587086]]))\n"}
+,{"stream_name":"stdout","time":162.029396937,"data":"E        +        where \u003cfunction predict_trees at 0x7e4f174ea480\u003e = edge.predict_trees\n"}
+,{"stream_name":"stdout","time":162.029402244,"data":"E        +      and   array([ 9.92810652e-01, -6.48236174e-01, -1.40513219e+00,  4.68723271e-01,\\n        1.25944709e-01,  8.72738485e-01,  3...2649e-01, -2.52314407e+00, -2.61572579e+00,\\n        2.41146962e+00,  1.16645738e+00,  3.75546364e-01, -5.91375386e-01]) = predict(array([[ 0.90233738, -0.73950051, -0.48133434,         nan,  0.86795616],\\n       [-0.36325848, -0.53606694,  0.2959240...341, -1.46933085,  0.38050012,  1.01336082],\\n       [-1.32202505, -0.38802744, -1.18905699,  0.39009961, -0.52587086]]))\n"}
+,{"stream_name":"stdout","time":162.029413768,"data":"E        +        where predict = LGBMRegressor(n_estimators=80, num_leaves=15, verbose=-1).predict\n"}
+,{"stream_name":"stdout","time":162.029418953,"data":"\n"}
+,{"stream_name":"stdout","time":162.029423499,"data":"tests/test_models.py:48: AssertionError\n"}
+,{"stream_name":"stdout","time":162.02942808,"data":"=============================== warnings summary ===============================\n"}
+,{"stream_name":"stdout","time":162.029433019,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":162.029438231,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+,{"stream_name":"stdout","time":162.02944366,"data":"    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+,{"stream_name":"stdout","time":162.029449133,"data":"\n"}
+,{"stream_name":"stdout","time":162.029453759,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":162.0294579,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":162.029462437,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":162.029467698,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":162.029472123,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":162.029476794,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":162.029481779,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+,{"stream_name":"stdout","time":162.029486976,"data":"    parse = parser.parseString(pattern)\n"}
+,{"stream_name":"stdout","time":162.029491827,"data":"\n"}
+,{"stream_name":"stdout","time":162.029495913,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":162.029500328,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":162.029505081,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":162.02950972,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":162.02951429,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":162.029541594,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":162.029546128,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+,{"stream_name":"stdout","time":162.029551451,"data":"    parser.resetCache()\n"}
+,{"stream_name":"stdout","time":162.029556067,"data":"\n"}
+,{"stream_name":"stdout","time":162.029560686,"data":"tests/test_models.py::test_tree_export_parity\n"}
+,{"stream_name":"stdout","time":162.029565853,"data":"  /usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names\n"}
+,{"stream_name":"stdout","time":162.029570858,"data":"    warnings.warn(\n"}
+,{"stream_name":"stdout","time":162.029575146,"data":"\n"}
+,{"stream_name":"stdout","time":162.029579499,"data":"-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+,{"stream_name":"stdout","time":162.029584171,"data":"==================================== PASSES ====================================\n"}
+,{"stream_name":"stdout","time":162.029588731,"data":"------------- generated xml file: /kaggle/working/test_report.xml --------------\n"}
+,{"stream_name":"stdout","time":162.029608701,"data":"=========================== short test summary info ============================\n"}
+,{"stream_name":"stdout","time":162.029613994,"data":"PASSED tests/test_models.py::test_latent_prior_only_without_labels\n"}
+,{"stream_name":"stdout","time":162.029619159,"data":"PASSED tests/test_models.py::test_latent_recovers_truth_with_many_labels\n"}
+,{"stream_name":"stdout","time":162.029624331,"data":"PASSED tests/test_models.py::test_track_moves_toward_observations\n"}
+,{"stream_name":"stdout","time":162.029629458,"data":"PASSED tests/test_models.py::test_prior_arrays_match_prior\n"}
+,{"stream_name":"stdout","time":162.029634504,"data":"PASSED tests/test_models.py::test_vfm_multiplier_scales_rate\n"}
+,{"stream_name":"stdout","time":162.029639531,"data":"PASSED tests/test_models.py::test_setpoint_hits_target_on_its_own_model\n"}
+,{"stream_name":"stdout","time":162.029644626,"data":"PASSED tests/test_models.py::test_simfield_small_run_conserves\n"}
+,{"stream_name":"stdout","time":162.029649381,"data":"PASSED tests/test_models.py::test_edge_step_matches_full_solve\n"}
+,{"stream_name":"stdout","time":162.029653978,"data":"PASSED tests/test_physics.py::test_pvt_bounds\n"}
+,{"stream_name":"stdout","time":162.029658398,"data":"PASSED tests/test_physics.py::test_mass_bookkeeping_exact\n"}
+,{"stream_name":"stdout","time":162.029662757,"data":"PASSED tests/test_physics.py::test_gas_ideal_limit\n"}
+,{"stream_name":"stdout","time":162.029667396,"data":"PASSED tests/test_physics.py::test_mix_is_mass_exact\n"}
+,{"stream_name":"stdout","time":162.029673397,"data":"PASSED tests/test_physics.py::test_liquid_only_is_bernoulli\n"}
+,{"stream_name":"stdout","time":162.029678378,"data":"PASSED tests/test_physics.py::test_gas_only_critical_ratio\n"}
+,{"stream_name":"stdout","time":162.029683141,"data":"PASSED tests/test_physics.py::test_continuity_at_critical\n"}
+,{"stream_name":"stdout","time":162.029687963,"data":"PASSED tests/test_physics.py::test_choke_monotone\n"}
+,{"stream_name":"stdout","time":162.029693326,"data":"PASSED tests/test_physics.py::test_gilbert_unit_conversion\n"}
+,{"stream_name":"stdout","time":162.029698218,"data":"PASSED tests/test_physics.py::test_ipr_inverse\n"}
+,{"stream_name":"stdout","time":162.029702996,"data":"PASSED tests/test_physics.py::test_operating_point_consistent\n"}
+,{"stream_name":"stdout","time":162.029707435,"data":"PASSED tests/test_physics.py::test_rate_rises_with_opening\n"}
+,{"stream_name":"stdout","time":162.029712031,"data":"PASSED tests/test_physics.py::test_network_no_leak\n"}
+,{"stream_name":"stdout","time":162.029716901,"data":"PASSED tests/test_physics.py::test_jumper_leak_signature\n"}
+,{"stream_name":"stdout","time":162.029721594,"data":"PASSED tests/test_physics.py::test_flowline_leak_signature\n"}
+,{"stream_name":"stdout","time":162.029726638,"data":"PASSED tests/test_physics.py::test_riser_leak_conserves\n"}
+,{"stream_name":"stdout","time":162.029731276,"data":"PASSED tests/test_physics.py::test_mpfm_exact_inversion\n"}
+,{"stream_name":"stdout","time":162.029736204,"data":"PASSED tests/test_physics.py::test_mpfm_read_noise_free_is_exact\n"}
+,{"stream_name":"stdout","time":162.029741059,"data":"PASSED tests/test_physics.py::test_mpfm_stale_salinity_overreads_water\n"}
+,{"stream_name":"stdout","time":162.029745994,"data":"FAILED tests/test_models.py::test_tree_export_parity - AssertionError: assert...\n"}
+,{"stream_name":"stdout","time":162.02975079,"data":"1 failed, 27 passed, 14 warnings in 146.65s (0:02:26)\n"}
+,{"stream_name":"stdout","time":162.029755164,"data":"\n"}
+,{"stream_name":"stdout","time":162.029762987,"data":"\n"}
+,{"stream_name":"stdout","time":162.029767551,"data":"{'returncode': 1, 'seconds': 149.6, 'summary': '1 failed, 27 passed, 14 warnings in 146.65s (0:02:26)'}\n"}
+,{"stream_name":"stderr","time":164.915057452,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":164.915092437,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":165.120958271,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":165.120987842,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":165.999618693,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":166.114304883,"data":"[NbConvertApp] Writing 152011 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":169.169374295,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":170.277555567,"data":"[NbConvertApp] Writing 923411 bytes to __results__.html\n"}
+]

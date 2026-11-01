@@ -1,0 +1,39 @@
+{
+ "well1": {
+  "mv_linear": 0.001376703905504806,
+  "xgboost": 0.11639914454139315,
+  "mlp": 0.00128505876004406,
+  "svr": 0.3803321156011843,
+  "lstm": 0.23660697463928018,
+  "ours_physics_features": 0.010739647968404448,
+  "ours_zero_shot_wrong_design": 12.833187618778064,
+  "ours_few_shot_k3": 1.137033537125052
+ },
+ "well2": {
+  "mv_linear": 0.0020548428791608586,
+  "xgboost": 0.02739516154274316,
+  "mlp": 0.012611715964047244,
+  "svr": 0.6197140873993735,
+  "lstm": 0.2735094085866146,
+  "ours_physics_features": 0.016970378549369072,
+  "ours_zero_shot_wrong_design": 12.501509339854074,
+  "ours_few_shot_k3": 1.4234840595488845
+ },
+ "fidelity": {
+  "lstm_well1": false,
+  "lstm_well2": false,
+  "mv_linear_well1": false,
+  "mv_linear_well2": false
+ },
+ "fidelity_ok": false,
+ "gate": {
+  "counts": false,
+  "beat_outright_both_wells": true,
+  "few_shot_k3_parity_both_wells": true,
+  "published_best": {
+   "1": 1.96,
+   "2": 1.53
+  },
+  "seconds": 211.9
+ }
+}

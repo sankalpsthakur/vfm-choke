@@ -1,0 +1,169 @@
+[{"stream_name":"stderr","time":9.447042739,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.44711671,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.447124644,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.447129582,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.262032997,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.262086984,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.262095466,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.262100421,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.717887769,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":11.73710795,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":11.755958159,"data":"Writing src/vfmchoke/control.py\n"}
+,{"stream_name":"stdout","time":11.775796509,"data":"Writing src/vfmchoke/edge.py\n"}
+,{"stream_name":"stdout","time":11.795228853,"data":"Writing src/vfmchoke/fewshot.py\n"}
+,{"stream_name":"stdout","time":11.817360982,"data":"Writing src/vfmchoke/fleet.py\n"}
+,{"stream_name":"stdout","time":11.836329513999999,"data":"Writing src/vfmchoke/hybrid.py\n"}
+,{"stream_name":"stdout","time":11.855688753,"data":"Writing src/vfmchoke/leak.py\n"}
+,{"stream_name":"stdout","time":11.876765956,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":11.89809345,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":11.918979139,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":11.943154223,"data":"Writing src/vfmchoke/simfield.py\n"}
+,{"stream_name":"stdout","time":11.961404851,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":11.983686687,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stdout","time":12.001862551,"data":"Writing benchmarks/__init__.py\n"}
+,{"stream_name":"stdout","time":12.023039497,"data":"Writing benchmarks/dabiri.py\n"}
+,{"stream_name":"stdout","time":12.041917021,"data":"Writing benchmarks/volve.py\n"}
+,{"stream_name":"stdout","time":17.943175498,"data":"{\n"}
+,{"stream_name":"stdout","time":17.943211077,"data":" \"leaks\": 240,\n"}
+,{"stream_name":"stdout","time":17.943217324,"data":" \"controls\": 80,\n"}
+,{"stream_name":"stdout","time":17.943222217,"data":" \"top1\": 0.23333333333333334,\n"}
+,{"stream_name":"stdout","time":17.943227077,"data":" \"top3\": 0.6166666666666667,\n"}
+,{"stream_name":"stdout","time":17.943231727,"data":" \"kind_correct\": 0.4625,\n"}
+,{"stream_name":"stdout","time":17.943236681,"data":" \"by_kind\": {\n"}
+,{"stream_name":"stdout","time":17.94324132,"data":"  \"1\": {\n"}
+,{"stream_name":"stdout","time":17.9432459,"data":"   \"top1\": 0.228,\n"}
+,{"stream_name":"stdout","time":17.943250604,"data":"   \"top3\": 0.515,\n"}
+,{"stream_name":"stdout","time":17.94325501,"data":"   \"kind_correct\": 0.653\n"}
+,{"stream_name":"stdout","time":17.943259635,"data":"  },\n"}
+,{"stream_name":"stdout","time":17.943264097,"data":"  \"2\": {\n"}
+,{"stream_name":"stdout","time":17.943267027,"data":"   \"top1\": 0.192,\n"}
+,{"stream_name":"stdout","time":17.943289412,"data":"   \"top3\": 0.423,\n"}
+,{"stream_name":"stdout","time":17.943294421,"data":"   \"kind_correct\": 0.192\n"}
+,{"stream_name":"stdout","time":17.943298931,"data":"  },\n"}
+,{"stream_name":"stdout","time":17.943309561,"data":"  \"3\": {\n"}
+,{"stream_name":"stdout","time":17.943314293,"data":"   \"top1\": 0.291,\n"}
+,{"stream_name":"stdout","time":17.943318937,"data":"   \"top3\": 0.684,\n"}
+,{"stream_name":"stdout","time":17.943323502,"data":"   \"kind_correct\": 0.354\n"}
+,{"stream_name":"stdout","time":17.943328088,"data":"  },\n"}
+,{"stream_name":"stdout","time":17.943332465,"data":"  \"4\": {\n"}
+,{"stream_name":"stdout","time":17.943336995,"data":"   \"top1\": 0.147,\n"}
+,{"stream_name":"stdout","time":17.943341424,"data":"   \"top3\": 0.912,\n"}
+,{"stream_name":"stdout","time":17.943345918,"data":"   \"kind_correct\": 0.353\n"}
+,{"stream_name":"stdout","time":17.94335045,"data":"  }\n"}
+,{"stream_name":"stdout","time":17.9433548,"data":" },\n"}
+,{"stream_name":"stdout","time":17.943359122,"data":" \"by_size\": {\n"}
+,{"stream_name":"stdout","time":17.943363626,"data":"  \"(0.0, 0.01]\": {\n"}
+,{"stream_name":"stdout","time":17.943368413,"data":"   \"top1\": 0.15,\n"}
+,{"stream_name":"stdout","time":17.943373061,"data":"   \"top3\": 0.599\n"}
+,{"stream_name":"stdout","time":17.943377261,"data":"  },\n"}
+,{"stream_name":"stdout","time":17.943381478,"data":"  \"(0.01, 0.02]\": {\n"}
+,{"stream_name":"stdout","time":17.943386078,"data":"   \"top1\": 0.371,\n"}
+,{"stream_name":"stdout","time":17.943390463,"data":"   \"top3\": 0.6\n"}
+,{"stream_name":"stdout","time":17.943394646,"data":"  },\n"}
+,{"stream_name":"stdout","time":17.943398743,"data":"  \"(0.02, 0.05]\": {\n"}
+,{"stream_name":"stdout","time":17.943402752,"data":"   \"top1\": 0.444,\n"}
+,{"stream_name":"stdout","time":17.943407173,"data":"   \"top3\": 0.741\n"}
+,{"stream_name":"stdout","time":17.943411458,"data":"  },\n"}
+,{"stream_name":"stdout","time":17.943415755,"data":"  \"(0.05, 1.0]\": {\n"}
+,{"stream_name":"stdout","time":17.943420227,"data":"   \"top1\": 0.75,\n"}
+,{"stream_name":"stdout","time":17.94342459,"data":"   \"top3\": 0.833\n"}
+,{"stream_name":"stdout","time":17.94342897,"data":"  }\n"}
+,{"stream_name":"stdout","time":17.943433163999998,"data":" },\n"}
+,{"stream_name":"stdout","time":17.943437374,"data":" \"alarm_rate_leaks\": 0.3958333333333333,\n"}
+,{"stream_name":"stdout","time":17.943442087,"data":" \"alarm_delay_median_days\": 3.0,\n"}
+,{"stream_name":"stdout","time":17.943446703,"data":" \"false_alarm_rate_controls\": 0.225,\n"}
+,{"stream_name":"stdout","time":17.943451242,"data":" \"controls_none_top1\": 1.0,\n"}
+,{"stream_name":"stdout","time":17.943455815,"data":" \"target_top3_ge_2pct\": 0.7692307692307693,\n"}
+,{"stream_name":"stdout","time":17.94346028,"data":" \"demo\": {\n"}
+,{"stream_name":"stdout","time":17.943464661,"data":"  \"scenario\": 13,\n"}
+,{"stream_name":"stdout","time":17.943469377,"data":"  \"truth\": \"jumper of well slot 3\",\n"}
+,{"stream_name":"stdout","time":17.943472905,"data":"  \"leak_frac\": 0.019550669539824893,\n"}
+,{"stream_name":"stdout","time":17.943477561,"data":"  \"onset_true\": 30,\n"}
+,{"stream_name":"stdout","time":17.943482238,"data":"  \"onset_cusum\": 31,\n"}
+,{"stream_name":"stdout","time":17.943486598,"data":"  \"detect\": 34,\n"}
+,{"stream_name":"stdout","time":17.94349103,"data":"  \"table\": [\n"}
+,{"stream_name":"stdout","time":17.943495212,"data":"   {\n"}
+,{"stream_name":"stdout","time":17.943503906,"data":"    \"hypothesis\": \"jumper slot 2\",\n"}
+,{"stream_name":"stdout","time":17.94350888,"data":"    \"posterior\": 0.5322,\n"}
+,{"stream_name":"stdout","time":17.94351349,"data":"    \"leak_oil_stb_d\": 1057.2,\n"}
+,{"stream_name":"stdout","time":17.943518037,"data":"    \"ll_phase\": -0.01,\n"}
+,{"stream_name":"stdout","time":17.943522497,"data":"    \"ll_pressure\": -0.71,\n"}
+,{"stream_name":"stdout","time":17.943526948,"data":"    \"ll_location\": -0.89,\n"}
+,{"stream_name":"stdout","time":17.943531417,"data":"    \"ll_volume\": -0.34\n"}
+,{"stream_name":"stdout","time":17.943535846,"data":"   },\n"}
+,{"stream_name":"stdout","time":17.943540143,"data":"   {\n"}
+,{"stream_name":"stdout","time":17.943544358,"data":"    \"hypothesis\": \"jumper slot 1\",\n"}
+,{"stream_name":"stdout","time":17.943548898,"data":"    \"posterior\": 0.2337,\n"}
+,{"stream_name":"stdout","time":17.943553327,"data":"    \"leak_oil_stb_d\": 866.6,\n"}
+,{"stream_name":"stdout","time":17.943557742,"data":"    \"ll_phase\": -0.51,\n"}
+,{"stream_name":"stdout","time":17.943562318,"data":"    \"ll_pressure\": -0.41,\n"}
+,{"stream_name":"stdout","time":17.943566663,"data":"    \"ll_location\": -1.7,\n"}
+,{"stream_name":"stdout","time":17.943570393,"data":"    \"ll_volume\": -0.15\n"}
+,{"stream_name":"stdout","time":17.943575028,"data":"   },\n"}
+,{"stream_name":"stdout","time":17.943579326,"data":"   {\n"}
+,{"stream_name":"stdout","time":17.94358357,"data":"    \"hypothesis\": \"manifold\",\n"}
+,{"stream_name":"stdout","time":17.943588145,"data":"    \"posterior\": 0.1197,\n"}
+,{"stream_name":"stdout","time":17.94359282,"data":"    \"leak_oil_stb_d\": 1210.0,\n"}
+,{"stream_name":"stdout","time":17.943597166,"data":"    \"ll_phase\": -0.54,\n"}
+,{"stream_name":"stdout","time":17.943601798,"data":"    \"ll_pressure\": -0.95,\n"}
+,{"stream_name":"stdout","time":17.943606454,"data":"    \"ll_location\": -1.43,\n"}
+,{"stream_name":"stdout","time":17.943610886,"data":"    \"ll_volume\": -0.52\n"}
+,{"stream_name":"stdout","time":17.943615451,"data":"   },\n"}
+,{"stream_name":"stdout","time":17.943619817,"data":"   {\n"}
+,{"stream_name":"stdout","time":17.943624218,"data":"    \"hypothesis\": \"jumper slot 3\",\n"}
+,{"stream_name":"stdout","time":17.943628905,"data":"    \"posterior\": 0.0831,\n"}
+,{"stream_name":"stdout","time":17.943633446,"data":"    \"leak_oil_stb_d\": 407.0,\n"}
+,{"stream_name":"stdout","time":17.943638071,"data":"    \"ll_phase\": -2.24,\n"}
+,{"stream_name":"stdout","time":17.943642452,"data":"    \"ll_pressure\": -0.44,\n"}
+,{"stream_name":"stdout","time":17.943647141,"data":"    \"ll_location\": -0.98,\n"}
+,{"stream_name":"stdout","time":17.943651667,"data":"    \"ll_volume\": -0.15\n"}
+,{"stream_name":"stdout","time":17.943656194,"data":"   },\n"}
+,{"stream_name":"stdout","time":17.943660444,"data":"   {\n"}
+,{"stream_name":"stdout","time":17.943664552,"data":"    \"hypothesis\": \"jumper slot 0\",\n"}
+,{"stream_name":"stdout","time":17.943668837,"data":"    \"posterior\": 0.0156,\n"}
+,{"stream_name":"stdout","time":17.943673364,"data":"    \"leak_oil_stb_d\": 575.7,\n"}
+,{"stream_name":"stdout","time":17.943677883,"data":"    \"ll_phase\": -3.42,\n"}
+,{"stream_name":"stdout","time":17.943682235,"data":"    \"ll_pressure\": -0.63,\n"}
+,{"stream_name":"stdout","time":17.943686503,"data":"    \"ll_location\": -1.43,\n"}
+,{"stream_name":"stdout","time":17.943690974,"data":"    \"ll_volume\": -0.0\n"}
+,{"stream_name":"stdout","time":17.943695174,"data":"   },\n"}
+,{"stream_name":"stdout","time":17.943703406,"data":"   {\n"}
+,{"stream_name":"stdout","time":17.943709568,"data":"    \"hypothesis\": \"jumper slot 4\",\n"}
+,{"stream_name":"stdout","time":17.943714258,"data":"    \"posterior\": 0.0106,\n"}
+,{"stream_name":"stdout","time":17.943718794,"data":"    \"leak_oil_stb_d\": 783.9,\n"}
+,{"stream_name":"stdout","time":17.943723307,"data":"    \"ll_phase\": -4.35,\n"}
+,{"stream_name":"stdout","time":17.943727743,"data":"    \"ll_pressure\": -0.35,\n"}
+,{"stream_name":"stdout","time":17.943732118,"data":"    \"ll_location\": -1.09,\n"}
+,{"stream_name":"stdout","time":17.9437366,"data":"    \"ll_volume\": -0.08\n"}
+,{"stream_name":"stdout","time":17.943741078,"data":"   },\n"}
+,{"stream_name":"stdout","time":17.94374529,"data":"   {\n"}
+,{"stream_name":"stdout","time":17.943749557,"data":"    \"hypothesis\": \"jumper slot 5\",\n"}
+,{"stream_name":"stdout","time":17.943754088,"data":"    \"posterior\": 0.0051,\n"}
+,{"stream_name":"stdout","time":17.94375893,"data":"    \"leak_oil_stb_d\": 183.2,\n"}
+,{"stream_name":"stdout","time":17.943762355,"data":"    \"ll_phase\": -2.86,\n"}
+,{"stream_name":"stdout","time":17.943766894,"data":"    \"ll_pressure\": -0.43,\n"}
+,{"stream_name":"stdout","time":17.943771126,"data":"    \"ll_location\": -1.89,\n"}
+,{"stream_name":"stdout","time":17.943775335,"data":"    \"ll_volume\": -1.41\n"}
+,{"stream_name":"stdout","time":17.943779522,"data":"   },\n"}
+,{"stream_name":"stdout","time":17.94378371,"data":"   {\n"}
+,{"stream_name":"stdout","time":17.943787824,"data":"    \"hypothesis\": \"none\",\n"}
+,{"stream_name":"stdout","time":17.943792194,"data":"    \"posterior\": 0.0,\n"}
+,{"stream_name":"stdout","time":17.94379636,"data":"    \"leak_oil_stb_d\": 0.0,\n"}
+,{"stream_name":"stdout","time":17.943800799999998,"data":"    \"ll_phase\": -6.6,\n"}
+,{"stream_name":"stdout","time":17.943804738,"data":"    \"ll_pressure\": -0.95,\n"}
+,{"stream_name":"stdout","time":17.943808665,"data":"    \"ll_location\": -6.91,\n"}
+,{"stream_name":"stdout","time":17.943812715,"data":"    \"ll_volume\": 0.0\n"}
+,{"stream_name":"stdout","time":17.943816758,"data":"   }\n"}
+,{"stream_name":"stdout","time":17.943820235,"data":"  ]\n"}
+,{"stream_name":"stdout","time":17.943823923,"data":" },\n"}
+,{"stream_name":"stdout","time":17.943827555,"data":" \"seconds\": 4.6\n"}
+,{"stream_name":"stdout","time":17.943832022,"data":"}\n"}
+,{"stream_name":"stderr","time":21.414835642,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":21.414872504,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":21.634812198,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":21.634838782,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":22.568114455,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":22.684855658,"data":"[NbConvertApp] Writing 141414 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":25.978430739,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":27.086665219,"data":"[NbConvertApp] Writing 882094 bytes to __results__.html\n"}
+]

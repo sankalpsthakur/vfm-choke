@@ -1,0 +1,103 @@
+[{"stream_name":"stderr","time":8.007208819,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.007330174,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.007336342,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.007339007,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.731992881,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.732031102,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.732036165,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.732040334,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.015885926,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":10.030869267,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":10.045975579,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":10.063068215,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":10.081090003,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":10.100558716,"data":"Writing src/vfmchoke/simfield.py\n"}
+,{"stream_name":"stdout","time":10.114829176,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":10.133122156,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stdout","time":12.167091059,"data":"population: 1406 wells in 200 groups\n"}
+,{"stream_name":"stdout","time":48.48367056,"data":"day 0: flowing 1185/1406, oil 6771419 stb/d\n"}
+,{"stream_name":"stdout","time":418.533945863,"data":"day 10: flowing 1176/1406, oil 6627809 stb/d\n"}
+,{"stream_name":"stdout","time":788.951486502,"data":"day 20: flowing 1171/1406, oil 6429952 stb/d\n"}
+,{"stream_name":"stdout","time":1159.912994096,"data":"day 30: flowing 1169/1406, oil 6322156 stb/d\n"}
+,{"stream_name":"stdout","time":1529.972706753,"data":"day 40: flowing 1182/1406, oil 6199108 stb/d\n"}
+,{"stream_name":"stdout","time":1943.055486653,"data":"day 50: flowing 1172/1406, oil 6058693 stb/d\n"}
+,{"stream_name":"stdout","time":2299.967036665,"data":"day 60: flowing 1174/1406, oil 5979804 stb/d\n"}
+,{"stream_name":"stdout","time":2658.049591923,"data":"day 70: flowing 1169/1406, oil 5882357 stb/d\n"}
+,{"stream_name":"stdout","time":3021.935059881,"data":"day 80: flowing 1169/1406, oil 5812886 stb/d\n"}
+,{"stream_name":"stdout","time":3386.343307638,"data":"day 90: flowing 1163/1406, oil 5676517 stb/d\n"}
+,{"stream_name":"stdout","time":3755.095860088,"data":"day 100: flowing 1159/1406, oil 5651464 stb/d\n"}
+,{"stream_name":"stdout","time":4121.66098196,"data":"day 110: flowing 1158/1406, oil 5574790 stb/d\n"}
+,{"stream_name":"stdout","time":4482.215975161,"data":"day 120: flowing 1163/1406, oil 5509382 stb/d\n"}
+,{"stream_name":"stdout","time":4845.896501529,"data":"day 130: flowing 1151/1406, oil 5376087 stb/d\n"}
+,{"stream_name":"stdout","time":5215.09802887,"data":"day 140: flowing 1145/1406, oil 5368621 stb/d\n"}
+,{"stream_name":"stdout","time":5578.773260418,"data":"day 150: flowing 1143/1406, oil 5276676 stb/d\n"}
+,{"stream_name":"stdout","time":5942.513363083,"data":"day 160: flowing 1140/1406, oil 5176202 stb/d\n"}
+,{"stream_name":"stdout","time":6310.497535419,"data":"day 170: flowing 1130/1406, oil 5109249 stb/d\n"}
+,{"stream_name":"stdout","time":6635.92387219,"data":"{\n"}
+,{"stream_name":"stdout","time":6635.923924739,"data":" \"well_days\": 253080,\n"}
+,{"stream_name":"stdout","time":6635.923933228,"data":" \"flowing_fraction\": 0.8248735577682946,\n"}
+,{"stream_name":"stdout","time":6635.923938791,"data":" \"wells\": 1406,\n"}
+,{"stream_name":"stdout","time":6635.923943651,"data":" \"groups\": 200,\n"}
+,{"stream_name":"stdout","time":6635.923948659,"data":" \"days\": 180,\n"}
+,{"stream_name":"stdout","time":6635.923953445,"data":" \"liquid_stb_d\": {\n"}
+,{"stream_name":"stdout","time":6635.923957986,"data":"  \"1\": 221.9956620932526,\n"}
+,{"stream_name":"stdout","time":6635.923962729,"data":"  \"10\": 1264.2811742356862,\n"}
+,{"stream_name":"stdout","time":6635.923967584,"data":"  \"50\": 4940.626408176737,\n"}
+,{"stream_name":"stdout","time":6635.92397222,"data":"  \"90\": 13569.29603630212,\n"}
+,{"stream_name":"stdout","time":6635.92397691,"data":"  \"99\": 25638.516891839125\n"}
+,{"stream_name":"stdout","time":6635.923981438,"data":" },\n"}
+,{"stream_name":"stdout","time":6635.923986184,"data":" \"p_wh_bar\": {\n"}
+,{"stream_name":"stdout","time":6635.923990936,"data":"  \"1\": 27.673076189605478,\n"}
+,{"stream_name":"stdout","time":6635.923994098,"data":"  \"10\": 41.255102918446994,\n"}
+,{"stream_name":"stdout","time":6635.923997012,"data":"  \"50\": 67.81476265726893,\n"}
+,{"stream_name":"stdout","time":6635.923999992,"data":"  \"90\": 110.61421078316727,\n"}
+,{"stream_name":"stdout","time":6635.92400386,"data":"  \"99\": 148.5546743438029\n"}
+,{"stream_name":"stdout","time":6635.924008368,"data":" },\n"}
+,{"stream_name":"stdout","time":6635.924012822,"data":" \"p_man_bar\": {\n"}
+,{"stream_name":"stdout","time":6635.924017876,"data":"  \"1\": 19.999705075852457,\n"}
+,{"stream_name":"stdout","time":6635.924022645,"data":"  \"10\": 30.31554825219357,\n"}
+,{"stream_name":"stdout","time":6635.924027553,"data":"  \"50\": 51.1986241008351,\n"}
+,{"stream_name":"stdout","time":6635.9240324,"data":"  \"90\": 90.75107334305639,\n"}
+,{"stream_name":"stdout","time":6635.924037492,"data":"  \"99\": 122.9193656175527\n"}
+,{"stream_name":"stdout","time":6635.924042337,"data":" },\n"}
+,{"stream_name":"stdout","time":6635.924046873,"data":" \"pressure_ratio_y\": {\n"}
+,{"stream_name":"stdout","time":6635.924051869,"data":"  \"1\": 0.24385105213853744,\n"}
+,{"stream_name":"stdout","time":6635.92405687,"data":"  \"10\": 0.4989467404517155,\n"}
+,{"stream_name":"stdout","time":6635.924061642,"data":"  \"50\": 0.8723831305370974,\n"}
+,{"stream_name":"stdout","time":6635.924066454,"data":"  \"90\": 0.9898079068291452,\n"}
+,{"stream_name":"stdout","time":6635.924071592,"data":"  \"99\": 0.999557270183278\n"}
+,{"stream_name":"stdout","time":6635.924076404,"data":" },\n"}
+,{"stream_name":"stdout","time":6635.924080935,"data":" \"critical_fraction\": 0.06267035193692248,\n"}
+,{"stream_name":"stdout","time":6635.924085854,"data":" \"water_cut\": {\n"}
+,{"stream_name":"stdout","time":6635.92409039,"data":"  \"1\": 0.0013165281898929134,\n"}
+,{"stream_name":"stdout","time":6635.924095344,"data":"  \"10\": 0.02281987640700788,\n"}
+,{"stream_name":"stdout","time":6635.924098325,"data":"  \"50\": 0.20663941676520553,\n"}
+,{"stream_name":"stdout","time":6635.924103264,"data":"  \"90\": 0.48814073041693773,\n"}
+,{"stream_name":"stdout","time":6635.924108062,"data":"  \"99\": 0.6235990476495634\n"}
+,{"stream_name":"stdout","time":6635.924113016,"data":" },\n"}
+,{"stream_name":"stdout","time":6635.924117912,"data":" \"gor_scf_stb\": {\n"}
+,{"stream_name":"stdout","time":6635.924134089,"data":"  \"1\": 287.09303361146095,\n"}
+,{"stream_name":"stdout","time":6635.92413833,"data":"  \"10\": 348.7315385478352,\n"}
+,{"stream_name":"stdout","time":6635.924142331,"data":"  \"50\": 805.0513236846685,\n"}
+,{"stream_name":"stdout","time":6635.924146123,"data":"  \"90\": 1649.5400415320098,\n"}
+,{"stream_name":"stdout","time":6635.924149967,"data":"  \"99\": 1947.4831169258969\n"}
+,{"stream_name":"stdout","time":6635.924153838,"data":" },\n"}
+,{"stream_name":"stdout","time":6635.9241575,"data":" \"mpfm_liquid_rel_error\": {\n"}
+,{"stream_name":"stdout","time":6635.924161402,"data":"  \"1\": -0.055543488956914924,\n"}
+,{"stream_name":"stdout","time":6635.924165202,"data":"  \"10\": -0.030604623482817405,\n"}
+,{"stream_name":"stdout","time":6635.924169008,"data":"  \"50\": 0.0012299610470700717,\n"}
+,{"stream_name":"stdout","time":6635.924173055,"data":"  \"90\": 0.03409317115690965,\n"}
+,{"stream_name":"stdout","time":6635.924176879,"data":"  \"99\": 0.0609367367916884\n"}
+,{"stream_name":"stdout","time":6635.924180679,"data":" },\n"}
+,{"stream_name":"stdout","time":6635.924184275,"data":" \"tests\": 6975,\n"}
+,{"stream_name":"stdout","time":6635.924187614,"data":" \"seconds\": 6624.8\n"}
+,{"stream_name":"stdout","time":6635.924190084,"data":"}\n"}
+,{"stream_name":"stderr","time":6639.188639052,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":6639.188677915,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":6639.382659237,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":6639.382685153,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6640.270528432,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":6640.375266655,"data":"[NbConvertApp] Writing 72166 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":6643.535151422,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":6644.364964924,"data":"[NbConvertApp] Writing 572035 bytes to __results__.html\n"}
+]

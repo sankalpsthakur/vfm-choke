@@ -1,0 +1,18 @@
+{
+ "id": "sankalpsthakur/vfm-choke-m5-control",
+ "title": "VFM Choke M5 Control",
+ "code_file": "vfm-choke-m5-control.ipynb",
+ "language": "python",
+ "kernel_type": "notebook",
+ "is_private": true,
+ "enable_gpu": false,
+ "enable_tpu": false,
+ "enable_internet": false,
+ "dataset_sources": [],
+ "competition_sources": [],
+ "kernel_sources": [
+  "sankalpsthakur/vfm-choke-m2-simfield"
+ ],
+ "model_sources": [],
+ "keywords": []
+}

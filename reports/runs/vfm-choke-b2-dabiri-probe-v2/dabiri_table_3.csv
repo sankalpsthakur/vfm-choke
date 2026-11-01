@@ -1,0 +1,7 @@
+Technique,Hyperparameters (Default Values)
+Adaboost_SVR,"SVR (C=1.0, epsilon=0.1, kernel='rbf', gamma='scale')"
+MARS,Default parameters depend on the implementation
+MLP-lM,"MLP Regressor (hidden_layer_sizes= (100,), solver='lbfgs')"
+MLP-BR,"MLP Regressor (hidden_layer_sizes= (100,), solver='lbfgs')"
+MLP-SCG,"MLP Regressor (hidden_layer_sizes= (100,), solver='scg')"
+RBF,"SVR (C=1.0, epsilon=0.1, kernel='rbf', gamma='scale')"

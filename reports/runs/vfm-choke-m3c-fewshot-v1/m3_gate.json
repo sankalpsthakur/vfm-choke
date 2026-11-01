@@ -1,0 +1,70 @@
+{
+ "k0_beats_gilbert": true,
+ "k0_beats_physics": false,
+ "reference": "physics at k=30: 0.0518",
+ "k1_hybrid_over_reference": 1.106904086208217,
+ "k1_within_1.25x": true,
+ "k2_hybrid_over_reference": 1.0794355161036848,
+ "k2_within_1.25x": true,
+ "k3_hybrid_over_reference": 1.0481395023534998,
+ "k3_within_1.25x": true,
+ "coverage_by_k": [
+  {
+   "regime": "mpfm",
+   "k": 0,
+   "coverage90_mean": 0.8914419132991638
+  },
+  {
+   "regime": "mpfm",
+   "k": 1,
+   "coverage90_mean": 0.8668800994017167
+  },
+  {
+   "regime": "mpfm",
+   "k": 2,
+   "coverage90_mean": 0.8603499380127642
+  },
+  {
+   "regime": "mpfm",
+   "k": 3,
+   "coverage90_mean": 0.8570964559573339
+  },
+  {
+   "regime": "mpfm",
+   "k": 5,
+   "coverage90_mean": 0.8559053104338995
+  },
+  {
+   "regime": "mpfm",
+   "k": 10,
+   "coverage90_mean": 0.8511464199368801
+  },
+  {
+   "regime": "mpfm",
+   "k": 30,
+   "coverage90_mean": 0.8479563797773155
+  },
+  {
+   "regime": "test",
+   "k": 0,
+   "coverage90_mean": 0.8914419132991638
+  },
+  {
+   "regime": "test",
+   "k": 1,
+   "coverage90_mean": 0.8743932963797928
+  },
+  {
+   "regime": "test",
+   "k": 2,
+   "coverage90_mean": 0.8665545942429884
+  },
+  {
+   "regime": "test",
+   "k": 3,
+   "coverage90_mean": 0.866035479407519
+  }
+ ],
+ "coverage_85_95_all_k": false,
+ "seconds": 729.3
+}

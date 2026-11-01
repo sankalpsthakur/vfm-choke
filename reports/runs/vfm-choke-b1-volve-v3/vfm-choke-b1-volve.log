@@ -1,0 +1,147 @@
+[{"stream_name":"stderr","time":8.878731017,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.878802977,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.878813719,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.878819236,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.669144349,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.669183156,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.669189669,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.669194737,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.054850773,"data":"Writing src/vfmchoke/__init__.py\n"}
+,{"stream_name":"stdout","time":11.073748088,"data":"Writing src/vfmchoke/choke.py\n"}
+,{"stream_name":"stdout","time":11.093409218,"data":"Writing src/vfmchoke/control.py\n"}
+,{"stream_name":"stdout","time":11.111728639,"data":"Writing src/vfmchoke/fewshot.py\n"}
+,{"stream_name":"stdout","time":11.131624452,"data":"Writing src/vfmchoke/fleet.py\n"}
+,{"stream_name":"stdout","time":11.150435581,"data":"Writing src/vfmchoke/hybrid.py\n"}
+,{"stream_name":"stdout","time":11.170053458,"data":"Writing src/vfmchoke/mpfm.py\n"}
+,{"stream_name":"stdout","time":11.190572556,"data":"Writing src/vfmchoke/network.py\n"}
+,{"stream_name":"stdout","time":11.212119185,"data":"Writing src/vfmchoke/pvt.py\n"}
+,{"stream_name":"stdout","time":11.235521758,"data":"Writing src/vfmchoke/simfield.py\n"}
+,{"stream_name":"stdout","time":11.254561192,"data":"Writing src/vfmchoke/units.py\n"}
+,{"stream_name":"stdout","time":11.276372832,"data":"Writing src/vfmchoke/well.py\n"}
+,{"stream_name":"stdout","time":11.293650023,"data":"Writing benchmarks/__init__.py\n"}
+,{"stream_name":"stdout","time":11.313033279,"data":"Writing benchmarks/dabiri.py\n"}
+,{"stream_name":"stdout","time":11.331924894,"data":"Writing benchmarks/volve.py\n"}
+,{"stream_name":"stdout","time":19.674553338,"data":"                days      start        end\n"}
+,{"stream_name":"stdout","time":19.674594001,"data":"well                                      \n"}
+,{"stream_name":"stdout","time":19.674600298,"data":"NO 15/9-F-1 C    400 2014-04-22 2016-04-06\n"}
+,{"stream_name":"stdout","time":19.674605443,"data":"NO 15/9-F-11 H  1054 2013-07-25 2016-09-16\n"}
+,{"stream_name":"stdout","time":19.674610462,"data":"NO 15/9-F-12 H  2633 2008-02-13 2016-08-12\n"}
+,{"stream_name":"stdout","time":19.674615264,"data":"NO 15/9-F-14 H  2529 2008-07-13 2016-07-12\n"}
+,{"stream_name":"stdout","time":19.674620155,"data":"NO 15/9-F-15 D   716 2014-01-16 2016-07-05\n"}
+,{"stream_name":"stdout","time":19.674625144,"data":"records (5 producers): 7332 | 4-well set: 6932\n"}
+,{"stream_name":"stdout","time":44.253636446,"data":"physics_latent_all_past {\n"}
+,{"stream_name":"stdout","time":44.253671753,"data":" \"mape_pct\": 12.123532059008875,\n"}
+,{"stream_name":"stdout","time":44.25367939,"data":" \"r2\": 0.9438824383144375,\n"}
+,{"stream_name":"stdout","time":44.253690813,"data":" \"rmse_sm3_d\": 330.6877895402713,\n"}
+,{"stream_name":"stdout","time":44.25369748,"data":" \"n\": 6750,\n"}
+,{"stream_name":"stdout","time":44.253703961,"data":" \"per_well_mape_pct\": {\n"}
+,{"stream_name":"stdout","time":44.253724298,"data":"  \"NO 15/9-F-11 H\": 13.723686185627509,\n"}
+,{"stream_name":"stdout","time":44.253729953,"data":"  \"NO 15/9-F-12 H\": 11.084457612549038,\n"}
+,{"stream_name":"stdout","time":44.2537356,"data":"  \"NO 15/9-F-14 H\": 10.984639180851822,\n"}
+,{"stream_name":"stdout","time":44.253740669,"data":"  \"NO 15/9-F-15 D\": 17.9791942560392\n"}
+,{"stream_name":"stdout","time":44.253745853,"data":" }\n"}
+,{"stream_name":"stdout","time":44.253750648,"data":"}\n"}
+,{"stream_name":"stdout","time":56.959266895,"data":"physics_latent_anchor_30d {\n"}
+,{"stream_name":"stdout","time":56.959312648,"data":" \"mape_pct\": 21.61452231620306,\n"}
+,{"stream_name":"stdout","time":56.959318528,"data":" \"r2\": 0.8716289983209067,\n"}
+,{"stream_name":"stdout","time":56.959323305,"data":" \"rmse_sm3_d\": 500.15225109793846,\n"}
+,{"stream_name":"stdout","time":56.959327763,"data":" \"n\": 6750,\n"}
+,{"stream_name":"stdout","time":56.959331941,"data":" \"per_well_mape_pct\": {\n"}
+,{"stream_name":"stdout","time":56.959336341,"data":"  \"NO 15/9-F-11 H\": 34.88876509726032,\n"}
+,{"stream_name":"stdout","time":56.959341136,"data":"  \"NO 15/9-F-12 H\": 19.89531088394777,\n"}
+,{"stream_name":"stdout","time":56.959345213,"data":"  \"NO 15/9-F-14 H\": 18.42577684806664,\n"}
+,{"stream_name":"stdout","time":56.959349961,"data":"  \"NO 15/9-F-15 D\": 19.916401920231618\n"}
+,{"stream_name":"stdout","time":56.959354255,"data":" }\n"}
+,{"stream_name":"stdout","time":56.959358497,"data":"}\n"}
+,{"stream_name":"stdout","time":146.50734383100001,"data":"{\n"}
+,{"stream_name":"stdout","time":146.507382115,"data":" \"n\": 6750,\n"}
+,{"stream_name":"stdout","time":146.507389182,"data":" \"ours_mape_pct\": 12.123532059008875,\n"}
+,{"stream_name":"stdout","time":146.50739492,"data":" \"ours_ci95\": [\n"}
+,{"stream_name":"stdout","time":146.507400473,"data":"  10.564922208680754,\n"}
+,{"stream_name":"stdout","time":146.507406239,"data":"  13.710494721031052\n"}
+,{"stream_name":"stdout","time":146.507411838,"data":" ],\n"}
+,{"stream_name":"stdout","time":146.507417053,"data":" \"gbm_replicate_mape_pct\": 14.623428567710341,\n"}
+,{"stream_name":"stdout","time":146.507422952,"data":" \"gbm_ci95\": [\n"}
+,{"stream_name":"stdout","time":146.507428777,"data":"  11.688174518725484,\n"}
+,{"stream_name":"stdout","time":146.507434499,"data":"  19.25234635835693\n"}
+,{"stream_name":"stdout","time":146.507440127,"data":" ],\n"}
+,{"stream_name":"stdout","time":146.5074456,"data":" \"diff_ci95\": [\n"}
+,{"stream_name":"stdout","time":146.507450978,"data":"  -7.446199462811751,\n"}
+,{"stream_name":"stdout","time":146.507456672,"data":"  0.6995678421181861\n"}
+,{"stream_name":"stdout","time":146.507462138,"data":" ]\n"}
+,{"stream_name":"stdout","time":146.507467603,"data":"}\n"}
+,{"stream_name":"stdout","time":148.436025673,"data":"{\n"}
+,{"stream_name":"stdout","time":148.43606602,"data":" \"physics_latent_all_past\": {\n"}
+,{"stream_name":"stdout","time":148.436073152,"data":"  \"mape_pct\": 12.123532059008875,\n"}
+,{"stream_name":"stdout","time":148.436079023,"data":"  \"r2\": 0.9438824383144375,\n"}
+,{"stream_name":"stdout","time":148.436084843,"data":"  \"rmse_sm3_d\": 330.6877895402713,\n"}
+,{"stream_name":"stdout","time":148.436090923,"data":"  \"n\": 6750,\n"}
+,{"stream_name":"stdout","time":148.436097062,"data":"  \"per_well_mape_pct\": {\n"}
+,{"stream_name":"stdout","time":148.436103007,"data":"   \"NO 15/9-F-11 H\": 13.723686185627509,\n"}
+,{"stream_name":"stdout","time":148.436124697,"data":"   \"NO 15/9-F-12 H\": 11.084457612549038,\n"}
+,{"stream_name":"stdout","time":148.4361297,"data":"   \"NO 15/9-F-14 H\": 10.984639180851822,\n"}
+,{"stream_name":"stdout","time":148.436134186,"data":"   \"NO 15/9-F-15 D\": 17.9791942560392\n"}
+,{"stream_name":"stdout","time":148.436138536,"data":"  },\n"}
+,{"stream_name":"stdout","time":148.436142656,"data":"  \"mape_ci95\": [\n"}
+,{"stream_name":"stdout","time":148.436147107,"data":"   10.55292013359485,\n"}
+,{"stream_name":"stdout","time":148.436151476,"data":"   13.835493881022213\n"}
+,{"stream_name":"stdout","time":148.436155978,"data":"  ]\n"}
+,{"stream_name":"stdout","time":148.436160123,"data":" },\n"}
+,{"stream_name":"stdout","time":148.436164861,"data":" \"physics_latent_anchor_30d\": {\n"}
+,{"stream_name":"stdout","time":148.436169218,"data":"  \"mape_pct\": 21.61452231620306,\n"}
+,{"stream_name":"stdout","time":148.436173401,"data":"  \"r2\": 0.8716289983209067,\n"}
+,{"stream_name":"stdout","time":148.43617806,"data":"  \"rmse_sm3_d\": 500.15225109793846,\n"}
+,{"stream_name":"stdout","time":148.436182963,"data":"  \"n\": 6750,\n"}
+,{"stream_name":"stdout","time":148.436187667,"data":"  \"per_well_mape_pct\": {\n"}
+,{"stream_name":"stdout","time":148.436192569,"data":"   \"NO 15/9-F-11 H\": 34.88876509726032,\n"}
+,{"stream_name":"stdout","time":148.43619774,"data":"   \"NO 15/9-F-12 H\": 19.89531088394777,\n"}
+,{"stream_name":"stdout","time":148.436202696,"data":"   \"NO 15/9-F-14 H\": 18.42577684806664,\n"}
+,{"stream_name":"stdout","time":148.436206894,"data":"   \"NO 15/9-F-15 D\": 19.916401920231618\n"}
+,{"stream_name":"stdout","time":148.436211985,"data":"  }\n"}
+,{"stream_name":"stdout","time":148.436216208,"data":" },\n"}
+,{"stream_name":"stdout","time":148.436220501,"data":" \"gbm_walk_forward_replicate\": {\n"}
+,{"stream_name":"stdout","time":148.43622488,"data":"  \"mape_pct\": 14.623428567710341,\n"}
+,{"stream_name":"stdout","time":148.436229151,"data":"  \"r2\": 0.9523918925510485,\n"}
+,{"stream_name":"stdout","time":148.436233674,"data":"  \"rmse_sm3_d\": 304.5854978479583,\n"}
+,{"stream_name":"stdout","time":148.436238745,"data":"  \"n\": 6750,\n"}
+,{"stream_name":"stdout","time":148.436243378,"data":"  \"per_well_mape_pct\": {\n"}
+,{"stream_name":"stdout","time":148.436247979,"data":"   \"NO 15/9-F-11 H\": 10.803838078007068,\n"}
+,{"stream_name":"stdout","time":148.43625277,"data":"   \"NO 15/9-F-12 H\": 13.132970001885159,\n"}
+,{"stream_name":"stdout","time":148.436257343,"data":"   \"NO 15/9-F-14 H\": 12.149975038121097,\n"}
+,{"stream_name":"stdout","time":148.436261893,"data":"   \"NO 15/9-F-15 D\": 35.53657986741642\n"}
+,{"stream_name":"stdout","time":148.436266365,"data":"  }\n"}
+,{"stream_name":"stdout","time":148.436270895,"data":" },\n"}
+,{"stream_name":"stdout","time":148.436273802,"data":" \"gbm_frozen_replicate\": {\n"}
+,{"stream_name":"stdout","time":148.4362771,"data":"  \"mape_pct\": 87.99828653695808,\n"}
+,{"stream_name":"stdout","time":148.43628,"data":"  \"r2\": -0.34916951656641015,\n"}
+,{"stream_name":"stdout","time":148.436282965,"data":"  \"rmse_sm3_d\": 305.3161229636586,\n"}
+,{"stream_name":"stdout","time":148.436286054,"data":"  \"n\": 2081,\n"}
+,{"stream_name":"stdout","time":148.436289093,"data":"  \"per_well_mape_pct\": {\n"}
+,{"stream_name":"stdout","time":148.436292063,"data":"   \"NO 15/9-F-11 H\": 78.79169628700285,\n"}
+,{"stream_name":"stdout","time":148.436295075,"data":"   \"NO 15/9-F-12 H\": 44.1790735118595,\n"}
+,{"stream_name":"stdout","time":148.436298021,"data":"   \"NO 15/9-F-14 H\": 144.7928038765185,\n"}
+,{"stream_name":"stdout","time":148.436314177,"data":"   \"NO 15/9-F-15 D\": 62.084931831550286\n"}
+,{"stream_name":"stdout","time":148.436317456,"data":"  }\n"}
+,{"stream_name":"stdout","time":148.4363203,"data":" }\n"}
+,{"stream_name":"stdout","time":148.436323113,"data":"}\n"}
+,{"stream_name":"stdout","time":148.436325975,"data":"{\n"}
+,{"stream_name":"stdout","time":148.436328745,"data":" \"protocol_reconstruction_ok\": true,\n"}
+,{"stream_name":"stdout","time":148.436331769,"data":" \"beat_outright_walk_forward\": true,\n"}
+,{"stream_name":"stdout","time":148.436334655,"data":" \"anchor_only_below_18\": false,\n"}
+,{"stream_name":"stdout","time":148.436337732,"data":" \"published\": {\n"}
+,{"stream_name":"stdout","time":148.436340687,"data":"  \"walk_forward_mape_pct\": 18.0,\n"}
+,{"stream_name":"stdout","time":148.436343777,"data":"  \"walk_forward_r2\": 0.93,\n"}
+,{"stream_name":"stdout","time":148.436346724,"data":"  \"walk_forward_rmse\": 333.0,\n"}
+,{"stream_name":"stdout","time":148.436349598,"data":"  \"frozen_mape_pct\": 66.0\n"}
+,{"stream_name":"stdout","time":148.436352618,"data":" },\n"}
+,{"stream_name":"stdout","time":148.43635542,"data":" \"seconds\": 133.6\n"}
+,{"stream_name":"stdout","time":148.4363584,"data":"}\n"}
+,{"stream_name":"stderr","time":152.090409385,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":152.090446458,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":152.304764593,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":152.304808851,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":153.229673697,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":153.345771877,"data":"[NbConvertApp] Writing 121406 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":156.648957253,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":157.712183986,"data":"[NbConvertApp] Writing 795568 bytes to __results__.html\n"}
+]
