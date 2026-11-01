@@ -271,3 +271,10 @@ check. One of the required two, so the publish condition is **not met**; the pro
     - the GitHub-copy `.m` files, and both b3-probe logs, which print those files (unlicensed repository);
     - the client-related constraint line in Prompt.md.
   - **Author contact:** emails are drafted for Sankalp to approve before anything is sent.
+- **Nov 1 2026, ~19:05 UTC (Sankalp: "send from transientlabs as drafted"):** both author emails sent from
+  sankalp@transientlabs.ai: Dabiri + Hemmati-Sarapardeh (three questions on Tables 6, 7, 8) and Mirlekar (the two
+  CSVs or the settings behind them, with a request to forward to D'Souza and Pfeiffer). Both offer a public
+  correction if we misread anything. Replies go to that inbox.
+- **Nov 1 2026, public release state:** GitHub `sankalpsthakur/vfm-choke` (696c290 pushed; 8e09207 local) and
+  `sankalpsthakur/reproducing-vfm-benchmarks` (fa268da). Kaggle: audit public (v2 running at the token lapse);
+  overview notebook `vfm-choke-few-shot-flow-metering-for-new-wells` built, not yet run (needs a token refresh).
