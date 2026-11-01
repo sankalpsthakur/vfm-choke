@@ -1,0 +1,13 @@
+{
+ "ref": "sankalpsthakur/vfm-choke-few-shot-flow-metering-for-new-wells",
+ "version": "3",
+ "status": "COMPLETE",
+ "is_private": false,
+ "keywords": [
+  "energy",
+  "regression",
+  "lightgbm",
+  "feature engineering",
+  "data visualization"
+ ]
+}
