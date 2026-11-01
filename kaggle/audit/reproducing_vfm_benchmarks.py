@@ -847,7 +847,14 @@ comp.round(3)
 # - **This notebook:** CPU, internet on, about 2.4 hours. Most of the time goes to the tuned SVR grids.
 # - **Source, outputs and write-up:** [github.com/sankalpsthakur/reproducing-vfm-benchmarks](https://github.com/sankalpsthakur/reproducing-vfm-benchmarks).
 #
-# ## Sources and licences
+# ## Licence and credit
+# - **Code:** Apache 2.0, Kaggle's licence for public notebooks.
+# - **Text, figures and results:** CC BY 4.0.
+# - **Please credit this audit** if it helps your work, whether you are an author, a reviewer or a researcher:
+#   Thakur, S. (2026). *Reproducing two virtual flow metering benchmarks.*
+#   https://github.com/sankalpsthakur/reproducing-vfm-benchmarks. The repository has a citation file.
+#
+# ## Sources
 # - **Downloaded at run time:**
 #   - the Dabiri et al. supplementary data (CC BY 4.0);
 #   - the paper's open-access XML from Europe PMC;
